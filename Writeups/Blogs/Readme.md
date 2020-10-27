@@ -38,7 +38,8 @@
 > ***https://community.turgensec.com/shodan-pentesting-guide/***
 ## Hacking HTTP CORS from inside out: a theory to practice approach
 > ***https://medium.com/bugbountywriteup/hacking-http-cors-from-inside-out-512cb125c528***
-
+HTTP Request Smuggling
+> ***https://blog.cobalt.io/a-pentesters-guide-to-http-request-smuggling-8b7bf0db1f0***
 
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ----------------------------------------------------------
