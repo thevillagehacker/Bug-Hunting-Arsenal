@@ -48,6 +48,11 @@ HTTP Request Smuggling
 > ***https://blog.orange.tw/2020/09/how-i-hacked-facebook-again-mobileiron-mdm-rce.html?m=1***
 ## Compromising S3 Buckets through Misconfigured AWS Cognito
 > ***https://medium.com/@curlsandbun/compromising-s3-buckets-through-misconfigured-aws-cognito-e23f08b2f475***
-## 
+## Gateway2Hell – Multiple Privilege Escalation Vulnerabilities in Citrix Gateway Plug-In - Cymptom
+> ***https://cymptom.com/gateway2hell-multiple-privilege-escalation-vulnerabilities-in-citrix-gateway-plug-in/2020/10/****
+## Multiple Address Bar Spoofing Vulnerabilities In Mobile Browsers
+> ***https://www.rafaybaloch.com/2020/10/multiple-address-bar-spoofing-vulnerabilities.html***
+## IDOR and SQL Injection
+> ***https://bugreader.com/ahmad_halabi@idor-sql-query-manipulation-to-fetch-user-details-228***
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ----------------------------------------------------------
