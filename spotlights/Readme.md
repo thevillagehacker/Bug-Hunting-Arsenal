@@ -35,3 +35,5 @@
 > ***https://www.hackerone.com/blog/hacker-spotlight-interview-randomdeduction***
 ## HACKER SPOTLIGHT: INTERVIEW WITH CORB3NIK
 > ***https://www.hackerone.com/blog/hacker-spotlight-interview-corb3nik***
+## HACKER SPOTLIGHT: INTERVIEW WITH INHIBITOR81
+> ***https://www.hackerone.com/blog/hacker-spotlight-interview-inhibitor181***
