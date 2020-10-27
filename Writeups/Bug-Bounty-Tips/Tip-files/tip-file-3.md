@@ -15,7 +15,7 @@ search: abc81 in burpsuite search and check
 `<svg onload=alert(document.comain)>.jpg/png` for xss
 `; sleep 10;` for command injections
 ## Extract urls,srcs and hrefs from all HTML elements in any website
-**Open DevTools and run **
+**Open DevTools and run**
 ```js
 urls = []
 $$('*').forEach(element => {
