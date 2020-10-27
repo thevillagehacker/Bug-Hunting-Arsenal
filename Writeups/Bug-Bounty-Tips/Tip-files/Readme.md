@@ -3,5 +3,6 @@
 ## Bug Hunting Tips files
 - **[Bug-Hunting-Tip-1](tip-file-1.md)**
 - **[Bug-Hunting-Tip-2](tip-file-2.md)**
+- **[Bug-Hunting-Tip-3](tip-file-3.md)**
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ----------------------------------------------------------
