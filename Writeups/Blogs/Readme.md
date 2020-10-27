@@ -40,6 +40,14 @@
 > ***https://medium.com/bugbountywriteup/hacking-http-cors-from-inside-out-512cb125c528***
 HTTP Request Smuggling
 > ***https://blog.cobalt.io/a-pentesters-guide-to-http-request-smuggling-8b7bf0db1f0***
-
+## Bad Neighbour Vulnerability
+> ***http://blog.pi3.com.pl/?p=780***
+## RCE via git option injection (almost) - $20,000 Bounty
+> ***https://devcraft.io/2020/10/18/github-rce-git-inject.html***
+## How I Hacked Facebook Again! Unauthenticated RCE on MobileIron MDM
+> ***https://blog.orange.tw/2020/09/how-i-hacked-facebook-again-mobileiron-mdm-rce.html?m=1***
+## Compromising S3 Buckets through Misconfigured AWS Cognito
+> ***https://medium.com/@curlsandbun/compromising-s3-buckets-through-misconfigured-aws-cognito-e23f08b2f475***
+## 
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ----------------------------------------------------------
