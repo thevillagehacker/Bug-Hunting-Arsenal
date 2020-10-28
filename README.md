@@ -43,5 +43,5 @@ The Big List of Naughty Strings is a list of strings which have a high probabili
 
 
 
--------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 -------------------------------------------------
+-------------------------------------------------- 👉 **[Back to Main Page](#Bug-Hunting)** 👈 -------------------------------------------------
  
