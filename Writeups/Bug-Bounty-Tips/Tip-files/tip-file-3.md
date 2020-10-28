@@ -95,7 +95,7 @@ query a {
  }
 }
 ```
-** Example -2** 
+**Example -2** 
 ```graphql
 query a { 
   search(q: "\u0000)", lang: "en") {
