@@ -84,7 +84,7 @@ Google dork: /_layouts/mobile/view.aspx
 ***Create DOS on GraphQl Endpoint by appending null characters by somehow***
 You can reveal the bug inserting `"\u0000"` on search parameter, in order to display an error with part of the graph query.
 ** Example -1**
-```js
+```graphql
 query a { 
   search(q: "\u0000)", lang: "en") {
     _id
@@ -95,8 +95,8 @@ query a {
  }
 }
 ```
-** Example -2 
-```js
+** Example -2** 
+```graphql
 query a { 
   search(q: "\u0000)", lang: "en") {
     _id
