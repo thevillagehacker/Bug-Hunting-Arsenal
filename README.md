@@ -1,7 +1,7 @@
 # Bug-Hunting [![GitHub forks](https://img.shields.io/github/forks/thevillagehacker/Bug-Hunting)](https://github.com/thevillagehacker/Bug-Hunting/network)
 The Repository contains various payloads, tools, tips, Books and tricks from various hackers around the world.
 
-- [click me to pull up](#XXE Payloads)
+- [click-me-to-pull-up](#pull)
 
 ### Follow me on
 [![Twitter Follow](https://img.shields.io/twitter/follow/thevillagehackr?style=social)](https://twitter.com/thevillagehackr) [![Twitter Follow](https://img.shields.io/twitter/follow/TVHSecurity?style=social)](https://twitter.com/intent/follow?screen_name=TVHSecurity)
@@ -41,7 +41,7 @@ Keyhacks is a repository which shows quick ways in which API keys leaked by a bu
 - **[naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings)**
 ### Description
 The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.
-
+## pull
 
 
 
