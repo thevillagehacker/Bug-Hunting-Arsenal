@@ -3,7 +3,6 @@
 ## Pre-Engagement
 
 ### Recon & analysis
-
 * [ ] Identify web server & technologies
 * [ ] Enumerate subdomains
 * [ ] Directory enumeration
@@ -22,7 +21,6 @@
 * [ ] Locate admin and login panel
 
 ### Network tests
-
 * [ ] Check ICMP packets allowed
 * [ ] Check DMARC policies \([spoofcheck](https://github.com/BishopFox/spoofcheck)\)
 * [ ] Look services on other ports than 80 and 443
@@ -30,14 +28,12 @@
 * [ ] Test [SSL ]\([testssl](https://github.com/drwetter/testssl.sh)\)
 
 ### Preparation
-
 * [ ] Study site structure
 * [ ] Make a list with all possible test cases
 
 ## User management
 
 ### Registration
-
 * [ ] Duplicate registration
 * [ ] Overwrite existing user \(existing user takeover\)
 * [ ] Username uniqueness
@@ -49,7 +45,6 @@
 * [ ] Add only spaces in password
 
 ### Authentication
-
 * [ ] Username enumeration
 * [ ] Resilience to password guessing
 * [ ] Account recovery function
@@ -71,7 +66,6 @@
 * [ ] Browser cache weakness \(eg Pragma, Expires, Max-age\)
 
 ### Session
-
 * [ ] Session handling
 * [ ] Test tokens for meaning
 * [ ] Test tokens for predictability
@@ -95,7 +89,6 @@
 * [ ] Path traversal on cookies
 
 ### Profile/Account details
-
 * [ ] Find parameter with user id and try to tamper in order to get the details of other users
 * [ ] Create a list of features that are pertaining to a user account only and try CSRF
 * [ ] Change email id and update with any existing email id. Check if its getting validated on server or not.
@@ -112,7 +105,6 @@
 * [ ] Check different roles policy
 
 ### Forgot password
-
 * [ ] Invalidate session on Logout and Password reset
 * [ ] Uniqueness of forget password reset link/code
 * [ ] Reset links expiration time
@@ -121,7 +113,6 @@
 * [ ] Check if many requests have sequential tokens
 
 ## Input handling
-
 * [ ] Fuzz all request parameters
 * [ ] Identify all reflected data
 * [ ] Reflected XSS
@@ -151,7 +142,6 @@
 * [ ] Try to discover hidden parameters \([arjun ](https://github.com/s0md3v/Arjun)or [parameth](https://github.com/maK-/parameth)\)
 
 ### Error handling
-
 * [ ] Access custom pages like /whatever\_fake.php \(.aspx,.html,.etc\)
 * [ ] Add multiple parameters in GET and POST request using different values
 * [ ] Add "\[\]", "\]\]", and "\[\[" in cookie values and parameter values to create errors
@@ -160,7 +150,6 @@
 * [ ] Try different HTTP Verbs like PATCH, DEBUG or wrong like FAKE
 
 ## Application Logic
-
 * [ ] Identify the logic attack surface
 * [ ] Test transmission of data via the client
 * [ ] Test for reliance on client-side input validation
@@ -187,7 +176,6 @@
 ## Other checks
 
 ### Hosting
-
 * [ ] Segregation in shared infrastructures
 * [ ] Segregation between ASP-hosted applications
 * [ ] Web server vulnerabilities
@@ -200,7 +188,6 @@
 * [ ] Check the existence of alternative channels \(www.web.com vs m.web.com\)
 
 ### CAPTCHA
-
 * [ ] Send old captcha value. 
 * [ ] Send old captcha value with old session ID.
 * [ ] Request captcha absolute path like www.url.com/captcha/1.png
@@ -208,7 +195,6 @@
 * [ ] Bypass with OCR tool
 
 ### Security Headers
-
 * [ ] X-XSS-Protection
 * [ ] Strict-Transport-Security
 * [ ] Content-Security-Policy
