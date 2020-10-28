@@ -108,7 +108,7 @@ query a {
 }
 ```
 ### Graphql Payload with Regex Bomb
-```js
+```graphql
 query a { 
   search(q: "[a-zA-Z0-9]+\\s?)+$|^([a-zA-Z0-9.'\\w\\W]+\\s?)+$\\", lang: "en") {
     _id
