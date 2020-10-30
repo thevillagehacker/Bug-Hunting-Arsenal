@@ -54,5 +54,8 @@ HTTP Request Smuggling
 > ***https://www.rafaybaloch.com/2020/10/multiple-address-bar-spoofing-vulnerabilities.html***
 ## IDOR and SQL Injection
 > ***https://bugreader.com/ahmad_halabi@idor-sql-query-manipulation-to-fetch-user-details-228***
+## Recon and Hacking tip blog
+> ***http://rez0.blog/category/hacking.html***
+
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ----------------------------------------------------------
