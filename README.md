@@ -2,6 +2,8 @@
 The Repository contains various payloads, tools, tips, Books and tricks from various hackers around the world.
 ### Follow me on
 [![Twitter Follow](https://img.shields.io/twitter/follow/thevillagehackr?style=social)](https://twitter.com/thevillagehackr) [![Twitter Follow](https://img.shields.io/twitter/follow/TVHSecurity?style=social)](https://twitter.com/intent/follow?screen_name=TVHSecurity)
+## OWASP Top 10 Examples
+> ***https://github.com/lighthouse-labs/owasp-top-10-examples***
 ## How To HUNT
 ***(Note : A valuable Resource please take a look into this repo)***
 > ***https://github.com/KathanP19/HowToHunt***
