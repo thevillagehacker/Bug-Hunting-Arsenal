@@ -28,3 +28,4 @@
 26. ***[Feroxbuster](https://github.com/epi052/feroxbuster)***
 27. ***[Subdomainizer](https://github.com/nsonaniya2010/SubDomainizer)***
 28. ***[qsreplace](https://github.com/tomnomnom/qsreplace)***
+29. ***[fff](https://github.com/tomnomnom/fff)***
