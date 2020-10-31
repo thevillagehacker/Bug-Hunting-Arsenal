@@ -143,4 +143,8 @@ for i in {1..100}; do curl 'https://abc.com/graphql'  -H 'user-agent: Mozilla/5.
 4. Got Internal headers + origin IP
 5. https://abc.com/ = (403)
 6. https://abc.com/dir = (Headers + Origin IP = pwn)
-
+## Jira Dorks
+```text
+inurl:companyname intitle:JIRA login
+inurl:visma intitle:JIRA login
+```
