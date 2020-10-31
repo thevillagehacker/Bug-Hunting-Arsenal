@@ -135,4 +135,12 @@ for i in {1..100}; do curl 'https://abc.com/graphql'  -H 'user-agent: Mozilla/5.
 ```
 ### Supporting Materials
 > ***https://hackerone.com/reports/1000567***
+---
+## SSRF 
+1. Create an account email@burp_collab*
+2. Forgot password
+3. Received requests from internal server + SMTP connection details
+4. Got Internal headers + origin IP
+5. https://abc.com/ = (403)
+6. https://abc.com/dir = (Headers + Origin IP = pwn)
 
