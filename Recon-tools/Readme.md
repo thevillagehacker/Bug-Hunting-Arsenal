@@ -29,3 +29,6 @@
 27. ***[Subdomainizer](https://github.com/nsonaniya2010/SubDomainizer)***
 28. ***[qsreplace](https://github.com/tomnomnom/qsreplace)***
 29. ***[fff](https://github.com/tomnomnom/fff)***
+30. ***[Eyewitness](https://github.com/FortyNorthSecurity/EyeWitness)***
+31. ***[Paramspider](https://github.com/devanshbatham/ParamSpider)***
+32. ***[Dalfox](https://github.com/hahwul/dalfox)***
