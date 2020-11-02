@@ -37,3 +37,7 @@
 > ***https://www.hackerone.com/blog/hacker-spotlight-interview-corb3nik***
 ## HACKER SPOTLIGHT: INTERVIEW WITH INHIBITOR81
 > ***https://www.hackerone.com/blog/hacker-spotlight-interview-inhibitor181***
+## HACKER SPOTLIGHT: INTERVIEW WITH MRTUXRACER
+> ***https://www.hackerone.com/blog/hacker-spotlight-interview-mrtuxracer
+## HACKER SPOTLIGHT: INTERVIEW WITH YASSINEABOUKIR
+> ***https://www.hackerone.com/blog/hacker-spotlight-interview-yassineaboukir***
