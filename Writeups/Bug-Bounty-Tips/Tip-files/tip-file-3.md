@@ -148,6 +148,7 @@ for i in {1..100}; do curl 'https://abc.com/graphql'  -H 'user-agent: Mozilla/5.
 inurl:companyname intitle:JIRA login
 inurl:visma intitle:JIRA login
 ```
+📅 02-Nov-2020
 ## Open Redirect Bypass
 ### Payloads
 ```text
