@@ -56,6 +56,7 @@ HTTP Request Smuggling
 > ***https://bugreader.com/ahmad_halabi@idor-sql-query-manipulation-to-fetch-user-details-228***
 ## Recon and Hacking tip blog
 > ***http://rez0.blog/category/hacking.html***
-
+## XXE
+> ***https://corneacristian.medium.com/top-25-xxe-bug-bounty-reports-ab4ca662afad***
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ----------------------------------------------------------
