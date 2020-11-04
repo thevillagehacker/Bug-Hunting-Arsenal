@@ -195,3 +195,17 @@ site:target.com AND inurl:link=http(s)
 {`foo`/*bar*/(select%2b2)}
 {`foo`/*bar*/(select+1+from+wp_users+where+user_pass+rlike+"(^)[$].*"+limit+1)}
 ```
+## Default Credentials
+```text
+Cisco: cisco:cisco
+Citrix: nsroot:nsroot
+Dell iDRAC: root:calvin
+Juniper: super:juniper123
+pfSense: admin:pfsense
+SAP: SAP*:06071992
+Tomcat: tomcat:tomcat
+UniFi: ubnt:ubnt
+Weblogic: weblogic:weblogic1
+Zabbix: Admin:zabbix
+```
+
