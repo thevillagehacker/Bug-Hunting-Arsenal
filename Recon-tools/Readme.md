@@ -32,4 +32,4 @@
 30. ***[Eyewitness](https://github.com/FortyNorthSecurity/EyeWitness)***
 31. ***[Paramspider](https://github.com/devanshbatham/ParamSpider)***
 32. ***[Dalfox](https://github.com/hahwul/dalfox)***
-33. ***[Hakrawler](https://github.com/hakluke/hakrawler)
+33. ***[Hakrawler](https://github.com/hakluke/hakrawler)***
