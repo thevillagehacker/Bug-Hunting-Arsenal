@@ -208,4 +208,6 @@ UniFi: ubnt:ubnt
 Weblogic: weblogic:weblogic1
 Zabbix: Admin:zabbix
 ```
+## your target is using jfrog ? you can access it with anonymous login  through .io
+use dork `site:https://t.co/DV0nl9nSlU inurl:yourtarget` and easy access it :) 
 
