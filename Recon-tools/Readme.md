@@ -33,3 +33,4 @@
 31. ***[Paramspider](https://github.com/devanshbatham/ParamSpider)***
 32. ***[Dalfox](https://github.com/hahwul/dalfox)***
 33. ***[Hakrawler](https://github.com/hakluke/hakrawler)***
+34. ***[GetJs](https://github.com/003random/getJS)***
