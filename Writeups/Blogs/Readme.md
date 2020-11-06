@@ -58,5 +58,8 @@ HTTP Request Smuggling
 > ***http://rez0.blog/category/hacking.html***
 ## XXE
 > ***https://corneacristian.medium.com/top-25-xxe-bug-bounty-reports-ab4ca662afad***
+## Open Redirect via unknown technique
+> ***https://ruvlol.medium.com/1000-for-open-redirect-via-unknown-technique-675f5815e38a***
+
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ----------------------------------------------------------
