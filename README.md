@@ -1,7 +1,7 @@
 # Bug-Hunting [![GitHub forks](https://img.shields.io/github/forks/thevillagehacker/Bug-Hunting)](https://github.com/thevillagehacker/Bug-Hunting/network)
 The Repository contains various payloads, tools, tips, Books and tricks from various hackers around the world.
 ### Follow me on
-[![Twitter Follow](https://img.shields.io/twitter/follow/thevillagehackr?style=social)](https://twitter.com/thevillagehackr) [![Twitter Follow](https://img.shields.io/twitter/follow/TVHSecurity?style=social)](https://twitter.com/intent/follow?screen_name=TVHSecurity)
+[![Twitter Follow](https://img.shields.io/twitter/follow/thevillagehackr?style=social)](https://twitter.com/thevillagehackr)
 ## OWASP Top 10 Examples
 > ***https://github.com/lighthouse-labs/owasp-top-10-examples***
 ## How To HUNT
