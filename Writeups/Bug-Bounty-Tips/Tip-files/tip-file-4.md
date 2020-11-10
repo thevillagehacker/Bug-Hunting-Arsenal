@@ -9,3 +9,10 @@ in some cases you can do a crlf injection via filename
 ***this will cause Content-Disposition to throw its content into the file***
 ## Race Condition
 ***https://hackerone.com/reports/994051***
+## Host Header Injection
+It was blocking all the urls except for the websites hosted with the same provider. In this case Fastly. 
+```js
+host : http://bbc.com
+```
+**worked**                    
+Now attacker can register a domain with Fastly and use HHI to ATO using forgot password ! 
