@@ -192,7 +192,7 @@ cmd,exec,command,execute,ping,query,jump,code,reg,do,func,arg,option,load,proces
 ```
 ### Found Grapql Endpoint
 Send the following query to list the whole schema of the endpoint. it will list all objects and the fields they have.
-```json
+```graphql
 {
     __schema
     {
