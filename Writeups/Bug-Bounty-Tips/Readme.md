@@ -4,5 +4,6 @@
 - **[Bug-Hunting-Tip-1](Tip-files/tip-file-1.md)**
 - **[Bug-Hunting-Tip-2](Tip-files/tip-file-2.md)**
 - **[Bug-Hunting-Tip-3](Tip-files/tip-file-3.md)**
+- **[Bug-Hunting-Tip-4](Tip-files/tip-file-4.md)**
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ----------------------------------------------------------
