@@ -216,7 +216,7 @@ Send the following query to list the whole schema of the endpoint. it will list 
 ### Recon Tip
 #### Get content type of target URL
 ##### Install these tools 
-- [Porjectdiscovery-tools](https://github.com/projectdiscovery)
+- [Projectdiscovery-tools](https://github.com/projectdiscovery)
 - [gau-tools](https://github.com/lc/gau)
 ##### Run this
 ```bash
