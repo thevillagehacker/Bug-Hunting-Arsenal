@@ -60,7 +60,8 @@ HTTP Request Smuggling
 > ***https://corneacristian.medium.com/top-25-xxe-bug-bounty-reports-ab4ca662afad***
 ## Open Redirect via unknown technique
 > ***https://ruvlol.medium.com/1000-for-open-redirect-via-unknown-technique-675f5815e38a***
-📅 10-Nov-2020
+
+## 📅 10-Nov-2020
 ## Intigriti November XSS Challenge
 > ***https://jorenverheyen.github.io/intigriti-november-2020.html***
 
