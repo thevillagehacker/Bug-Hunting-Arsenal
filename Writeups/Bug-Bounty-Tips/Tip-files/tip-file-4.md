@@ -7,6 +7,8 @@
 in some cases you can do a crlf injection via filename
 `x.png%22%0d%0a%0d%0a%0d%0a<script>alert(1)</script>`
 ***this will cause Content-Disposition to throw its content into the file***
+
+📅 10-Nov-2020
 ## Race Condition
 ***https://hackerone.com/reports/994051***
 ## Host Header Injection
