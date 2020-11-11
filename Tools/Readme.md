@@ -10,6 +10,7 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=devanshbatham&repo=ParamSpider)](https://github.com/devanshbatham/ParamSpider)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=003random&repo=getJS)](https://github.com/003random/getJS)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=lc&repo=subjs)](https://github.com/lc/subjs)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=s0md3v&repo=Arjun)](https://github.com/s0md3v/Arjun)
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=lc&repo=gau)](https://github.com/lc/gau)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=swisskyrepo&repo=PayloadsAllTheThings)](https://github.com/swisskyrepo/PayloadsAllTheThings)
