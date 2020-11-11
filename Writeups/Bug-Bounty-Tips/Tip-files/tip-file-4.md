@@ -18,6 +18,8 @@ host : http://bbc.com
 ```
 **worked**                    
 Now attacker can register a domain with Fastly and use HHI to ATO using forgot password ! 
+
+📅 11-Nov-2020
 ## SSRF Bypass via 303 redirect
 *Host the following code in your server and use your server ip to ping at where you feel ssrf is found*
 ```php
