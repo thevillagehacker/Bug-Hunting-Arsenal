@@ -65,5 +65,8 @@ HTTP Request Smuggling
 ## Intigriti November XSS Challenge
 > ***https://jorenverheyen.github.io/intigriti-november-2020.html***
 
+## 📅 11-Nov-2020
+## JWT Hacking
+> ***https://imparable.medium.com/attacking-json-web-tokens-jwts-d1d51a1e17cb***
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ----------------------------------------------------------
