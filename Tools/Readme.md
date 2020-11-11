@@ -34,5 +34,8 @@
 32. ***[Dalfox](https://github.com/hahwul/dalfox)***
 33. ***[Hakrawler](https://github.com/hakluke/hakrawler)***
 34. ***[GetJs](https://github.com/003random/getJS)***
-35. ***[JWTtoolkit v2](https://github.com/ticarpi/jwt_tool/)***
+35. ***[JWTtoolkit v2](https://github.com/ticarpi/jwt_tool)***
 36. ***[IP rotate burp ext](https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension)***
+
+<!--[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ticarpi&repo=jwt_tool)](https://github.com/ticarpi/jwt_tool)-->
+
