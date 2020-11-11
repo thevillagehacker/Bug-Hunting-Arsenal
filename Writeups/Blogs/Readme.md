@@ -68,5 +68,8 @@ HTTP Request Smuggling
 ## 📅 11-Nov-2020
 ## JWT Hacking
 > ***https://imparable.medium.com/attacking-json-web-tokens-jwts-d1d51a1e17cb***
+## CVE-2020-11518: how I bruteforced my way into your Active Directory
+> ***https://honoki.net/2020/08/10/cve-2020-11518-how-i-bruteforced-my-way-into-your-active-directory***
+
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ----------------------------------------------------------
