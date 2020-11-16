@@ -14,3 +14,5 @@
 > ***https://medium.com/@rezaduty/play-with-google-twitter-apple-dell-278c73ebde34***
 ## CVE-2020–14882 Weblogic Unauthorized bypass RCE
 > ***https://github.com/jas502n/CVE-2020-14882***
+## Facebook Messenger Leaking Access Token in IOS
+> ***https://medium.com/@guhanraja/how-i-found-the-facebook-messenger-leaking-access-token-of-million-users-8ee4b3f1e5e3***
