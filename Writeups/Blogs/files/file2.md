@@ -16,3 +16,5 @@
 > ***https://github.com/jas502n/CVE-2020-14882***
 ## Facebook Messenger Leaking Access Token in IOS
 > ***https://medium.com/@guhanraja/how-i-found-the-facebook-messenger-leaking-access-token-of-million-users-8ee4b3f1e5e3***
+## Unique XXE to AWS Keys journey
+> ***https://medium.com/@estebancano/unique-xxe-to-aws-keys-journey-afe678989b2b***
