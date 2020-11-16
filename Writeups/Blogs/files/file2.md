@@ -10,3 +10,7 @@
 > ***https://protector47.medium.com/bounty-1000-critical-business-logic-flaws-leads-to-account-takeover-product-amount-9b5715a84613***
 ## Apache Tomcat RCE
 > ***https://medium.com/@romnenko/apache-tomcat-deserialization-of-untrusted-data-rce-cve-2020-9484-afc9a12492c4***
+## PLay with Google, Twitter, Apple and Dell
+> ***https://medium.com/@rezaduty/play-with-google-twitter-apple-dell-278c73ebde34***
+## CVE-2020–14882 Weblogic Unauthorized bypass RCE
+> ***https://github.com/jas502n/CVE-2020-14882***
