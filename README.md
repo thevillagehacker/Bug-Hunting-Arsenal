@@ -15,7 +15,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 ## Pentest Master
 - **[Pentest-Master](Pentest-master)**
 ## Recon Tools
-- **[Tools](Recon-tools)**
+- **[Tools](Tools)**
 ## Reverse Shell
 - **[shells](Rev-shell)**
 ## XSS Payloads
