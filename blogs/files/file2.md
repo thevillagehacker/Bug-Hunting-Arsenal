@@ -18,3 +18,5 @@
 > ***https://medium.com/@guhanraja/how-i-found-the-facebook-messenger-leaking-access-token-of-million-users-8ee4b3f1e5e3***
 ## Unique XXE to AWS Keys journey
 > ***https://medium.com/@estebancano/unique-xxe-to-aws-keys-journey-afe678989b2b***
+## From blind XXE to root level file read
+> ***https://honoki.net/2018/12/12/from-blind-xxe-to-root-level-file-read-access/***
