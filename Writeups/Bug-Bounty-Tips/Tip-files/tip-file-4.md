@@ -31,3 +31,18 @@ Now attacker can register a domain with Fastly and use HHI to ATO using forgot p
 ## Browser-Based application LFI
 `file:///etc/passwd` blacklisted? Use `view-source:file:///etc/passwd`
 "view-source" is often forgotten by developers in blacklists.
+
+📅 16-Nov-2020
+## Check for open redirect,ssrf with waybackurls
+```sh
+waybackurls target[.]com | grep ‘http%\|https%'
+```
+***Note : You can replace the URLs you find with yours and hope for an open redirect,ssrf or something else. You can grep out analytic stuff with grep -v. If your target has something with OAuth with a redirect_uri target/* that's an easy ATO***
+## Searching for endpoints, by apks
+```sh
+apktool d app.apk -o uberApk;grep -Phro "(https?://)[\w\.-/]+[\"'\`]" uberApk/ | sed 's#"##g' | anew | grep -v "w3\|android\|github\|http://schemas.android\|google\|http://goo.gl"
+```
+## Fuzz all js files from the target
+```sh
+xargs -P 500 -a domain -I@ sh -c 'nc -w1 -z -v @ 443 2>/dev/null && echo @' | xargs -I@ -P10 sh -c 'gospider -a -s "https://@" -d 2 | grep -Eo "(http|https)://[^/\"].*\.js+" | sed "s#\] \- #\n#g" | anew'
+```
