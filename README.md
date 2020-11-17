@@ -9,10 +9,14 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 ## Table of Contents
 - [Bug Bounty Tools](#tools)
 - [Bug Bounty Tips](#bug-bounty-tips)
-- [Resources](#resources)
 - [Payloads](#payloads)
+- [Reverse Shell](#reverse-shell)
+- [Content Discovery](#wordlist)
+- [Pentest Notes](#pentest-notes)
+- [Google Dorks](#google-dorks)
 - [Blogs](#blogs)
 - [Spotlights](#hackerone-hacker-spotlights)
+- [Resources](#resources)
 
 ## Tools
 - [tools](Tools)
@@ -23,12 +27,27 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 ## Payloads
 - [XSS Payloads](XSS-payloads)
 - [XXE Payloads](XXE-payloads)
+- [Bulk-Input-Payloads](Bulk-input)
+
+## Reverse Shell
+- [Reverse Shells](Rev-shell)
+
+## Wordlist
+### Content Discovery
+- [Wordlists](Content-discovery)
+
+## Pentest Notes
+- [Pentets Notes](Pentest-master)
+
+## Google Dorks
+- [Dorks](Gdorks)
 
 ## Blogs
 - [Blogs](blogs)
 
 ## HackerOne Hacker Spotlights
 - [Spotlights](spotlights)
+
 ## Resources
 ### OWASP Top 10 Examples
 > ***https://github.com/lighthouse-labs/owasp-top-10-examples***
