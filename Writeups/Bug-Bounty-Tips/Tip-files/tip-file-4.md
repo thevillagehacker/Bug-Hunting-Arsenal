@@ -46,3 +46,10 @@ apktool d app.apk -o uberApk;grep -Phro "(https?://)[\w\.-/]+[\"'\`]" uberApk/ |
 ```sh
 xargs -P 500 -a domain -I@ sh -c 'nc -w1 -z -v @ 443 2>/dev/null && echo @' | xargs -I@ -P10 sh -c 'gospider -a -s "https://@" -d 2 | grep -Eo "(http|https)://[^/\"].*\.js+" | sed "s#\] \- #\n#g" | anew'
 ```
+📅 17-Nov-2020
+## OPen redirect Bypass payloads
+```text
+http:http:evil[.]com
+http:/evil%252ecom
+///www.x.com@evil.com
+```
