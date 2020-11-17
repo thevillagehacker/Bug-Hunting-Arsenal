@@ -16,9 +16,9 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Bug Bounty Tips](Bug%20Bounty%20Tips)
  
 ## Resources
-## OWASP Top 10 Examples
+### OWASP Top 10 Examples
 > ***https://github.com/lighthouse-labs/owasp-top-10-examples***
-## How To HUNT
+### How To HUNT
 ***(Note : A valuable Resource please take a look into this repo)***
 > ***https://github.com/KathanP19/HowToHunt***
 
