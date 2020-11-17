@@ -8,7 +8,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 ***(Note : A valuable Resource please take a look into this repo)***
 > ***https://github.com/KathanP19/HowToHunt***
 ## Writeup + Tools + Tips + Tricks + blogs
-- **[Bug-Hunting-tips](Writeups/Bug-Bounty-Tips/Tip-files)**
+- **[Bug-Hunting-tips](Bug%20Bounty%20Tips)**
 - **[Blogs](Writeups/Blogs)**
 ## Content Discovery
 - **[Wordlist](Content-discovery)**
