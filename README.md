@@ -16,6 +16,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Google Dorks](#google-dorks)
 - [Blogs](#blogs)
 - [Spotlights](#hackerone-hacker-spotlights)
+- [Checklists](#checklists)
 - [Resources](#resources)
 
 ## Tools
@@ -28,6 +29,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [XSS Payloads](XSS-payloads)
 - [XXE Payloads](XXE-payloads)
 - [Bulk-Input-Payloads](Bulk-input)
+- [Markdown math bulk payloads](Mark-math-bulk-payload)
 
 ## Reverse Shell
 - [Reverse Shells](Rev-shell)
@@ -47,6 +49,11 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 
 ## HackerOne Hacker Spotlights
 - [Spotlights](spotlights)
+
+## Checklists
+- [Web Application Pentest checklist](Checklist/Readme.md)
+- [OWASP Web Application Checklist](Checklist/OWASP/Web/OWASPv4_Checklist.xlsx)
+- [OWASP Mobile Application Checklist](Checklist/OWASP/Mobile/Mobile_App_Security_Checklist-English_1.1.2.xlsx)
 
 ## Resources
 ### OWASP Top 10 Examples
