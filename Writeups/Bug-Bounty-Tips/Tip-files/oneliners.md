@@ -472,7 +472,26 @@ gospider -a -s abc.com -t 3 -c 100 |  tr " " "\n" | grep -v ".js" | grep "https:
  waybackurls http://target.com | qsreplace "abc{{9*9}}" > fuzz.txt
  ffuf -u FUZZ -w fuzz.txt -replay-proxy http://127.0.0.1:8080/
  ```
- ***search: abc81 in burpsuite search and check***
- 
+***search: abc81 in burpsuite search and check***
+### Check for open redirect,ssrf with waybackurls
+> @thevillagehacker
+
+```sh
+waybackurls target[.]com | grep ‘http%\|https%'
+```
+***Note : You can replace the URLs you find with yours and hope for an open redirect,ssrf or something else. You can grep out analytic stuff with grep -v. If your target has something with OAuth with a redirect_uri target/* that's an easy Account takeover***
+### Searching for endpoints, by apks
+> @thevillagehacker
+
+```sh
+apktool d app.apk -o uberApk;grep -Phro "(https?://)[\w\.-/]+[\"'\`]" uberApk/ | sed 's#"##g' | anew | grep -v "w3\|android\|github\|http://schemas.android\|google\|http://goo.gl"
+```
+### Fuzz all js files from the target
+> @thevillagehacker
+
+```sh
+xargs -P 500 -a domain -I@ sh -c 'nc -w1 -z -v @ 443 2>/dev/null && echo @' | xargs -I@ -P10 sh -c 'gospider -a -s "https://@" -d 2 | grep -Eo "(http|https)://[^/\"].*\.js+" | sed "s#\] \- #\n#g" | anew'
+```
+
 ***Note :***
 *These oneliners are collected from different sources , Credits to the respesctive authors*
