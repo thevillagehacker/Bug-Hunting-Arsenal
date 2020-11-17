@@ -4,7 +4,6 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 ### Follow me on
 [![Twitter Follow](https://img.shields.io/twitter/follow/thevillagehackr?style=social)](https://twitter.com/thevillagehackr)
 [![GitHub followers](https://img.shields.io/github/followers/thevillagehacker?label=Follow&style=social)](https://github.com/thevillagehacker)
-[![GitHub forks](https://img.shields.io/github/forks/thevillagehacker/Bug-Hunting?label=Forks&style=social)](https://github.com/thevillagehacker/Bug-Hunting)
 
 ## Table of Contents
 - [Bug Bounty Tools](#tools)
