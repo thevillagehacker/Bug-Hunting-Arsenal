@@ -3,7 +3,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 
 ### Follow me on
 [![Twitter Follow](https://img.shields.io/twitter/follow/thevillagehackr?style=social)](https://twitter.com/thevillagehackr)
-[![GitHub followers](https://img.shields.io/github/followers/thevillagehacker?label=Follow%20me%20%40thevillagehacker&style=social)](https://github.com/thevillagehacker)
+[![GitHub followers](https://img.shields.io/github/followers/thevillagehacker?label=Follow%20%20%40thevillagehacker&style=social)](https://github.com/thevillagehacker)
 
 ## Table of Contents
 - [Bug Bounty Tools](#tools)
