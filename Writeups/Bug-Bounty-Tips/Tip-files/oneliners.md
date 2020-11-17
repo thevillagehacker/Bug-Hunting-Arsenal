@@ -434,12 +434,12 @@ echo abc.com | gau | grep '\.js$' | httpx -status-code -mc 200 -content-type | g
 ```sh 
 assetfinder http://att.com | sed 's#*.# #g' | httpx -silent -threads 10 | xargs -I@ sh -c 'ffuf -w path.txt -u @/FUZZ -mc 200 -H "Content-Type: application/json" -t 150 -H "X-Forwarded-For:127.0.0.1"'
 ```
-### Open redirect chech
+### Open redirect check
 > @thevillagehacker
 ```sh
 echo "domain" | waybackurls | httpx -silent -timeout 2 -threads 100 | gf redirect | anew
 ```
-### Extrack URL from .apk file
+### Extract URL from .apk file
 > @thevillagehacker
 ```sh
 apktool -d com.uber -o uberAPK; grep -Phro "(https?://)[\w\,-/]+[\"\']" uberAPK/ | sed 's#"##g' | anew | grep -v "w3\|android\|github\|schemes.android\|google\|goo.gl"
