@@ -1,10 +1,11 @@
 # Bug-Hunting
 The Repository contains various payloads, tools, tips, Books and tricks from various hackers around the world.
 
-[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 [![GitHub forks](https://img.shields.io/github/forks/thevillagehacker/Bug-Hunting)](https://github.com/thevillagehacker/Bug-Hunting/network)
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
-[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/kennethreitz)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/thevillagehacker/)
+[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://github.com/thevillagehacker)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/thevillagehacker/Bug-Hunting)
 
 
 
