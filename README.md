@@ -8,13 +8,25 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Bug Bounty Tools](#tools)
 - [Bug Bounty Tips](#bug-bounty-tips)
 - [Resources](#resources)
+- [Payloads](#payloads)
+- [Blogs](#blogs)
+- [Spotlights](#hackerone-hacker-spotlights)
 
 ## Tools
 - [tools](Tools)
 
 ## Bug Bounty Tips
 - [Bug Bounty Tips](Bug%20Bounty%20Tips)
- 
+
+## Payloads
+- [XSS Payloads](XSS-payloads)
+- [XXE Payloads](XXE-payloads)
+
+## Blogs
+- [Blogs](blogs)
+
+## HackerOne Hacker Spotlights
+- [Spotlights](spotlights)
 ## Resources
 ### OWASP Top 10 Examples
 > ***https://github.com/lighthouse-labs/owasp-top-10-examples***
