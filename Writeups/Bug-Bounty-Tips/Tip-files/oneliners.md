@@ -480,7 +480,7 @@ gospider -a -s abc.com -t 3 -c 100 |  tr " " "\n" | grep -v ".js" | grep "https:
 waybackurls target[.]com | grep ‘http%\|https%'
 ```
 ***Note :***
-*You can replace the URLs you find with yours and hope for an open redirect,ssrf or something else. You can grep out analytic stuff with grep -v. If your target has something with OAuth with a redirect_uri target/* that's an easy Account takeover*
+You can replace the URLs you find with yours and hope for an open redirect,ssrf or something else. You can grep out analytic stuff with grep -v. If your target has something with OAuth with a redirect_uri target/* that's an easy Account takeover
 ### Searching for endpoints, by apks
 > @thevillagehacker
 
