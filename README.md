@@ -1,10 +1,19 @@
-# Bug-Hunting [![GitHub forks](https://img.shields.io/github/forks/thevillagehacker/Bug-Hunting)](https://github.com/thevillagehacker/Bug-Hunting/network)
+# Bug-Hunting
 The Repository contains various payloads, tools, tips, Books and tricks from various hackers around the world.
+
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+[![GitHub forks](https://img.shields.io/github/forks/thevillagehacker/Bug-Hunting)](https://github.com/thevillagehacker/Bug-Hunting/network)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
+[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/kennethreitz)
+
+
 
 ### Follow me on
 [![Twitter Follow](https://img.shields.io/twitter/follow/thevillagehackr?style=social)](https://twitter.com/thevillagehackr)
 [![GitHub followers](https://img.shields.io/github/followers/thevillagehacker?label=Follow%20%20%40thevillagehacker&style=social)](https://github.com/thevillagehacker)
 
+<details>
+ <summary>Table of Contents</summary>
 ## Table of Contents
 - [Bug Bounty Tools](#tools)
 - [Bug Bounty Tips](#bug-bounty-tips)
@@ -17,6 +26,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Spotlights](#hackerone-hacker-spotlights)
 - [Checklists](#checklists)
 - [Resources](#resources)
+</details>
 
 ## Tools
 - [tools](Tools)
