@@ -63,3 +63,5 @@ DOM XSS via $.append(<PAYLOAD>)
 ***thanks to [@spaceracoon](https://twitter.com/spaceraccoonsec)***
 ## Bug bounty cheatsheet
 > ***https://github.com/EdOverflow/bugbounty-cheatsheet***
+## Blind SQL Injection
+> ***https://hackerone.com/reports/1034625***
