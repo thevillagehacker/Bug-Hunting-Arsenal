@@ -69,4 +69,4 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 ***(Note : A valuable Resource please take a look into this repo)***
 > ***https://github.com/KathanP19/HowToHunt***
 
-- [go up](#bug-hunting)
+[click to go-up👆](#bug-hunting)
