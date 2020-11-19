@@ -24,6 +24,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Blogs](#blogs)
 - [Spotlights](#hackerone-hacker-spotlights)
 - [Checklists](#checklists)
+- [Oneliners](#oneliners)
 - [Resources](#resources)
 
 ## Tools
@@ -63,6 +64,9 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Web Application Pentest checklist](Checklist/Readme.md)
 - [OWASP Web Application Checklist](Checklist/OWASP/Web/OWASPv4_Checklist.xlsx)
 - [OWASP Mobile Application Checklist](Checklist/OWASP/Mobile/Mobile_App_Security_Checklist-English_1.1.2.xlsx)
+
+# Oneliners
+- [Oneliner for Penetration Testing](Bug%20Bounty%20Tips/files/oneliners.md)
 
 ## Resources
 ### OWASP Top 10 Examples
