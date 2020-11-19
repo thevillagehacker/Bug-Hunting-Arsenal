@@ -68,7 +68,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 ### OWASP Top 10 Examples
 ***https://github.com/lighthouse-labs/owasp-top-10-examples***
 ### How To HUNT
+***https://github.com/KathanP19/HowToHunt***<br>
 ***(Note : A valuable Resource please take a look into this repo)***
-***https://github.com/KathanP19/HowToHunt***
 
 ### [click to go-up👆](#bug-hunting)
