@@ -24,3 +24,5 @@
 📅 18-Nov-2020
 ## Steal All cookies from Firefox Android
 ***https://cyc10n3.medium.com/rce-via-server-side-template-injection-ad46f8e0c2ae***
+## RCE via Server-Side Template Injection
+***https://cyc10n3.medium.com/rce-via-server-side-template-injection-ad46f8e0c2ae***
