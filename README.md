@@ -53,6 +53,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 
 ## Blogs
 - [Blogs](blogs)
+  * [blog -1](blogs/files/file1.md)
 
 ## HackerOne Hacker Spotlights
 - [Spotlights](spotlights)
