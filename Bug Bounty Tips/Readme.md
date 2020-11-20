@@ -4,7 +4,7 @@
 - **[Bug-Hunting-Tip-1](files/tip-file-1.md)**
 - **[Bug-Hunting-Tip-2](files/tip-file-2.md)**
 - **[Bug-Hunting-Tip-3](files/tip-file-3.md)**
-- **[Bug-Hunting-TIp-4](files/tip-file-4.md)**
+- **[Bug-Hunting-Tip-4](files/tip-file-4.md)**
 
 
 
