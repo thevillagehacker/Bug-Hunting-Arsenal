@@ -26,3 +26,9 @@
 ***https://cyc10n3.medium.com/rce-via-server-side-template-injection-ad46f8e0c2ae***
 ## RCE via Server-Side Template Injection
 ***https://cyc10n3.medium.com/rce-via-server-side-template-injection-ad46f8e0c2ae***
+
+📅 20-Nov-2020
+## Tale of 3-vulnerabilities-to-account-takeover
+***https://medium.com/@logicbomb_1/tale-of-3-vulnerabilities-to-account-takeover-44ba631a0304***
+## XXE in an E-Commerce IOS Application
+***https://0xgaurang.medium.com/out-of-band-xxe-in-an-e-commerce-ios-app-e22981f7b59b***
