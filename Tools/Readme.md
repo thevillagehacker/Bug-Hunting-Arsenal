@@ -28,6 +28,7 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=RhinoSecurityLabs&repo=IPRotate_Burp_Extension)](https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=eslam3kl&repo=crtfinder)](https://github.com/eslam3kl/crtfinder)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=blechschmidt&repo=massdns)](https://github.com/blechschmidt/massdns)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=drwetter&repo=testssl.sh)](https://github.com/drwetter/testssl.sh)
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=m4ll0k&repo=SecretFinder)](https://github.com/m4ll0k/SecretFinder)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=projectdiscovery&repo=httpx)](https://github.com/projectdiscovery/httpx)
