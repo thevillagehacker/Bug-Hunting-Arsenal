@@ -29,6 +29,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 
 ## Tools
 - [tools](Tools)
+- [Other tools](Tools/other-tools.md)
 
 ## Bug Bounty Tips
 - [Bug Bounty Tips](Bug%20Bounty%20Tips)
