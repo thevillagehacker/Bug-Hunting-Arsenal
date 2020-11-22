@@ -58,9 +58,9 @@ DOM XSS via $.append(<PAYLOAD>)
 ```
 ***thanks to [@spaceracoon](https://twitter.com/spaceraccoonsec)***
 ## Bug bounty cheatsheet
-> ***https://github.com/EdOverflow/bugbounty-cheatsheet***
+***https://github.com/EdOverflow/bugbounty-cheatsheet***
 ## Blind SQL Injection
-> ***https://hackerone.com/reports/1034625***
+***https://hackerone.com/reports/1034625***
 
 📅 20-Nov-2020
 ## CVE-2020-13942 Apache Unomi Remote Code Execution
