@@ -1,6 +1,7 @@
 # Bug Bounty Tips File -2
 ## Github Search for Sensitive Info
-```
+```text
+org:citrix "aws"
 org:Target "bucket_name"
 org:Target "aws_access_key"
 org:Target "aws_secret_key"
