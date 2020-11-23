@@ -86,7 +86,7 @@ location.hash=null
 <svg onload='new Function'["_Y000!_"].find(al\u0065rt)''>
 ```
 ### IOS Mind map
-![mindmap](https://github.com/thevillagehacker/Bug-Hunting/blob/main/Writeups/Bug-Bounty-Tips/img/ios-mindmap.jpg)
+![mindmap](img/ios-mindmap.jpg)
 
 ### Github dorks
 - https://github.com/techgaun/github-dorks
