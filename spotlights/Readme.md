@@ -45,3 +45,5 @@
 ***https://www.hackerone.com/blog/hacker-spotlight-interview-fisher***
 ## HACKER SPOTLIGHT: INTERVIEW WITH PUTSI
 ***https://www.hackerone.com/blog/hacker-spotlight-interview-putsi***
+## HACKER SPOTLIGHT: INTERVIEW WITH INSIDERPHD
+***https://www.hackerone.com/blog/hacker-spotlight-interview-insiderphd***
