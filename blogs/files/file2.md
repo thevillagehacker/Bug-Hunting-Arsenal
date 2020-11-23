@@ -32,3 +32,7 @@
 ***https://medium.com/@logicbomb_1/tale-of-3-vulnerabilities-to-account-takeover-44ba631a0304***
 ## XXE in an E-Commerce IOS Application
 ***https://0xgaurang.medium.com/out-of-band-xxe-in-an-e-commerce-ios-app-e22981f7b59b***
+
+📅 23-Nov-2020
+## Exploiting-dynamic-rendering-engines-to-take-control-of-web-apps
+***https://r2c.dev/blog/2020/exploiting-dynamic-rendering-engines-to-take-control-of-web-apps/***
