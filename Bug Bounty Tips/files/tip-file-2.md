@@ -9,8 +9,8 @@ org:Target "S3_BUCKET"
 org:Target "S3_ACCESS_KEY_ID"
 org:Target "S3_SECRET_ACCESS_KEY"
 org:Target "S3_ENDPOINT"
-org:Target  "AWS_ACCESS_KEY_ID"
-org:Target  "list_aws_accounts"
+org:Target "AWS_ACCESS_KEY_ID"
+org:Target "list_aws_accounts"
 api_key
 “api keys”
 authorization_bearer:
