@@ -94,6 +94,7 @@ OR
 📅 24-Nov-2020
 ## Time Based SQL Injection
 *2,077 millis*
+
 ``sql
 'XOR(if(now()=sysdate(),sleep(1*1),0))OR'
 ```
