@@ -38,6 +38,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [XSS Payloads](XSS-payloads)
 - [XXE Payloads](XXE-payloads)
 - [Bulk-Input-Payloads](Bulk-input)
+- [SQL Payloads](SQL-Payloads/SQL-payload1.md)
 - [Markdown math bulk payloads](Mark-math-bulk-payload)
 
 ## Reverse Shell
