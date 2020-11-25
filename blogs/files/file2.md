@@ -36,3 +36,7 @@
 📅 23-Nov-2020
 ## Exploiting-dynamic-rendering-engines-to-take-control-of-web-apps
 ***https://r2c.dev/blog/2020/exploiting-dynamic-rendering-engines-to-take-control-of-web-apps/***
+
+📅 23-Nov-2020
+## SSL Pinning with FRIDA
+***https://medium.com/@ved_wayal/hail-frida-the-universal-ssl-pinning-bypass-for-android-e9e1d733d29***
