@@ -27,12 +27,12 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Oneliners](#oneliners)
 - [Resources](#resources)
 
+## Bug Bounty Tips
+- [Bug Bounty Tips](Bug%20Bounty%20Tips)
+
 ## Tools
 - [Tools](Tools)
 - [Other tools](Tools/other-tools.md)
-
-## Bug Bounty Tips
-- [Bug Bounty Tips](Bug%20Bounty%20Tips)
 
 ## Payloads
 - [XSS Payloads](XSS-payloads)
