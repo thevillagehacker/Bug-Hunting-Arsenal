@@ -7,8 +7,6 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://github.com/thevillagehacker)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/thevillagehacker/Bug-Hunting)
 
-
-
 ### Follow me on
 [![Twitter Follow](https://img.shields.io/twitter/follow/thevillagehackr?style=social)](https://twitter.com/thevillagehackr)
 [![GitHub followers](https://img.shields.io/github/followers/thevillagehacker?label=Follow%20%20%40thevillagehacker&style=social)](https://github.com/thevillagehacker)
@@ -68,7 +66,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [OWASP Mobile Application Checklist](Checklist/OWASP/Mobile/Mobile_App_Security_Checklist-English_1.1.2.xlsx)
 
 # Oneliners
-- [Oneliner for Penetration Testing](Bug%20Bounty%20Tips/files/oneliners.md)
+- [Oneliners for Penetration Testing](Bug%20Bounty%20Tips/files/oneliners.md)
 
 ## Resources
 ### OWASP Top 10 Examples
