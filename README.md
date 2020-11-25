@@ -14,8 +14,8 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 [![GitHub followers](https://img.shields.io/github/followers/thevillagehacker?label=Follow%20%20%40thevillagehacker&style=social)](https://github.com/thevillagehacker)
 
 ## Table of Contents
-- [Bug Bounty Tools](#tools)
 - [Bug Bounty Tips](#bug-bounty-tips)
+- [Bug Bounty Tools](#tools)
 - [Payloads](#payloads)
 - [Reverse Shell](#reverse-shell)
 - [Content Discovery](#wordlist)
