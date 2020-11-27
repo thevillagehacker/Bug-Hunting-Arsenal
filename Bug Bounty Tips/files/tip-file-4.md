@@ -155,3 +155,9 @@ example:
 ..../\
 ....\\
 ```
+**Example**
+```text
+../../../../../boot.ini%00.jpg
+filestore/../../../../../../../etc/passwd
+diagram1.jpg%00.jpg
+```
