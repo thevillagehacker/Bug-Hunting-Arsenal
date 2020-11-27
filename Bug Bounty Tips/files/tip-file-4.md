@@ -146,3 +146,12 @@ your input:
 - Dot — %c0%2e, %e0%40%ae, %c0ae, and so on
 - Forward slash — %c0%af, %e0%80%af, %c0%2f, and so on
 - Backslash — %c0%5c, %c0%80%5c, a
+6. If the application is attempting to sanitize user input by removing traversal sequences and does not apply this filter recursively, it may be
+possible to bypass the filter by placing one sequence within another. For
+example:
+```text
+....//
+....\/
+..../\
+```
+....\\
