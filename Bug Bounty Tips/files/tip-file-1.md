@@ -39,7 +39,7 @@ https://abc.com/admin..;/  ===> 200 ok
 ```http
 sub.abc.com/web/admin/  ====> 302
 sub.abc.com/web/aDmiN/  ====> 200 ok
-sub.abc.com/web/aDmiN/FUZZ  ====> Sensitie Files
+sub.abc.com/web/aDmiN/FUZZ  ====> Sensitive Files
 ```
 ### Path Traversal
 ```http
