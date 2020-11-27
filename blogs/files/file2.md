@@ -1,7 +1,10 @@
 # 👨🏻‍💻 Bug Bounty Blogs and Writeups of different vulnerablities - Part 2
+
 📅 11-Nov-2020
 ## Sp1d3R's Security Blog
 ***https://xpoc.pro/***
+## Apple Hack by JWT
+***https://bhavukjain.com/blog/2020/05/30/zeroday-signin-with-apple***
 
 📅 16-Nov-2020
 ## Google cloud shell Account Takeover as Root
