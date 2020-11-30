@@ -75,7 +75,7 @@
 - https://medium.com/bugbountywriteup/a-short-story-of-idor-to-account-takeover-b36f3983ecba
 - https://xploitprotocol.medium.com/hunt-for-the-idor-automation-using-burp-suit-a09f004a9d9d
 - https://medium.com/@abhiunix/idor-on-api-endpoints-e08c740e87a2
-- https://medium.com/@cobrabaghdad1/idor-lead-to-personally-identifiable-information-pii-leakage-fb2b1b4be93f
+- https://medium.com/@cobrabaghdad1/idor-lead-to-personally-identifiable-information-pii-leakage-fb2b1b4be93f<br>
 ***Video POC***
 - https://www.youtube.com/watch?v=e1X2zyAZbcs&ab_channel=AliT%C3%9CT%C3%9CNC%C3%9C
 ## Stored XSS POC
