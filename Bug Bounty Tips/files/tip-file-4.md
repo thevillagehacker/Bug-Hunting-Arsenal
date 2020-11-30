@@ -176,3 +176,7 @@ cat domian.txt | httpx -o domainhttpx.txt
 cat domainhttpx.txt | nuclei -t /home/orwa/nuclei-templates
 ```
 **DONE 😎**
+## SSTI Payload to fetch subprocess
+```java
+{{‘’.__class__.__mro__[2].__subclasses__()[258]}}
+```
