@@ -81,5 +81,5 @@
 ## Stored XSS POC
 - https://www.youtube.com/watch?v=EjuDr5bLNek&ab_channel=AliT%C3%9CT%C3%9CNC%C3%9C
 - https://www.youtube.com/watch?v=FPrNEv9a588&ab_channel=AliT%C3%9CT%C3%9CNC%C3%9C
-## securitycreators videos
+## Security Creators Videos
 [![security creators video](img/security-creators.png)](https://securitycreators.video)
