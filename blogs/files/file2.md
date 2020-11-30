@@ -54,10 +54,10 @@
 ## API Security CTF
 ***https://blog.pentesteracademy.com/overview-of-the-dreaded-api-security-ctf-challenge-nov-20-24-830f09122a6***
 ## Synk Blog
-[![blog-synk]()](https://snyk.io/blog/category/vulnerabilities)
+[![blog-synk](img/synk.png)](https://snyk.io/blog/category/vulnerabilities)
 ## GraphQL Hack in Shopify Privilege Escalation
 ***https://hackerone.com/reports/1010835***
 ## Alex Chapman's Blog
-[![ajax-blog]()](https://ajxchapman.github.io/)
+[![ajax-blog](img/ajax.png)](https://ajxchapman.github.io/)
 ## Exlpoiting SpringBoot Actuator - Veracode
 ***https://www.veracode.com/blog/research/exploiting-spring-boot-actuators***
