@@ -43,3 +43,6 @@
 📅 25-Nov-2020
 ## SSL Pinning with FRIDA
 ***https://medium.com/@ved_wayal/hail-frida-the-universal-ssl-pinning-bypass-for-android-e9e1d733d29***
+
+## HTTP Request Smuggling Twitter
+***https://hackerone.com/reports/713285***
