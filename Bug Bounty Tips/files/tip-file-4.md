@@ -170,7 +170,9 @@ diagram1.jpg%00.jpg
 
 📅 30-Nov-2020
 ## Reflected XSS
-1. amass enum -passive -norecursive -noalts -d domain .com -o domain.txt
-2. cat domian.txt | httpx -o domainhttpx.txt
-3. cat domainhttpx.txt | nuclei -t /home/orwa/nuclei-templates
-DONE 😎
+```sh
+amass enum -passive -norecursive -noalts -d domain .com -o domain.txt
+cat domian.txt | httpx -o domainhttpx.txt
+cat domainhttpx.txt | nuclei -t /home/orwa/nuclei-templates
+```
+**DONE 😎**
