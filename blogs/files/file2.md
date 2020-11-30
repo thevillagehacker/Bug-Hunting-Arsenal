@@ -63,3 +63,17 @@
 [![ajax-blog](img/ajax.png)](https://ajxchapman.github.io/)
 ## Exlpoiting SpringBoot Actuator - Veracode
 ***https://www.veracode.com/blog/research/exploiting-spring-boot-actuators***
+## IDOR Writeup Blogs
+**Some Cool Writeups of IDOR Vulnerability|Pls Share more reports**
+- https://medium.com/@aysebilgegunduz/everything-you-need-to-know-about-idor-insecure-direct-object-references-375f83e03a87
+- https://corneacristian.medium.com/top-25-idor-bug-bounty-reports-ba8cd59ad331
+- https://medium.com/bugbountywriteup/all-about-getting-first-bounty-with-idor-849db2828c8
+- https://medium.com/bugbountywriteup/a-short-story-of-idor-to-account-takeover-b36f3983ecba
+- https://medium.com/@swapmaurya20/a-simple-idor-to-account-takeover-88b8a1d2ec24
+- https://mustafakemalcan.com/insecure-direct-object-reference-idor-tips/
+- https://medium.com/bugbountywriteup/pii-leakage-via-idor-weak-passwordreset-full-account-takeover-58d159f88d73
+- https://medium.com/bugbountywriteup/a-short-story-of-idor-to-account-takeover-b36f3983ecba
+- https://xploitprotocol.medium.com/hunt-for-the-idor-automation-using-burp-suit-a09f004a9d9d
+- https://medium.com/@abhiunix/idor-on-api-endpoints-e08c740e87a2
+- https://medium.com/@cobrabaghdad1/idor-lead-to-personally-identifiable-information-pii-leakage-fb2b1b4be93f
+
