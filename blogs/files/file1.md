@@ -1,75 +1,75 @@
 # 👨🏻‍💻 Bug Bounty Blogs and Writeups of different vulnerablities - Part 1
 ## This is how they hacked Apple
 ***Some of the vulnerailities are explained here, take a look down here***
-> ***https://samcurry.net/hacking-apple/***
+***https://samcurry.net/hacking-apple/***
 ## HTTP Request Smuggling Tips from honoki
-> ***https://honoki.net/2020/02/18/http-request-smuggling-5-practical-tips/***
+***https://honoki.net/2020/02/18/http-request-smuggling-5-practical-tips/***
 ## XSS in PhantomJS
-> ***https://buer.haus/2017/06/29/escalating-xss-in-phantomjs-image-rendering-to-ssrflocal-file-read/***
+***https://buer.haus/2017/06/29/escalating-xss-in-phantomjs-image-rendering-to-ssrflocal-file-read/***
 ## Exploiting Open Redirect Vulnerabilities
-> ***https://www.hahwul.com/phoenix/ssrf-open-redirect***     
-> ***https://hackerone.com/reports/978680***
+***https://www.hahwul.com/phoenix/ssrf-open-redirect***     
+***https://hackerone.com/reports/978680***
 ## HTML Injection
-> ***https://medium.com/@pratiky054/html-injection-unique-exploitation-a5c3d4e6fed8***
-> ***https://footstep.ninja/posts/html-injection-in-email/***
+***https://medium.com/@pratiky054/html-injection-unique-exploitation-a5c3d4e6fed8***
+***https://footstep.ninja/posts/html-injection-in-email/***
 ## Leveraging XSS to Read Internal Files
-> ***https://blog.dixitaditya.com/leveraging-xss-to-read-internal-files/amp/?__twitter_impression=true***
+***https://blog.dixitaditya.com/leveraging-xss-to-read-internal-files/amp/?__twitter_impression=true***
 ## Unauthenticated Account Takeover through HTTP Leak
-> ***https://medium.com/@mrnikhilsri/unauthenticated-account-takeover-through-http-leak-33386bb0ba0b***
+***https://medium.com/@mrnikhilsri/unauthenticated-account-takeover-through-http-leak-33386bb0ba0b***
 ## Account Takeover via IDOR in Starbucks Singapore
-> ***http://www.kamilonurozkaleli.com/posts/starbucks-singapore-account-takeover/***
+***http://www.kamilonurozkaleli.com/posts/starbucks-singapore-account-takeover/***
 ## CSRF Exploiting in JSON Endpoint
-> ***https://rootsploit.com/exploiting-csrf-on-json-endpoint-w-o-flash/#comment-5***      
+***https://rootsploit.com/exploiting-csrf-on-json-endpoint-w-o-flash/#comment-5***      
 (***Note: Rootsploit has plenty of posts for Bug Bounty Writeups)***      
-> ***https://rootsploit.com/*** 
+***https://rootsploit.com/*** 
 ## Find Sensitive Information via Source Code
-> ***https://medium.com/@sechunter/js-is-love-%EF%B8%8F-ca393a4849e9***
+***https://medium.com/@sechunter/js-is-love-%EF%B8%8F-ca393a4849e9***
 ## Exploiting Admin Panel Like a Boss
-> ***https://medium.com/@sechunter/exploiting-admin-panel-like-a-boss-fc2dd2499d31***
+***https://medium.com/@sechunter/exploiting-admin-panel-like-a-boss-fc2dd2499d31***
 ## 🐞 BugPoC LFI Challenge
-> ***https://hipotermia.pw/bb/bugpoc-lfi-challenge***
+***https://hipotermia.pw/bb/bugpoc-lfi-challenge***
 ## Powerfull HTTP Request Smugling
-> ***https://medium.com/@ricardoiramar/the-powerful-http-request-smuggling-af208fafa142***
+***https://medium.com/@ricardoiramar/the-powerful-http-request-smuggling-af208fafa142***
 ## How I hacked hundreds of companies through their helpdesk
-> ***https://medium.com/intigriti/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c***
+***https://medium.com/intigriti/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c***
 ## Weaponizing XSS For Fun & Profit😆😂🤣
-> ***https://saadahmedx.medium.com/weaponizing-xss-for-fun-profit-a1414f3fcee9***
+***https://saadahmedx.medium.com/weaponizing-xss-for-fun-profit-a1414f3fcee9***
 ## Shodan Pentesting Guide
-> ***https://community.turgensec.com/shodan-pentesting-guide/***
+***https://community.turgensec.com/shodan-pentesting-guide/***
 ## Hacking HTTP CORS from inside out: a theory to practice approach
-> ***https://medium.com/bugbountywriteup/hacking-http-cors-from-inside-out-512cb125c528***
+***https://medium.com/bugbountywriteup/hacking-http-cors-from-inside-out-512cb125c528***
 HTTP Request Smuggling
-> ***https://blog.cobalt.io/a-pentesters-guide-to-http-request-smuggling-8b7bf0db1f0***
+***https://blog.cobalt.io/a-pentesters-guide-to-http-request-smuggling-8b7bf0db1f0***
 ## Bad Neighbour Vulnerability
-> ***http://blog.pi3.com.pl/?p=780***
+***http://blog.pi3.com.pl/?p=780***
 ## RCE via git option injection (almost) - $20,000 Bounty
-> ***https://devcraft.io/2020/10/18/github-rce-git-inject.html***
+***https://devcraft.io/2020/10/18/github-rce-git-inject.html***
 ## How I Hacked Facebook Again! Unauthenticated RCE on MobileIron MDM
-> ***https://blog.orange.tw/2020/09/how-i-hacked-facebook-again-mobileiron-mdm-rce.html?m=1***
+***https://blog.orange.tw/2020/09/how-i-hacked-facebook-again-mobileiron-mdm-rce.html?m=1***
 ## Compromising S3 Buckets through Misconfigured AWS Cognito
-> ***https://medium.com/@curlsandbun/compromising-s3-buckets-through-misconfigured-aws-cognito-e23f08b2f475***
+***https://medium.com/@curlsandbun/compromising-s3-buckets-through-misconfigured-aws-cognito-e23f08b2f475***
 ## Gateway2Hell – Multiple Privilege Escalation Vulnerabilities in Citrix Gateway Plug-In - Cymptom
-> ***https://cymptom.com/gateway2hell-multiple-privilege-escalation-vulnerabilities-in-citrix-gateway-plug-in/2020/10/****
+***https://cymptom.com/gateway2hell-multiple-privilege-escalation-vulnerabilities-in-citrix-gateway-plug-in/2020/10/****
 ## Multiple Address Bar Spoofing Vulnerabilities In Mobile Browsers
-> ***https://www.rafaybaloch.com/2020/10/multiple-address-bar-spoofing-vulnerabilities.html***
+***https://www.rafaybaloch.com/2020/10/multiple-address-bar-spoofing-vulnerabilities.html***
 ## IDOR and SQL Injection
-> ***https://bugreader.com/ahmad_halabi@idor-sql-query-manipulation-to-fetch-user-details-228***
+***https://bugreader.com/ahmad_halabi@idor-sql-query-manipulation-to-fetch-user-details-228***
 ## Recon and Hacking tip blog
-> ***http://rez0.blog/category/hacking.html***
+***http://rez0.blog/category/hacking.html***
 ## XXE
-> ***https://corneacristian.medium.com/top-25-xxe-bug-bounty-reports-ab4ca662afad***
+***https://corneacristian.medium.com/top-25-xxe-bug-bounty-reports-ab4ca662afad***
 ## Open Redirect via unknown technique
-> ***https://ruvlol.medium.com/1000-for-open-redirect-via-unknown-technique-675f5815e38a***
+***https://ruvlol.medium.com/1000-for-open-redirect-via-unknown-technique-675f5815e38a***
 
 ## 📅 10-Nov-2020
 ## Intigriti November XSS Challenge
-> ***https://jorenverheyen.github.io/intigriti-november-2020.html***
+***https://jorenverheyen.github.io/intigriti-november-2020.html***
 
 ## 📅 11-Nov-2020
 ## JWT Hacking
-> ***https://imparable.medium.com/attacking-json-web-tokens-jwts-d1d51a1e17cb***
+***https://imparable.medium.com/attacking-json-web-tokens-jwts-d1d51a1e17cb***
 ## CVE-2020-11518: how I bruteforced my way into your Active Directory
-> ***https://honoki.net/2020/08/10/cve-2020-11518-how-i-bruteforced-my-way-into-your-active-directory***
+***https://honoki.net/2020/08/10/cve-2020-11518-how-i-bruteforced-my-way-into-your-active-directory***
 
 
 ---------------------------------------------------------- 👉 **[Back to Main Page](https://github.com/thevillagehacker/Bug-Hunting)** 👈 ---------------------------------------------------------
