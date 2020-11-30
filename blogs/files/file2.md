@@ -64,7 +64,7 @@
 ## Exlpoiting SpringBoot Actuator - Veracode
 ***https://www.veracode.com/blog/research/exploiting-spring-boot-actuators***
 ## IDOR Writeup Blogs
-**Some Cool Writeups of IDOR Vulnerability|Pls Share more reports**
+**Some Cool Writeups of IDOR Vulnerabilities 😎**
 - https://medium.com/@aysebilgegunduz/everything-you-need-to-know-about-idor-insecure-direct-object-references-375f83e03a87
 - https://corneacristian.medium.com/top-25-idor-bug-bounty-reports-ba8cd59ad331
 - https://medium.com/bugbountywriteup/all-about-getting-first-bounty-with-idor-849db2828c8
