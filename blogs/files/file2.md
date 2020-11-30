@@ -44,5 +44,20 @@
 ## SSL Pinning with FRIDA
 ***https://medium.com/@ved_wayal/hail-frida-the-universal-ssl-pinning-bypass-for-android-e9e1d733d29***
 
+📅 25-Nov-2020
 ## HTTP Request Smuggling Twitter
 ***https://hackerone.com/reports/713285***
+## XSS on Issue Reference in Github - H1 Report
+***https://hackerone.com/reports/831962***
+## XSS Challenge - H1 Report
+***https://hackerone.com/reports/1026585***
+## API Security CTF
+***https://blog.pentesteracademy.com/overview-of-the-dreaded-api-security-ctf-challenge-nov-20-24-830f09122a6***
+## Synk Blog
+[![blog-synk]()](https://snyk.io/blog/category/vulnerabilities)
+## GraphQL Hack in Shopify Privilege Escalation
+***https://hackerone.com/reports/1010835***
+## Alex Chapman's Blog
+[![ajax-blog]()](https://ajxchapman.github.io/)
+## Exlpoiting SpringBoot Actuator - Veracode
+***https://www.veracode.com/blog/research/exploiting-spring-boot-actuators***
