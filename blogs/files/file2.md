@@ -47,6 +47,8 @@
 📅 30-Nov-2020
 ## HTTP Request Smuggling Twitter
 ***https://hackerone.com/reports/713285***
+## HTTP Request Smuggling Portswigger
+***https://portswigger.net/web-security/request-smuggling/finding***
 ## XSS on Issue Reference in Github - H1 Report
 ***https://hackerone.com/reports/831962***
 ## XSS Challenge - H1 Report
