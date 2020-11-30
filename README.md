@@ -47,7 +47,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Wordlists](Content-discovery)
 
 ## Pentest Notes
-- [Pentets Notes](Pentest-master)
+- [Pentest Notes](Pentest-master)
 
 ## Google Dorks
 - [Dorks](Gdorks)
