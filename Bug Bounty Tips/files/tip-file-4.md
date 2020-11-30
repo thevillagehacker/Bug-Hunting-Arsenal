@@ -175,4 +175,13 @@ amass enum -passive -norecursive -noalts -d domain .com -o domain.txt
 cat domian.txt | httpx -o domainhttpx.txt
 cat domainhttpx.txt | nuclei -t /home/orwa/nuclei-templates
 ```
+## Bypass Rate Limiting by 
+- Adding Collaborator
+        ⬇️
+- Fetch an normal request
+        ⬇️
+- Removing Collaborator
+        ⬇️
+***Repeat the same***
+***Source: https://ahmdhalabi.medium.com/chaining-multiple-requests-to-achieve-rate-limiting-vulnerabilities-96c1e8365c06***
 
