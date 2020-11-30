@@ -176,11 +176,11 @@ cat domian.txt | httpx -o domainhttpx.txt
 cat domainhttpx.txt | nuclei -t /home/orwa/nuclei-templates
 ```
 ## Bypass Rate Limiting by 
-- Adding Collaborator
+- Adding Collaborator<br>
         ⬇️<br>
-- Fetch an normal request
+- Fetch an normal request<br>
         ⬇️<br>
-- Removing Collaborator
+- Removing Collaborator<br>
         ⬇️<br>
 ***Repeat the same***<br>
 ***Source: https://ahmdhalabi.medium.com/chaining-multiple-requests-to-achieve-rate-limiting-vulnerabilities-96c1e8365c06***
