@@ -1,5 +1,4 @@
-**DONE 😎**
-## SSTI Payloads
+# SSTI Payloads
 ```py
 {{ '7'*7 }}
 {{ [].class.base.subclasses() }}
