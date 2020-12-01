@@ -1,4 +1,4 @@
-# Bug Bounty Tips File -2
+# October-2020 Bug Bounty Tips 
 ## Github Search for Sensitive Info
 ```text
 org:citrix "aws"
