@@ -8,5 +8,5 @@
 - https://hackerone.com/reports/950190
 - https://hackerone.com/reports/806571
 - https://hackerone.com/reports/824689
-- https://hackerone.com/reports/831962<br>
-*more reports from him* ***[here](https://hackerone.com/yvvdwf?type=user)***
+- https://hackerone.com/reports/831962
+
