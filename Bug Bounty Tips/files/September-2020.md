@@ -1,4 +1,4 @@
-# Bug Bounty Tips File -1 
+# September-2020 Bug Bounty Tips 
 ### Admin Panel Bypass tricks and techniques.
 #### Example
 ```http
