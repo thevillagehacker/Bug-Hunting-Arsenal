@@ -12,6 +12,7 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=lc&repo=subjs)](https://github.com/lc/subjs)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=s0md3v&repo=Arjun)](https://github.com/s0md3v/Arjun)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=drwetter&repo=testssl.sh)](https://github.com/drwetter/testssl.sh)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=OJ&repo=gobuster)](https://github.com/OJ/gobuster)
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=lc&repo=gau)](https://github.com/lc/gau)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=swisskyrepo&repo=PayloadsAllTheThings)](https://github.com/swisskyrepo/PayloadsAllTheThings)
