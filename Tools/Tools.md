@@ -1,4 +1,5 @@
-# 🚀 Tools for Bug Hunting 🛠
+# 🚀 Github Tools and Repositories for Bug Hunting 
+## Tools
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=r0075h3ll&repo=Oralyzer)](https://github.com/r0075h3ll/Oralyzer)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ffuf&repo=ffuf)](https://github.com/ffuf/ffuf)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jaeles-project&repo=gospider)](https://github.com/jaeles-project/gospider)
@@ -15,7 +16,7 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=OJ&repo=gobuster)](https://github.com/OJ/gobuster)
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=lc&repo=gau)](https://github.com/lc/gau)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=swisskyrepo&repo=PayloadsAllTheThings)](https://github.com/swisskyrepo/PayloadsAllTheThings)
+
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=tomnomnom&repo=httprobe)](https://github.com/tomnomnom/httprobe)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=defparam&repo=smuggler)](https://github.com/defparam/smuggler)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=tomnomnom&repo=waybackurls)](https://github.com/tomnomnom/waybackurls)
@@ -43,3 +44,6 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=nsonaniya2010&repo=SubDomainizer)](https://github.com/nsonaniya2010/SubDomainizer)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=FortyNorthSecurity&repo=EyeWitness)](https://github.com/FortyNorthSecurity/EyeWitness)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=projectdiscovery&repo=shuffledns)](https://github.com/projectdiscovery/shuffledns)
+
+## Repositories
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=swisskyrepo&repo=PayloadsAllTheThings)](https://github.com/swisskyrepo/PayloadsAllTheThings)
