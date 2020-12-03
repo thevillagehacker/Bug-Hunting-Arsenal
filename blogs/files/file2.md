@@ -84,3 +84,7 @@
 - https://www.youtube.com/watch?v=FPrNEv9a588&ab_channel=AliT%C3%9CT%C3%9CNC%C3%9C
 ## Security Creators Videos
 [![security creators video](img/security-creators.png)](https://securitycreators.video)
+
+📅 03-Dec-2020
+## Host `docker` binary overwrite from Kata VM
+***https://bugcrowd.com/disclosures/7bf77429-2b94-44ea-b6f9-c1fc59b2fd17/host-docker-binary-overwrite-from-kata-vm***
