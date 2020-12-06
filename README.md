@@ -13,7 +13,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 
 ## Table of Contents
 - [Bug Bounty Tips](#bug-bounty-tips)
-- [Bug Bounty Tools](#tools)
+- [Tools](#tools)
 - [Payloads](#payloads)
 - [Reverse Shell](#reverse-shell)
 - [Content Discovery](#wordlist)
