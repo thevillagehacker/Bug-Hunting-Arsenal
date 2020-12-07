@@ -30,8 +30,11 @@
 ***https://hipotermia.pw/bb/bugpoc-lfi-challenge***
 ## Powerfull HTTP Request Smugling
 ***https://medium.com/@ricardoiramar/the-powerful-http-request-smuggling-af208fafa142***
+## Ticket Tricks
 ## How I hacked hundreds of companies through their helpdesk
 ***https://medium.com/intigriti/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c***
+***https://hackerone.com/reports/999765***
+***https://sites.google.com/securifyinc.com/secblogs/scary-tickets***
 ## Weaponizing XSS For Fun & Profit😆😂🤣
 ***https://saadahmedx.medium.com/weaponizing-xss-for-fun-profit-a1414f3fcee9***
 ## Shodan Pentesting Guide
