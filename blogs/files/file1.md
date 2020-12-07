@@ -33,7 +33,7 @@
 ## Ticket Tricks
 ## How I hacked hundreds of companies through their helpdesk
 ***https://medium.com/intigriti/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c***
-***https://hackerone.com/reports/999765***
+***https://hackerone.com/reports/999765***<br>
 ***https://sites.google.com/securifyinc.com/secblogs/scary-tickets***
 ## Weaponizing XSS For Fun & Profit😆😂🤣
 ***https://saadahmedx.medium.com/weaponizing-xss-for-fun-profit-a1414f3fcee9***
