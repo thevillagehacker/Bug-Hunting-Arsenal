@@ -41,9 +41,14 @@
 ***https://www.hackerone.com/blog/hacker-spotlight-interview-mrtuxracer***
 ## HACKER SPOTLIGHT: INTERVIEW WITH YASSINEABOUKIR
 ***https://www.hackerone.com/blog/hacker-spotlight-interview-yassineaboukir***
-## HACKER SPOTLIGHT: INTERVIEW WITH FISHER
-***https://www.hackerone.com/blog/hacker-spotlight-interview-fisher***
 ## HACKER SPOTLIGHT: INTERVIEW WITH PUTSI
 ***https://www.hackerone.com/blog/hacker-spotlight-interview-putsi***
+## HACKER SPOTLIGHT: INTERVIEW WITH FISHER
+***https://www.hackerone.com/blog/hacker-spotlight-interview-fisher***
 ## HACKER SPOTLIGHT: INTERVIEW WITH INSIDERPHD
 ***https://www.hackerone.com/blog/hacker-spotlight-interview-insiderphd***
+## HACKER SPOTLIGHT: INTERVIEW WITH BAGIPRO
+***https://www.hackerone.com/blog/hacker-spotlight-interview-bagipro***
+## HACKER SPOTLIGHT: INTERVIEW WITH JENSEC
+***https://www.hackerone.com/blog/hacker-spotlight-interview-jensec***
+
