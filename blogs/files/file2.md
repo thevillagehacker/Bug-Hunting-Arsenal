@@ -91,3 +91,6 @@
 
 ## Abusing Docker API
 ***https://dreamlab.net/en/blog/post/abusing-exposed-docker-registry-apis/***
+
+## Open redirect Bypass H1 - Report
+***https://hackerone.com/reports/972601***
