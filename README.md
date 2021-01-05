@@ -65,10 +65,11 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [OWASP Web Application Checklist](Checklist/OWASP/Web/OWASPv4_Checklist.xlsx)
 - [OWASP Mobile Application Checklist](Checklist/OWASP/Mobile/Mobile_App_Security_Checklist-English_1.1.2.xlsx)
 
-# Oneliners
+## Oneliners
 - [Oneliners for Penetration Testing](Bug%20Bounty%20Tips/files/oneliners.md)
 
 ## Resources
+## [Blogs](#blogs)
 ### OWASP Top 10 Examples
 ***https://github.com/lighthouse-labs/owasp-top-10-examples***
 ### How To HUNT
