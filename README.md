@@ -39,6 +39,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [SQL Injection Payloads](SQL-Payloads/SQL-payload1.md)
 - [Markdown math bulk payloads](Mark-math-bulk-payload)
 - [SSTI - Payloads](SSTI-Payloads/SSTI.md)
+- [SSRF - Payloads](SSRF-Payloads/ssrf-payloads.md)
 
 ## Reverse Shell
 - [Reverse Shells](Rev-shell)
