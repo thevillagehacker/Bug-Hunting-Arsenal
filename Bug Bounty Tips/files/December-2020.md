@@ -1,4 +1,4 @@
-# December Month Tips
+# December-2020 Bug Bounty Tips
 
 📅 01-Dec-2020
 ## Misconfigured Jira Instance Discloses Sensitive Information
