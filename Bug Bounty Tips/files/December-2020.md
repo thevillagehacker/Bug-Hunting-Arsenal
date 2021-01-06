@@ -91,7 +91,7 @@ other ways to find employee exposed sensitive files:
 poc: `redirect_to=////evil%E3%80%82com`
 
 ## Directory Traversal to Information Disclosure
-![image](https://slack-files.com/T017WT6089Y-F01G7EYGHGD-c8c5969fdb)
+![image](https://files.slack.com/files-pri/T017WT6089Y-F01G7EYGHGD/dir.png?pub_secret=c8c5969fdb)
 
 ## Recon
 
