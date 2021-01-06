@@ -1,4 +1,5 @@
 # Facebook Bug Bounty Blogs 
+- [Facebook Bug Bounty Writeups from 	InfoSec Write-ups in Medium](https://medium.com/bugbountywriteup/tagged/facebook-bug-bounty)
 - [$10000 Facebook SSRF (Bug Bounty)](https://medium.com/@amineaboud/10000-facebook-ssrf-bug-bounty-402bd21e58e5)
 - [Story of a weird vulnerability I found on Facebook](https://medium.com/@amineaboud/story-of-a-weird-vulnerability-i-found-on-facebook-fc0875eb5125)
 - [Facebook push notification linkshim bypassed](https://medium.com/@phclownx/facebook-push-notification-linkshim-bypassed-385fe471516)
