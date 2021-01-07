@@ -1,5 +1,6 @@
 # Facebook Bug Bounty Blogs 
 - [Facebook Bug Bounty Writeups from 	InfoSec Write-ups in Medium](https://medium.com/bugbountywriteup/tagged/facebook-bug-bounty)
+- [Youssef Sammouda Facebook Bug Writeups](https://ysamm.com/)
 - [$10000 Facebook SSRF (Bug Bounty)](https://medium.com/@amineaboud/10000-facebook-ssrf-bug-bounty-402bd21e58e5)
 - [Story of a weird vulnerability I found on Facebook](https://medium.com/@amineaboud/story-of-a-weird-vulnerability-i-found-on-facebook-fc0875eb5125)
 - [Facebook push notification linkshim bypassed](https://medium.com/@phclownx/facebook-push-notification-linkshim-bypassed-385fe471516)
@@ -9,3 +10,5 @@
 - [This is how I was able to view anyone’s private email and birthday on Instagram](https://medium.com/nassec-cybersecurity-writeups/this-is-how-i-was-able-to-view-anyones-private-email-and-birthday-on-instagram-1469f44b842b)
 - [Patch. Bypass. Repeat: Story of a FaceBook Page Admin Disclosure bug worth $5000](https://savebreach.com/facebook-page-admin-identity-disclosure-through-document-edit-history/)
 - [How Recon helped me to to find a Facebook domain takeover](https://sudhanshur705.medium.com/how-recon-helped-me-to-to-find-a-facebook-domain-takeover-58163de0e7d5)
+- [Bad regex used in Facebook Javascript SDK leads to account takeovers in websites that included it](https://ysamm.com/?p=510)
+- [XSS on forums.oculusvr.com leads to Oculus and Facebook account takeovers](https://ysamm.com/?p=525)
