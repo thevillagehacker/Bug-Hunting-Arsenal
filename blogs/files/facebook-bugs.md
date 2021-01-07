@@ -8,3 +8,4 @@
 - [Finding the hidden members of the private events](https://medium.com/bugbountywriteup/facebook-bug-bounty-finding-the-hidden-members-of-the-private-events-977dc1784ff9)
 - [This is how I was able to view anyone’s private email and birthday on Instagram](https://medium.com/nassec-cybersecurity-writeups/this-is-how-i-was-able-to-view-anyones-private-email-and-birthday-on-instagram-1469f44b842b)
 - [Patch. Bypass. Repeat: Story of a FaceBook Page Admin Disclosure bug worth $5000](https://savebreach.com/facebook-page-admin-identity-disclosure-through-document-edit-history/)
+- [How Recon helped me to to find a Facebook domain takeover](https://sudhanshur705.medium.com/how-recon-helped-me-to-to-find-a-facebook-domain-takeover-58163de0e7d5)
