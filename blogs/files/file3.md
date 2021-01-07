@@ -10,3 +10,15 @@
 
 ## Ticket Trick
 ***https://hackerone.com/reports/999765***
+
+📅 07-Jan-2021
+
+## Asset Discovery
+***https://0xpatrik.com/asset-discovery/***
+
+## Patrick Hudak
+***https://0xpatrik.com/***
+
+## Subdomain Takeover POC
+***https://0xpatrik.com/takeover-proofs/***
+
