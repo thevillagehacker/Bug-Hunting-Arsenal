@@ -94,3 +94,7 @@
 
 ## Open redirect Bypass H1 - Report
 ***https://hackerone.com/reports/972601***
+
+📅 08-Jan-2021
+## Android Pentesting : Drozer
+***https://www.hackingarticles.in/android-penetration-testing-drozer/***
