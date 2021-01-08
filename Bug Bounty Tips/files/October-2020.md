@@ -55,7 +55,7 @@ user auth
 ```js
 <svg•onload=alert(1)>
 ```
-7. Try to chnage the Request Method
+7. Try to change the Request Method
 ```js
 GET /?a=xss
 
@@ -106,7 +106,7 @@ Location : https://abc.com/user/dashboard
 
 ## Automate Subdomain Takeover
 ```sh
-cat subfinder -dL domain.txt -o sub.txt && subjack -w sub.txt |toslack
+subfinder -dL domain.txt -o sub.txt && subjack -w sub.txt |toslack
 ```
 ***Put it on cron to run once a day***
 
