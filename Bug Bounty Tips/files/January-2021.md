@@ -31,7 +31,6 @@ replace with your domain or burp Collaborator link in `request header` or `reque
 
 ## SSRF Bypass Payload
 ```text
-Basic 
 http://127.0.0.1:80
 http://127.0.0.1:443
 http://127.0.0.1:22
