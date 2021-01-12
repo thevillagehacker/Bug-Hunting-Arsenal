@@ -12,3 +12,4 @@
 - [How Recon helped me to to find a Facebook domain takeover](https://sudhanshur705.medium.com/how-recon-helped-me-to-to-find-a-facebook-domain-takeover-58163de0e7d5)
 - [Bad regex used in Facebook Javascript SDK leads to account takeovers in websites that included it](https://ysamm.com/?p=510)
 - [XSS on forums.oculusvr.com leads to Oculus and Facebook account takeovers](https://ysamm.com/?p=525)
+- [Arbitrary code execution on Facebook for Android through download feature](https://medium.com/@dPhoeniixx/arbitrary-code-execution-on-facebook-for-android-through-download-feature-fb6826e33e0f)
