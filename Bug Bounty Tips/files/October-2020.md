@@ -271,18 +271,6 @@ query a {
  }
 }
 ```
-**Example -2** 
-```graphql
-query a { 
-  search(q: "\u0000)", lang: "en") {
-    _id
-   weapon_id
-    rarity
-    collection{ _id name }
-    collection_id  
- }
-}
-```
 
 ### Graphql Payload with Regex Bomb
 ```graphql
