@@ -209,7 +209,9 @@ language:python connectionstring
 language:python ssh2_auth_password
 ```
 ***Example :***`“bugcrowd.com” password language:bash`
+
 **Source:-** 
+
 ***https://orwaatyat.medium.com/your-full-map-to-github-recon-and-leaks-exposure-860c37ca2c82***
 
 ## Apache Flink new CVE Dir Traversal
@@ -224,7 +226,7 @@ language:python ssh2_auth_password
 
 PoC for extracting passwords from http://vcdb.properties file - /eam/vib?id=C:\ProgramData\VMware\vCenterServer\cfg\vmware-vpx\http://vcdb.properties
 
-**Source:**https://twitter.com/payloadartist/status/1345760740465000448?s=20
+**Source:** https://twitter.com/payloadartist/status/1345760740465000448?s=20
 
 ## Subdomain Enumeration
 ```sh
