@@ -53,6 +53,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 
 ## Dorks
 - [Google Dorks](Gdorks)
+- [Github Dorks]()
 
 ## Blogs
 - [Blogs](blogs)
