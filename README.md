@@ -18,7 +18,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Reverse Shell](#reverse-shell)
 - [Content Discovery](#wordlist)
 - [Pentest Notes](#pentest-notes)
-- [Dorks](#google-dorks)
+- [Dorks](#dorks)
 - [Blogs](#blogs)
 - [Spotlights](#hackerone-hacker-spotlights)
 - [Checklists](#checklists)
