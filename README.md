@@ -52,8 +52,8 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Pentest Notes](Pentest-master)
 
 ## Dorks
-- [Google Dorks](Gdorks)
-- [Github Dorks]()
+- [Google Dorks](Dorks)
+- [Github Dorks](Dorks/Github_dorks.md)
 
 ## Blogs
 - [Blogs](blogs)
