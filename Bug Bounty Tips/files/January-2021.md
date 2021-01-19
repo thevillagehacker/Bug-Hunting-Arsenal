@@ -283,7 +283,7 @@ The word "javascript" is removed in all reflection contexts, which can be abused
 - [Websocket Vuls Part -3](https://twitter.com/harshbothra_/status/1350109203671597056?s=20)
 
 ## Apple IDOR Vulnerability
-#### - [Apple IDOR via `X-Dsid`](https://twitter.com/samwcyo/status/1350025967331389442?s=20)
+- **[Apple IDOR via `X-Dsid`](https://twitter.com/samwcyo/status/1350025967331389442?s=20)**
 
 ## Tiny sandbox escape for AngularJS 1.2.24 - 1.2.29
 Need a tiny sandbox escape for AngularJS 1.2.24 - 1.2.29? I think this is the shortest possible. 19 characters.
