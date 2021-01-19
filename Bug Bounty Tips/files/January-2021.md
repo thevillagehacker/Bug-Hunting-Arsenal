@@ -283,7 +283,7 @@ The word "javascript" is removed in all reflection contexts, which can be abused
 - [Websocket Vuls Part -3](https://twitter.com/harshbothra_/status/1350109203671597056?s=20)
 
 ## Apple IDOR Vulnerability
-- [Apple IDOR via `X-Dsid`](https://twitter.com/samwcyo/status/1350025967331389442?s=20)
+#### - [Apple IDOR via `X-Dsid`](https://twitter.com/samwcyo/status/1350025967331389442?s=20)
 
 ## Tiny sandbox escape for AngularJS 1.2.24 - 1.2.29
 Need a tiny sandbox escape for AngularJS 1.2.24 - 1.2.29? I think this is the shortest possible. 19 characters.
@@ -296,7 +296,7 @@ https://portswigger-labs.net/xss/angularjs.php?type=reflected&csp=0&version=1.2.
 ```
 [![img](https://pbs.twimg.com/media/Eryi6dEXEAEykzE?format=png&name=small)](https://twitter.com/PortSwiggerRes/status/1350134023016902657?s=20)
 
-## Infosec Matter Bug Biunty Tips
+## Infosec Matter Bug Bounty Tips
 - https://www.infosecmatter.com/bug-bounty-tips-1/
 - https://www.infosecmatter.com/bug-bounty-tips-2-jun-30/
 - https://www.infosecmatter.com/bug-bounty-tips-3-jul-21/
