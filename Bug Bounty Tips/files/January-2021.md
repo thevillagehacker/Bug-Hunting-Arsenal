@@ -308,7 +308,7 @@ https://portswigger-labs.net/xss/angularjs.php?type=reflected&csp=0&version=1.2.
 - https://www.infosecmatter.com/bug-bounty-tips-9-nov-16/
 - https://www.infosecmatter.com/bug-bounty-tips-10-dec-24/
 
-# 19-Jan-2021
+# 📅 19-Jan-2021
 
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 18
 - [Mass Assignment Attack](https://twitter.com/harshbothra_/status/1351202886181646341?s=20)
@@ -321,3 +321,14 @@ https://portswigger-labs.net/xss/angularjs.php?type=reflected&csp=0&version=1.2.
 
 ## Metasploit Revershell CheatSheet
 - [Cheatsheet](metasploit_cheatsheet.md)
+
+# 📅 20-Jan-2021
+
+## CVE-2021-2109 WebLogic RCE
+Weblogic Remote Code Execution involving HTTP protocol and JNDI injection gadget.
+[![img](https://twitter.com/i/status/1351696768065409026)](https://twitter.com/pyn3rd/status/1351696768065409026?s=20)
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 19
+- [HTTP Parameter Pollution](https://twitter.com/harshbothra_/status/1351568973377114119?s=20)
+
+
