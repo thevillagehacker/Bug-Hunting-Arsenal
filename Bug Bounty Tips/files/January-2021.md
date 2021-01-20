@@ -326,7 +326,7 @@ https://portswigger-labs.net/xss/angularjs.php?type=reflected&csp=0&version=1.2.
 
 ## CVE-2021-2109 WebLogic RCE
 Weblogic Remote Code Execution involving HTTP protocol and JNDI injection gadget.
-[![img](https://twitter.com/i/status/1351696768065409026)](https://twitter.com/pyn3rd/status/1351696768065409026?s=20)
+- **https://twitter.com/pyn3rd/status/1351696768065409026?s=20**
 
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 19
 - [HTTP Parameter Pollution](https://twitter.com/harshbothra_/status/1351568973377114119?s=20)
