@@ -66,7 +66,7 @@ Zabbix: Admin:zabbix
 ```
 
 ## your target is using jfrog ? you can access it with anonymous login  through .io
-use dork `site:https://t.co/DV0nl9nSlU inurl:yourtarget` and easy access it :) 
+use dork `site:https://www.jfrog.com inurl:yourtarget` and easy access it :) 
 
 📅 06-Nov-2020
 ## Browser-Based application LFI
