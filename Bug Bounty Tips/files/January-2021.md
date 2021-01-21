@@ -331,4 +331,14 @@ Weblogic Remote Code Execution involving HTTP protocol and JNDI injection gadget
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 19
 - [HTTP Parameter Pollution](https://twitter.com/harshbothra_/status/1351568973377114119?s=20)
 
+# 📅 21-Jan-2021
 
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 20
+- [GraphQL Series Part - 1](https://twitter.com/harshbothra_/status/1351944619483807744?s=20)
+
+## Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware
+- [CVE-2021-2109](https://twitter.com/jas502n/status/1352076921190850563?s=20)
+
+***References***
+- https://nvd.nist.gov/vuln/detail/CVE-2021-2109
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2109
