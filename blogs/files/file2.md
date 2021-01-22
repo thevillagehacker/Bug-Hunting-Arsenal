@@ -98,3 +98,11 @@
 📅 08-Jan-2021
 ## Android Pentesting : Drozer
 ***https://www.hackingarticles.in/android-penetration-testing-drozer/***
+
+📅 21-Jan-2021
+## Android Hacking
+- **https://yasoob.me/posts/reverse-engineering-android-apps-apktool/**
+- **https://joshspicer.com/android-frida-1**
+- **https://book.hacktricks.xyz/mobile-apps-pentesting/android-app-pentesting/frida-tutorial**
+- **https://resources.infosecinstitute.com/topic/frida/#gref**
+- **https://frida.re/docs/examples/android/**
