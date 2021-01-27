@@ -378,3 +378,14 @@ javas%09script:alert(1) // 200 OK
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 23
 - [Password Reset Token Issues](https://twitter.com/harshbothra_/status/1352948712830459904?s=20)
 - [https://twitter.com/harshbothra_/status/1353382856416870401?s=20](https://twitter.com/harshbothra_/status/1353382856416870401?s=20)
+
+# 📅 27-Jan-2021
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 24
+- [Sharing some of my previous works as whole day went into travel!](https://twitter.com/harshbothra_/status/1353382856416870401?s=20)
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 25
+- [Salesforce Security Misconfiguration (Part -1)](https://twitter.com/harshbothra_/status/1353763014936150016?s=20)
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 26
+- [Salesforce Security Misconfiguration (Part - 2) ](https://twitter.com/harshbothra_/status/1354086847983603716?s=20)
