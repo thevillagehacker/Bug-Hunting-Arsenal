@@ -368,3 +368,13 @@ javas%09script:alert(1) // 200 OK
 - https://stealthbits.com/blog/extracting-password-hashes-from-the-ntds-dit-file/
 - https://stealthbits.com/blog/passing-the-hash-with-mimikatz/
 
+# 📅 25-Jan-2021
+
+## Open Redirect Bypass
+```text
+//evil.com\@whiteliste.com
+```
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 23
+- [Password Reset Token Issues](https://twitter.com/harshbothra_/status/1352948712830459904?s=20)
+- [https://twitter.com/harshbothra_/status/1353382856416870401?s=20](https://twitter.com/harshbothra_/status/1353382856416870401?s=20)
