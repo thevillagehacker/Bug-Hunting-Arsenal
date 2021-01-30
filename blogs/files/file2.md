@@ -106,3 +106,7 @@
 - **https://book.hacktricks.xyz/mobile-apps-pentesting/android-app-pentesting/frida-tutorial**
 - **https://resources.infosecinstitute.com/topic/frida/#gref**
 - **https://frida.re/docs/examples/android/**
+
+📅 21-Jan-2021
+## GraphQL Hacking Explained
+- https://medium.com/csg-govtech/closing-the-loop-practical-attacks-and-defences-for-graphql-apis-138cb667aaff
