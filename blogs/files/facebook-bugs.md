@@ -14,3 +14,4 @@
 - [Bad regex used in Facebook Javascript SDK leads to account takeovers in websites that included it](https://ysamm.com/?p=510)
 - [XSS on forums.oculusvr.com leads to Oculus and Facebook account takeovers](https://ysamm.com/?p=525)
 - [Arbitrary code execution on Facebook for Android through download feature](https://medium.com/@dPhoeniixx/arbitrary-code-execution-on-facebook-for-android-through-download-feature-fb6826e33e0f)
+- [Applying Offensive Reverse Engineering to Facebook Gameroom](https://spaceraccoon.dev/applying-offensive-reverse-engineering-to-facebook-gameroom)
