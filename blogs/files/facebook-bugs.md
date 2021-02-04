@@ -15,3 +15,5 @@
 - [XSS on forums.oculusvr.com leads to Oculus and Facebook account takeovers](https://ysamm.com/?p=525)
 - [Arbitrary code execution on Facebook for Android through download feature](https://medium.com/@dPhoeniixx/arbitrary-code-execution-on-facebook-for-android-through-download-feature-fb6826e33e0f)
 - [Applying Offensive Reverse Engineering to Facebook Gameroom](https://spaceraccoon.dev/applying-offensive-reverse-engineering-to-facebook-gameroom)
+- [Disclose the FB profile of Facebook employees who create official announcement messages (Bug Bounty)](https://amineaboud.medium.com/disclose-the-fb-profile-of-facebook-employees-who-create-official-announcement-messages-bug-76554068caf7)
+- [Facebook Messenger Desktop App Arbitrary File Read](https://medium.com/@renwa/facebook-messenger-desktop-app-arbitrary-file-read-db2374550f6d)
