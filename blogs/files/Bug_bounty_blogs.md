@@ -1,4 +1,4 @@
-# 👨🏻‍💻 Bug Bounty Blogs and Writeups of different vulnerablities - Part 1
+# 👨🏻‍💻 Bug Bounty Blogs and Writeups of different vulnerablities
 ## This is how they hacked Apple
 ***Some of the vulnerailities are explained here, take a look down here***
 
@@ -256,4 +256,4 @@
 
 
 
----------------------------------------------------------- 👉 **[Back to Main Page](../../Bug-Hunting)** 👈 ---------------------------------------------------------
+---------------------------------------------------------- 👉 **[Back to Main Page](../../../Bug-Hunting)** 👈 ---------------------------------------------------------
