@@ -1,4 +1,4 @@
-# Bug-Hunting
+# 🐞 Bug Bounty Hunting and Penetration Testing Resources
 The Repository contains various payloads, tools, tips, Books and tricks from various hackers around the world.
 
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
