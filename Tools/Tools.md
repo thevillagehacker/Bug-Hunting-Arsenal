@@ -16,6 +16,7 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=OJ&repo=gobuster)](https://github.com/OJ/gobuster)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=RedTeamPentesting&repo=monsoon)](https://github.com/RedTeamPentesting/monsoon)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=LukaSikic&repo=subzy)](https://github.com/LukaSikic/subzy)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=m4ll0k&repo=Bug-Bounty-Toolz)](https://github.com/m4ll0k/Bug-Bounty-Toolz)
 
 ---
 
