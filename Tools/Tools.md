@@ -50,7 +50,7 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=projectdiscovery&repo=shuffledns)](https://github.com/projectdiscovery/shuffledns)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=streaak&repo=keyhacks)](https://github.com/streaak/keyhacks)
 
-## Repositories
+## Useful Repositories
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=swisskyrepo&repo=PayloadsAllTheThings)](https://github.com/swisskyrepo/PayloadsAllTheThings)
 
 ---
