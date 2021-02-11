@@ -15,6 +15,7 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=drwetter&repo=testssl.sh)](https://github.com/drwetter/testssl.sh)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=OJ&repo=gobuster)](https://github.com/OJ/gobuster)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=RedTeamPentesting&repo=monsoon)](https://github.com/RedTeamPentesting/monsoon)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=LukaSikic&repo=subzy)](https://github.com/LukaSikic/subzy)
 
 ---
 
