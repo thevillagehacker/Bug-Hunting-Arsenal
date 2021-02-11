@@ -47,6 +47,7 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=nsonaniya2010&repo=SubDomainizer)](https://github.com/nsonaniya2010/SubDomainizer)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=FortyNorthSecurity&repo=EyeWitness)](https://github.com/FortyNorthSecurity/EyeWitness)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=projectdiscovery&repo=shuffledns)](https://github.com/projectdiscovery/shuffledns)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=streaak&repo=keyhacks)](https://github.com/streaak/keyhacks)
 
 ## Repositories
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=swisskyrepo&repo=PayloadsAllTheThings)](https://github.com/swisskyrepo/PayloadsAllTheThings)
