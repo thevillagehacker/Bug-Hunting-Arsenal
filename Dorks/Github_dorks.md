@@ -47,7 +47,7 @@ language:python connectionstring
 language:python ssh2_auth_password
 ```
 **Example :** `“bugcrowd.com” password language:bash`
-
+## - [more dorks](../Bug%20Bounty%20Tips/files/October-2020.md)
 ***Source***
 **https://orwaatyat.medium.com/your-full-map-to-github-recon-and-leaks-exposure-860c37ca2c82**
 
