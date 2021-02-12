@@ -48,3 +48,15 @@ https://target[.]com/bi-security-login/login.jsp?msi=false&redirect="><img/src/o
 📅 10-Feb-2021
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 40
 - [Cookie Based Authentication Vulnerabilities](https://github.com/harsh-bothra/learn365/blob/main/days/day40.md)
+
+📅 11-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 41
+- [Cobalt Vulnerability Wiki](https://cobalt.io/vulnerability-wiki/)
+## XSS on Public program
+- [Reflected XSS on Public Program](https://thevillagehacker.medium.com/reflected-xss-on-a-public-program-e8c0416daca1)
+## Account TakeOver on online store
+- [Account Take Over](https://thevillagehacker.medium.com/account-take-over-due-to-no-rate-limitation-433bd7449aca)
+
+📅 12-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 42
+- [Race Condition](https://github.com/harsh-bothra/learn365/blob/main/days/day42.md)
