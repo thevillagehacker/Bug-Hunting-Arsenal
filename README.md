@@ -77,4 +77,4 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 ***https://github.com/KathanP19/HowToHunt***<br>
 ***(Note : A valuable Resource please take a look into this repo)***
 
-### ------------------------------------------ [click to go-up👆](#bug-hunting) ------------------------------------------
+### ------------------------------------------ [click to go-up👆](#bug-🐞-bounty-hunting-and-penetration-testing-resources) ------------------------------------------
