@@ -494,5 +494,10 @@ apktool d app.apk -o uberApk;grep -Phro "(https?://)[\w\.-/]+[\"'\`]" uberApk/ |
 xargs -P 500 -a domain -I@ sh -c 'nc -w1 -z -v @ 443 2>/dev/null && echo @' | xargs -I@ -P10 sh -c 'gospider -a -s "https://@" -d 2 | grep -Eo "(http|https)://[^/\"].*\.js+" | sed "s#\] \- #\n#g" | anew'
 ```
 
+### Subdomain Enumeration
+```sh
+ curl -s "https://jldc.me/anubis/subdomains/abc.com" | grep -Po "((http|https):\/\/)?(([\w.-]*)\.([\w]*)\.([A-z]))\w+"
+```
+
 ***Note :***
 *These oneliners are collected from different sources , Credits to the respesctive authors*
