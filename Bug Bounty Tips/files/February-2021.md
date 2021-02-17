@@ -82,3 +82,22 @@ https://target[.]com/bi-security-login/login.jsp?msi=false&redirect="><img/src/o
 - with Decimal IP: `http://2852039166/latest/meta-data/`
 - IPV6 Compressed: `http://[::ffff:a9fe:a9fe]/latest/meta-data/`
 - IPV6 Expanded: `http://[0:0:0:0:0:ffff:a9fe:a9fe]/latest/meta-data/`
+
+# 📅 16-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 46
+- [SSH (Secure Shell) ](https://youtu.be/IdL7WU0UU2Q)
+
+## Kubernetes Pentest Methodology
+- https://www.cyberark.com/resources/threat-research-blog/kubernetes-pentest-methodology-part-1
+- https://www.cyberark.com/resources/threat-research-blog/kubernetes-pentest-methodology-part-2
+- https://securityboulevard.com/2019/11/kubernetes-pentest-methodology-part-3/
+
+# 📅 17-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 47
+- [CORS Misconfiguration](https://github.com/harsh-bothra/learn365/blob/main/days/day47.md)
+
+## Account Take Over due to IDOR via Websockets
+- https://mokhansec.medium.com/idor-via-websockets-allow-me-to-takeover-any-users-account-23460dacdeab
+
+## Stored XSS in icloud.com
+- https://vbharad.medium.com/stored-xss-in-icloud-com-5000-998b8c4b2075
