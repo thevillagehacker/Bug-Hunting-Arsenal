@@ -52,7 +52,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Pentest Notes](Pentest-master)
 
 ## Dorks
-- [Google Dorks](Dorks)
+- [Google Dorks](Dorks/Google_dorks.md)
 - [Github Dorks](Dorks/Github_dorks.md)
 
 ## Blogs
