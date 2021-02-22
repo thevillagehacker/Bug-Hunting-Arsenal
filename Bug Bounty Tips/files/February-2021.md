@@ -143,3 +143,5 @@ haking How-To Series with [@cobalt_io](https://twitter.com/cobalt_io)
 ## Huge Directory Wordlist
 - https://github.com/emadshanab/Huge_DIR_wordlist
 
+## OSCP Cheat Sheet
+- https://github.com/0x4D31/awesome-oscp
