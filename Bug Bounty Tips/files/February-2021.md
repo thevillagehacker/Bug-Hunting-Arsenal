@@ -133,3 +133,13 @@ https://target[.]com/bi-security-login/login.jsp?msi=false&redirect="><img/src/o
 - Hacking How-To [@areyou1or0](https://twitter.com/areyou1or0) simplified many complex attacks in her 
 haking How-To Series with [@cobalt_io](https://twitter.com/cobalt_io)
 - https://github.com/harsh-bothra/learn365/blob/main/days/day52.md
+
+## Malware Analysis
+- https://class.malware.re
+
+## All Shell/Bash Answers
+- https://www.codegrepper.com/code-examples/shell
+
+## Huge Directory Wordlist
+- https://github.com/emadshanab/Huge_DIR_wordlist
+
