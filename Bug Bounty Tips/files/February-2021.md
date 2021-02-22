@@ -130,5 +130,6 @@ https://target[.]com/bi-security-login/login.jsp?msi=false&redirect="><img/src/o
 
 # 📅 22-Feb-2021
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 52
- - [Hacking How-To [@areyou1or0](https://twitter.com/areyou1or0) simplified many complex attacks in her 
-haking How-To Series with [@cobalt_io](https://twitter.com/cobalt_io)](https://github.com/harsh-bothra/learn365/blob/main/days/day52.md)
+- Hacking How-To [@areyou1or0](https://twitter.com/areyou1or0) simplified many complex attacks in her 
+haking How-To Series with [@cobalt_io](https://twitter.com/cobalt_io)
+- https://github.com/harsh-bothra/learn365/blob/main/days/day52.md
