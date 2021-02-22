@@ -101,3 +101,34 @@ https://target[.]com/bi-security-login/login.jsp?msi=false&redirect="><img/src/o
 
 ## Stored XSS in icloud.com
 - https://vbharad.medium.com/stored-xss-in-icloud-com-5000-998b8c4b2075
+
+# 📅 18-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 48
+- [Incomplete Trailing Escape Pattern Issue ](https://github.com/harsh-bothra/learn365/blob/main/days/day48.md)
+
+## Facebook Bug Bounty Blogs
+- https://ysamm.com/?p=625
+- https://ysamm.com/?p=621
+- https://ysamm.com/?p=629
+- https://ysamm.com/?p=627
+- https://ysamm.com/?p=620
+
+# 📅 19-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 49
+- [ Pivoting & Exploitation in Docker Env](https://github.com/harsh-bothra/learn365/blob/main/days/day49.md)
+
+## CVE-2021-2127 (Oracle VirtualBox vmsvga3dSurfaceDMA Divide By Zero Denial of Service Vulnerability)
+- https://candymate.tistory.com/m/20?category=964271&s=09
+
+# 📅 20-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 50
+- [Detect Complex Code Patterns using semantic grep](https://twitter.com/harshbothra_/status/1362786038549110790?s=20)
+
+# 📅 21-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 51
+- [Student Roadmap to Become a Pentester](https://github.com/harsh-bothra/learn365/blob/main/days/day51.md)
+
+# 📅 22-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 52
+ - [Hacking How-To [@areyou1or0](https://twitter.com/areyou1or0) simplified many complex attacks in her 
+haking How-To Series with [@cobalt_io](https://twitter.com/cobalt_io)](https://github.com/harsh-bothra/learn365/blob/main/days/day52.md)
