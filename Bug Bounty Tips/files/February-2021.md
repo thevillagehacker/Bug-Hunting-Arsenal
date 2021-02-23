@@ -145,3 +145,28 @@ haking How-To Series with [@cobalt_io](https://twitter.com/cobalt_io)
 
 ## OSCP Cheat Sheet
 - https://github.com/0x4D31/awesome-oscp
+
+# 📅 23-Feb-2021
+
+## Multiple Ways to Exloit `PUT` Method
+- https://www.hackingarticles.in/multiple-ways-to-exploiting-put-method/
+
+## Android Pentesting
+- https://www.hackingarticles.in/android-penetration-testing-apk-reverse-engineering/
+- https://www.hackingarticles.in/android-penetration-testing-apk-reversing-part-2/
+- https://www.hackingarticles.in/android-pentest-deep-link-exploitation/
+- https://www.hackingarticles.in/android-penetration-testing-webview-attacks/
+- https://www.hackingarticles.in/android-penetration-testing-frida/
+- https://www.hackingarticles.in/android-pentest-lab-setup-adb-command-cheatsheet/
+- https://www.hackingarticles.in/android-hooking-and-sslpinning-using-objection-framework/
+- https://www.hackingarticles.in/android-penetration-testing-drozer/
+
+## Google Dorks
+1. `site:.s3.amazonaws.com` | `site:http://storage.googleapis.com` | `site:http://amazonaws.com "target"`
+2. `site:http://justpaste.it` | `site:http://heypasteit.com` | `site:http://pastebin.com "target"`
+
+3. `site:http://linkedin.com employees http://target.com`
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 53
+- [JS Prototype Pollution](https://youtu.be/J3MIOIqvV8w)
+
