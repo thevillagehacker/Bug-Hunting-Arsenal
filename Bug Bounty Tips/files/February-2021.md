@@ -199,6 +199,7 @@ GET /wp-content/plugins/BackUp/Archive/Reader.php?bkpwp_plugin_path=..%2F..%2F..
 ```
 ## AWS pentesting
 - https://twitter.com/iamthefrogy/status/1364528706233004034?s=20
+
 ![img](https://pbs.twimg.com/media/Eu_HKLiWQAIDeq5?format=png&name=large)
 
 ## Infosec Talks
