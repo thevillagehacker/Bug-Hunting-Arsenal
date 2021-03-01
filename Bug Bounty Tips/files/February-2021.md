@@ -213,3 +213,15 @@ GET /wp-content/plugins/BackUp/Archive/Reader.php?bkpwp_plugin_path=..%2F..%2F..
 
 ## Exploiting Out-Of-Band XXE on Wildfire
 - https://dhiyaneshgeek.github.io/web/security/2021/02/19/exploiting-out-of-band-xxe/
+
+# 📅 26-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 57
+- [Secure Code Review Talk](https://twitter.com/harshbothra_/status/1365321802340126723?s=20)
+
+# 📅 27-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 58
+- [JSON Interoperability](https://twitter.com/harshbothra_/status/1365561998025449475?s=20)
+
+# 📅 28-Feb-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 59
+- [HTTP Desync Attacks](https://twitter.com/harshbothra_/status/1365771245342527488?s=20)
