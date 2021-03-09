@@ -70,7 +70,7 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 - [Oneliners for Penetration Testing](Bug%20Bounty%20Tips/files/oneliners.md)
 
 ## Resources
-### [Blogs](#blogs)
+- **[Blogs](#blogs)**
 ### OWASP Top 10 Examples
 ***https://github.com/lighthouse-labs/owasp-top-10-examples***
 ### How To HUNT
