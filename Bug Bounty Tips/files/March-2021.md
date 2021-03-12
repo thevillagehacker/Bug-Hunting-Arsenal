@@ -73,7 +73,7 @@
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 70
 - [Web Cache Entanglement](https://twitter.com/harshbothra_/status/1369732836266184704?s=20)
 
-## Desirialization Attacks
+## Deserialization Attacks
 - https://github.com/kojenov/serial
 - https://youtu.be/Y0QxwRyqlh8
 
