@@ -99,3 +99,19 @@ Done bypass firewall
 # 📅 12-Mar-2021
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 71
 - [OWASP Amass](https://twitter.com/harshbothra_/status/1370103728473182212?s=20)
+
+# 📅 14-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 72
+- [Offensive Javascript Techniques for Red Teamers](https://twitter.com/harshbothra_/status/1370682535680733193?s=20)
+
+## if you can't find a way to get #xss, why not try css payload:
+
+```css
+hi"><style>body{display:none}</style>
+```
+
+it will make the page disappear if it is vulnerable meanwhile u can use self made custom payloads to bypass filters too!
+
+# 📅 15-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 73
+- [Basic CMD for Pentesters](https://twitter.com/harshbothra_/status/1370988101057748996?s=20)
