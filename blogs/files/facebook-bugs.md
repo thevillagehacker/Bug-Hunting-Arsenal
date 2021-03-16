@@ -17,3 +17,4 @@
 - [Applying Offensive Reverse Engineering to Facebook Gameroom](https://spaceraccoon.dev/applying-offensive-reverse-engineering-to-facebook-gameroom)
 - [Disclose the FB profile of Facebook employees who create official announcement messages (Bug Bounty)](https://amineaboud.medium.com/disclose-the-fb-profile-of-facebook-employees-who-create-official-announcement-messages-bug-76554068caf7)
 - [Facebook Messenger Desktop App Arbitrary File Read](https://medium.com/@renwa/facebook-messenger-desktop-app-arbitrary-file-read-db2374550f6d)
+- [Facebook Group Members Disclosure](https://spongebhav.medium.com/facebook-group-members-disclosure-e53eb83df39e)
