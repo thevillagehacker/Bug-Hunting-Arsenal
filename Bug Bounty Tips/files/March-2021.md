@@ -115,3 +115,58 @@ it will make the page disappear if it is vulnerable meanwhile u can use self mad
 # 📅 15-Mar-2021
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 73
 - [Basic CMD for Pentesters](https://twitter.com/harshbothra_/status/1370988101057748996?s=20)
+
+
+# 📅 16-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 74
+- [Investigating and Defending O365](https://twitter.com/harshbothra_/status/1371292881588080642?s=20)
+
+## Windows Privilege Escalation
+- https://www.hackingarticles.in/window-privilege-escalation-automated-script/
+
+## Linux Privilege Escalation
+- https://www.hackingarticles.in/linux-privilege-escalation-automated-script/
+
+## Active Directory Lab Setup
+- https://www.hackingarticles.in/active-directory-pentesting-lab-setup/
+
+## Facebook Group Members Disclosure
+- https://spongebhav.medium.com/facebook-group-members-disclosure-e53eb83df39e
+
+# 📅 17-Mar-2021
+## Kick Start - Journey on Cyber Security
+- https://abhisek3122.github.io/learn-cybersecurity/contents/kick-start-your-journey
+
+## API Misconfiguration which leads to unauthorized access to servicedesk tickets
+- https://noobx.in/blogs/API-Misconfiguration-which-leads-to-unauthorized-access-to-servicedesk-tickets
+
+# 📅 18-Mar-2021
+## php Image payload generator
+- https://imagepayload.jc01.ninja/
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 76
+- [Kubernetes Security - Attacking and Defending K8s Clusters](https://twitter.com/harshbothra_/status/1372185483564912641?s=20)
+
+## Tiktok RCE
+- https://medium.com/@dPhoeniixx/tiktok-for-android-1-click-rce-240266e78105
+
+## Secret Trick to bypass space
+```sh
+cat</etc/passwd
+{cat,/etc/passwd}
+cat$IFS/etc/passwd
+```
+- https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection
+
+## Exploiting JSON Web Tokens
+- https://medium.com/@sajan.dhakate/exploiting-json-web-token-jwt-73d172b5bc02
+
+## Redirection check tool
+- https://github.com/redcode-labs/UnChain.git
+
+## Facebook Hack 
+- https://infosecwriteups.com/how-i-hacked-facebook-part-one-282bbb125a5d
+- https://alaa0x2.medium.com/how-i-hacked-facebook-part-two-ffab96d57b19
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 77
+- [AWS Cloud Security](https://twitter.com/harshbothra_/status/1372607627297878016?s=20)
