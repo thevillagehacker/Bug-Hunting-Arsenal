@@ -18,3 +18,6 @@
 - [Disclose the FB profile of Facebook employees who create official announcement messages (Bug Bounty)](https://amineaboud.medium.com/disclose-the-fb-profile-of-facebook-employees-who-create-official-announcement-messages-bug-76554068caf7)
 - [Facebook Messenger Desktop App Arbitrary File Read](https://medium.com/@renwa/facebook-messenger-desktop-app-arbitrary-file-read-db2374550f6d)
 - [Facebook Group Members Disclosure](https://spongebhav.medium.com/facebook-group-members-disclosure-e53eb83df39e)
+## Made 54k$ in bounties from Facebook
+- https://infosecwriteups.com/how-i-hacked-facebook-part-one-282bbb125a5d
+- https://alaa0x2.medium.com/how-i-hacked-facebook-part-two-ffab96d57b19
