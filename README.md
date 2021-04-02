@@ -11,20 +11,6 @@ The Repository contains various payloads, tools, tips, Books and tricks from var
 [![Twitter Follow](https://img.shields.io/twitter/follow/thevillagehackr?style=social)](https://twitter.com/thevillagehackr)
 [![GitHub followers](https://img.shields.io/github/followers/thevillagehacker?label=Follow%20%20%40thevillagehacker&style=social)](https://github.com/thevillagehacker)
 
-## Table of Contents
-- [Bug Bounty Tips](#bug-bounty-tips)
-- [Tools](#tools)
-- [Payloads](#payloads)
-- [Reverse Shell](#reverse-shell)
-- [Content Discovery](#wordlist)
-- [Pentest Notes](#pentest-notes)
-- [Dorks](#dorks)
-- [Blogs](#blogs)
-- [Spotlights](#hackerone-hacker-spotlights)
-- [Checklists](#checklists)
-- [Oneliners](#oneliners)
-- [Resources](#resources)
-
 ## Bug Bounty Tips
 - [Bug Bounty Tips](Bug%20Bounty%20Tips)
 
