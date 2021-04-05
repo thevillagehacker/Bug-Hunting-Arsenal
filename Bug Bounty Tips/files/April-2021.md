@@ -18,3 +18,25 @@ Organize your API security assessment by using MindAPI. It's free and open for c
 
 ## Dangerous Functions | Binary Exploitation 0x01
 - https://youtu.be/EJtUW2AklVs
+
+# 📅 05-Apr-2021
+## Shodan Dorks
+Everyone knows how to find Directory Listing Using Google Dorks Right?
+Dork - intitle:"Index of /"
+
+We can do the same with Shodan to find even more Directory Listings!
+
+Dork- `http://ssl.cert.subject.CN:"*target.*" 200 http.title:"Index of /"`
+
+## Obfuscation Random characters
+
+### Payloads
+
+```sh
+$aaaaaaa/bin$bbbbbb/cat$ccccccc $dddddddd/etc$eeeeeee/passwd$ggggggg
+
+$sdijchkd/???$sdjhskdjh/??t$skdjfnskdj $sdofhsdhjs/???$osdihdhsdj/??ss??$skdjhsiudf
+```
+### Proof of Concept
+![img](https://pbs.twimg.com/media/EyMKkZWVEAAInk9?format=png&name=small)
+![img](https://pbs.twimg.com/media/EyMKkZXUYAIaclN?format=png&name=large)
