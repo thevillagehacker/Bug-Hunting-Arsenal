@@ -11,7 +11,7 @@ Organize your API security assessment by using MindAPI. It's free and open for c
 ## Bug Bytes 116
 - https://blog.intigriti.com/2021/03/31/bug-bytes-116-new-oauth-attacks-hacking-shopify-with-a-single-dot-netmask-ssrf/
 
-# 📅 01-Apr-2021
+# 📅 02-Apr-2021
 ## Facebook Account Takeover writeups
 - https://ysamm.com/?p=654
 - https://ysamm.com/?p=646
