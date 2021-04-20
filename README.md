@@ -1,5 +1,5 @@
 
-![img](https://github.com/thevillagehacker/thevillagehacker/raw/master/img.gif)
+![img](https://github.com/thevillagehacker/thevillagehacker/blob/master/Do%20Hacks%20to%20Secure.png)
 
 # Bug 🐞 Bounty Hunting and Penetration Testing Resources
 The Repository contains various payloads, tools, tips, Books and tricks from various hackers around the world.
