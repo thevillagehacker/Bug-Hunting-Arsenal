@@ -1,3 +1,6 @@
+
+![img](https://github.com/thevillagehacker/thevillagehacker/raw/master/img.gif)
+
 # Bug 🐞 Bounty Hunting and Penetration Testing Resources
 The Repository contains various payloads, tools, tips, Books and tricks from various hackers around the world.
 
