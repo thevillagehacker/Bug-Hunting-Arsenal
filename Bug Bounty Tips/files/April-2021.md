@@ -150,4 +150,23 @@ https://www.abc.com/%0D%0ASet-Cookie:crlfinjection=crlfinjection
 
 Then if you find a broken link, just create an account and claim it.
 
+# 📅 23-Apr-2021
+## Sometimes .DS_Store disclose some information
+Dork used
+```text
+intext:.DS_Store & intitle:index -github
+intitle:"index of" intext:".ds_store"
+inurl:.DS_Store intitle:index of
+inurl:.DS_Store intitle:index.of
+```
+
+### Dorks for help
+```text
+site:http://target.com -www
+site:http://target.com intitle:”test” -support
+site:http://target.com ext:php | ext:html
+site:http://subdomain.target.com
+site:http://target.com inurl:auth
+site:http://target.com inurl:dev
+```
 
