@@ -59,6 +59,14 @@ org:Target "S3_SECRET_ACCESS_KEY"
 org:Target "S3_ENDPOINT"
 org:Target "AWS_ACCESS_KEY_ID"
 org:Target "list_aws_accounts"
+FTP_PORT
+FTP_PASSWORD
+DB_DATABASE=
+DB_HOST=
+DB_PORT=
+DB_PASSWORD=
+DB_PW=
+DB_USER=
 api_key
 “api keys”
 authorization_bearer:
