@@ -2,6 +2,7 @@
 
 ## Exploit LFI
 Local file inclusion vulnerability found but no idea for further exploitation scenarios? Well, try going for a remote file inclusion vuln.
+
 ![img](https://pbs.twimg.com/media/E-cDrqXWYAIKdcP?format=jpg&name=small)
 
 ## Tool for finding hidden endpoints
