@@ -3,6 +3,12 @@
 
 *This repository stores various one-liner for bug bounty tips provided by me as well as contributed by the community. Your contributions and suggestions are heartily welcome.*
 
+## Extract URLs from Website
+
+```sh
+wget -qO- https::/example.com | grep -Eo "(http|https)://[a-zA-Z0-9./?=_=-]*" | sort -u
+```
+
 ### Local File Inclusion
 > @dwisiswant0
 
