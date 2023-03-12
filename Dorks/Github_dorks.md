@@ -49,16 +49,6 @@ language:python ssh2_auth_password
 **Example :** `“bugcrowd.com” password language:bash`
 ## More dorks
 ```text
-org:citrix "aws"
-org:Target "bucket_name"
-org:Target "aws_access_key"
-org:Target "aws_secret_key"
-org:Target "S3_BUCKET"
-org:Target "S3_ACCESS_KEY_ID"
-org:Target "S3_SECRET_ACCESS_KEY"
-org:Target "S3_ENDPOINT"
-org:Target "AWS_ACCESS_KEY_ID"
-org:Target "list_aws_accounts"
 FTP_PORT
 FTP_PASSWORD
 DB_DATABASE=
@@ -94,6 +84,7 @@ user auth
 ## AWS secert search
 
 ```
+org:citrix "aws"
 org:Target "bucket_name"
 org:Target "aws_access_key"
 org:Target "aws_secret_key"
@@ -101,8 +92,8 @@ org:Target "S3_BUCKET"
 org:Target "S3_ACCESS_KEY_ID"
 org:Target "S3_SECRET_ACCESS_KEY"
 org:Target "S3_ENDPOINT"
-Target  "AWS_ACCESS_KEY_ID"
-org:Target  "list_aws_accounts"
+org:Target "AWS_ACCESS_KEY_ID"
+org:Target "list_aws_accounts"
 ```
 
 
