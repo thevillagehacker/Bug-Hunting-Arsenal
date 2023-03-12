@@ -91,6 +91,18 @@ user auth
 ***Source***
 **https://orwaatyat.medium.com/your-full-map-to-github-recon-and-leaks-exposure-860c37ca2c82**
 
+## AWS secert search
 
+```
+org:Target "bucket_name"
+org:Target "aws_access_key"
+org:Target "aws_secret_key"
+org:Target "S3_BUCKET"
+org:Target "S3_ACCESS_KEY_ID"
+org:Target "S3_SECRET_ACCESS_KEY"
+org:Target "S3_ENDPOINT"
+Target  "AWS_ACCESS_KEY_ID"
+org:Target  "list_aws_accounts"
+```
 
 
