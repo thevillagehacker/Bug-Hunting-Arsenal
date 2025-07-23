@@ -1,0 +1,14 @@
+Bug Bounty Tip:
+
+If you got ‘Subdomain Takeover’ don’t report it yet, look at the main site/app for gain privileges: like a potential CSP policy bypass (or session hijacking via Set-cookie: *.domain.com
+
+Bug Bounty Tip:
+
+if server only allows GET and POST method, then try adding “X-HTTP-Method -Override: PUT to achieve RCE via PUT method
+
+BugBounty tip 
+If you found that registration page without verification 
+1- try to create account with admin@<company.com>
+2- open the account 
+3- found that high privilege then usual
+hashtag#bugbounty hashtag#bugbountytips hashtag#redteaming hashtag#rednexus hashtag#hackerone hashtag#bugcrowd hashtag#yeswehack

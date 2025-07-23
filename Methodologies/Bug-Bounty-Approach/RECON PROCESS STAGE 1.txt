@@ -1,0 +1,36 @@
+                                                                                                            DAY -01
+                                                                                             
+                                                                                           RECON PROCESS STAGE 1
+
+
+STEP 1 : subdomain enumeration 
+
+         You can use subfinder, assetfinder or any subdomain enumeration tools 
+
+---> subfinder -d vulnweb.com -o subdomains.txt
+
+
+STEP 2 : check Live hosts
+
+         httpx , httpx-toolkit or any other 
+
+---> httpx - l urls.txt -o livehosts.txt
+
+
+STEP 3 : Use url crawler 
+
+         waybackurls , katana or any other tools 
+
+---> waybackurls http://testphp.vulnweb.com | tee param.txt 
+
+STEP 4 :  Scanning using Nuclei 
+           
+         nuclei , magicrecon , spyhunt , or any other tools 
+
+---> nuclei -l param.txt  -severity high,critical,medium -t  /home/rohit/.local/nuclei-templates/  -dast
+
+
+
+Now iam going to take one url  http://testphp.vulnweb.com
+
+Still scanning is going on , also able to find xss , lfi and other vuln using nuclei 

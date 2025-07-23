@@ -1,0 +1,46 @@
+                                           github sensitive info finding queries
+
+1."API_KEY" OR "api_key" or "API_SECRET" OR "api_secret" tesla
+
+2."DB_PASSWORD" OR "DATABASE_URL" OR "DATABASE_PASSWORD" tesla
+
+3."aws_access_key_id" OR "aws_secret_access_key" tesla
+
+4.filename:.env tesla
+
+5."password" OR "secret" OR "credential" tesla
+
+6."-----BEGIN OPENSSH PRIVATE KEY-----" tesla
+
+7."confidential" OR "sensitive" tesla
+
+8."error" OR "exception" tesla
+
+9."password" OR "secret" OR "credential" tesla in:file branch:*
+
+10. tesla extension:json OR extension:yml OR extension:xml OR extension:config
+
+11."-----BEGIN CERTIFICATE-----" tesla
+
+12."-----BEGIN PRIVATE KEY-----" tesla
+
+13."token" OR "access_token" tesla
+
+14. filename:config tesla
+
+15. filename:settings tesla
+
+16. "fatal OR "exception" OR "error" tesla
+
+17. //tesla OR /* tesla
+
+18. "webhook" tesla
+
+19. tesla language:python
+
+20. tesla language:javascript
+
+21. secrets. tesla
+
+
+
