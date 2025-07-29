@@ -1,0 +1,23 @@
+# Facebook Bug Bounty Blogs 
+- [Facebook Bug Bounty Writeups from 	InfoSec Write-ups in Medium](https://medium.com/bugbountywriteup/tagged/facebook-bug-bounty)
+- [Youssef Sammouda Facebook Bug Writeups](https://ysamm.com/)
+- [Facebook Products Bugs Writeups](https://www.darabi.me/?m=1)
+- [$10000 Facebook SSRF (Bug Bounty)](https://medium.com/@amineaboud/10000-facebook-ssrf-bug-bounty-402bd21e58e5)
+- [Story of a weird vulnerability I found on Facebook](https://medium.com/@amineaboud/story-of-a-weird-vulnerability-i-found-on-facebook-fc0875eb5125)
+- [Facebook push notification linkshim bypassed](https://medium.com/@phclownx/facebook-push-notification-linkshim-bypassed-385fe471516)
+- [How I made $31500 by submitting a bug to Facebook](https://medium.com/@win3zz/how-i-made-31500-by-submitting-a-bug-to-facebook-d31bb046e204)
+- [How I hacked Facebook: Part One](https://alaa0x2.medium.com/how-i-hacked-facebook-part-one-282bbb125a5d)
+- [Finding the hidden members of the private events](https://medium.com/bugbountywriteup/facebook-bug-bounty-finding-the-hidden-members-of-the-private-events-977dc1784ff9)
+- [This is how I was able to view anyone’s private email and birthday on Instagram](https://medium.com/nassec-cybersecurity-writeups/this-is-how-i-was-able-to-view-anyones-private-email-and-birthday-on-instagram-1469f44b842b)
+- [Patch. Bypass. Repeat: Story of a FaceBook Page Admin Disclosure bug worth $5000](https://savebreach.com/facebook-page-admin-identity-disclosure-through-document-edit-history/)
+- [How Recon helped me to to find a Facebook domain takeover](https://sudhanshur705.medium.com/how-recon-helped-me-to-to-find-a-facebook-domain-takeover-58163de0e7d5)
+- [Bad regex used in Facebook Javascript SDK leads to account takeovers in websites that included it](https://ysamm.com/?p=510)
+- [XSS on forums.oculusvr.com leads to Oculus and Facebook account takeovers](https://ysamm.com/?p=525)
+- [Arbitrary code execution on Facebook for Android through download feature](https://medium.com/@dPhoeniixx/arbitrary-code-execution-on-facebook-for-android-through-download-feature-fb6826e33e0f)
+- [Applying Offensive Reverse Engineering to Facebook Gameroom](https://spaceraccoon.dev/applying-offensive-reverse-engineering-to-facebook-gameroom)
+- [Disclose the FB profile of Facebook employees who create official announcement messages (Bug Bounty)](https://amineaboud.medium.com/disclose-the-fb-profile-of-facebook-employees-who-create-official-announcement-messages-bug-76554068caf7)
+- [Facebook Messenger Desktop App Arbitrary File Read](https://medium.com/@renwa/facebook-messenger-desktop-app-arbitrary-file-read-db2374550f6d)
+- [Facebook Group Members Disclosure](https://spongebhav.medium.com/facebook-group-members-disclosure-e53eb83df39e)
+## Made 54k$ in bounties from Facebook
+- https://infosecwriteups.com/how-i-hacked-facebook-part-one-282bbb125a5d
+- https://alaa0x2.medium.com/how-i-hacked-facebook-part-two-ffab96d57b19

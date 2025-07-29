@@ -1,0 +1,60 @@
+                                                                                            Nuclei  Recon Method 
+
+STEP 1 :  Using Dynamic Application Security Testing (DAST) , and Headless
+
+---> nuclei -l targets.txt -severity high,critical,medium -t  /home/rohit/.local/nuclei-templates/  -dast -headless
+
+STEP 2 :  Targeting Specific Vulnerabilities (XSS, SQLi):
+
+--->  nuclei -l targets.txt -severity high,critical,medium -tags xss,sqli -t /home/rohit/.local/nuclei-templates/  -dast
+
+STEP 3 :  P1, P2, P3 Vulnerabilities:
+
+---> nuclei -l targets.txt -severity high,critical,medium -tags p1,p2,p3 -t  /home/rohit/.local/nuclei-templates/ -dast
+
+STEP 4:  Combined Command for Maximum Coverage
+
+---> nuclei -l targets.txt -severity high,critical,medium -tags xss,sqli,p1,p2,p3 -t  /home/rohit/.local/nuclei-templates/  -dast -headless
+
+STEP 5: The Ultimate Nuclei Command
+
+---> nuclei -l targets.txt -t  /home/rohit/.local/nuclei-templates/  -severity high,critical,medium -tags cve,http,vulnerabilities,generic,xss,sqli,lfi,openredirect,cors,p1,p2,p3 -dast -headless -silent -rate-limit 150 -o output.txt
+
+
+how to use in bug bounty programs:
+subfinder -d xyz.com -all  | nuclei -t crlf.yaml -rl 50
+subfinder -d xyz.com -all  | nuclei -t openRedirect.yaml -rl 100
+subfinder -d xyz.com -all  | nuclei -t iis.yaml
+subfinder -d xyz.com -all  | nuclei -t cors.yaml -rl 100
+subfinder -d xyz.com -all  | waybackurls | gf sqli | uro | nuclei -t errorsqli.yaml -rl 50
+
+
+cat or.txt | nuclei -t /home/rohit/recon/payloads/custom_nuclei/openRedirect.yaml --retries 2
+cat or.txt | nuclei -t /home/niuclei-templates/blind-ssrf.yaml --retries 2 -dast
+cat or.txt | nuclei -t /home/niuclei-templates/response-ssrf.yaml --retries 2 -dast
+cat or.txt | nuclei -t /home/niuclei-templates/credential-disclosure-all.yaml 
+cat or.txt | nuclei -t /home/niuclei-templates/x-forwarded.yaml 
+
+
+
+cat crlf.txt | nuclei -t /home/rohit/recon/payloads/custom_nuclei/cRlf.yaml
+
+cat sql.txt | nuclei -t /home/niuclei-templates/errsqli.yaml  -dast
+cat sql.txt | nuclei -t /home/niuclei-templates/timeqli.yaml -dast
+
+cat iis.txt |  nuclei -t /home/niuclei-templates/iis.yaml  --> next --> shortscan url -F
+
+cat  git.txt | nuclei -t /home/niuclei-templates/gitexposed.yaml 
+
+cat  cors.txt | nuclei -t /home/niuclei-templates/cors.yaml 
+
+
+
+
+
+
+
+
+
+
+

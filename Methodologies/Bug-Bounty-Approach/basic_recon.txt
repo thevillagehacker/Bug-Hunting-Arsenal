@@ -1,0 +1,48 @@
+                    BUG BOUNTY RECON PROCESS
+
+
+subfinder -d <Target> -all -recursive > subdomain.txt
+
+assetfinder --> assestfinder.txt
+
+sort -u subdomain.txt assestfinder.txt > total_subdomains.txt
+
+sudo subzy run -targets  total_subdomains.txt
+
+httpx -l urls.txt -o livehosts.txt
+
+cat subdomain.txt|httpx-toolkit -ports 80,443,8080, 8000, 8888 -threads 200 > 
+subdomains_alive.txt
+
+cat subdomain.txt|httpx-toolkit -ports 80,443,8080, 8000, 8888 -mc 200,403,400,500 -o live.txt
+
+cat live.txt | httpx -status-code
+
+
+katana -u subdomains_alive.txt -d 5 -ps -pss waybackarchive,commoncrawl,alienvault -kf -jc -fx -ef woff,css,png,svg,jpg,woff2,jpeg,gif,svg -o allurls.txt
+
+cat allurls.txt | grep -E "\.txt|\.log|\.cache|\.secret|\.db|\.backup|\.yml|\.json|\.gz|\.rar|\.zip|\.config"
+
+
+cat allurls.txt | grep -E "\.js$" >  js.txt
+
+cat alljs.txt | nuclei -t /home/rohit/recon/nuclei-templates-9.9.3 /http/exposures/
+
+dirsearch -u <URL> -e conf,config, bak, backup, swp, old, db, sql,asp,aspx,aspx-,asp-, py,py-, rb, rb, php, php-, bak, bkp, cache, cgi, conf, csv, html, inc, jar, js, json, jsp, jsp-, lock, log, rar, old, sql, sql.gz,http:// sql.zip,sql.tar.gz, sql-, swp, swp-, tar, tar.bz2, tar.gz, txt,wadl, zip,.log,.xml,.js.,.json
+
+python Corsy -i  subdomains_alive.txt -t 100
+
+cat lfi.txt | nuclei -t <lfi cve> -dast
+
+cat allurls.txt | gf redirect | openredirex -p <Payloads>
+
+nmap -iL subdomains.txt -T4 -oN nmap_scan.txt
+
+sqlmap -m parameters.txt --batch --level=5 --risk=3 --dbs
+
+cat lfi_candidates.txt | xargs -I {} sh -c 'ffuf -u "{}?file=FUZZ" -w /home/rohit/recon/payloads/LFI\ payloads.txt -v -mr "root:x:0:0:" -o lfi_results_$(echo {} | sed "s/[^a-zA-Z0-9]/_/g").txt'
+
+echo url  | gau | urldedupe -qs | gf sqli
+
+ cat endpoints.txt | gau | urldedupe -qs | gf redirect > redirect.txt
+nuclei -l filename -tags xss

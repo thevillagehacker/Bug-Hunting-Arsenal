@@ -1,0 +1,36 @@
+                                    XSS AUTOMATION SCRIPTS
+1st method:-
+
+STEP 1 :  Subdomain enumeration
+
+--->  assetfinder url >> urls.txt
+
+STEP 2 : live host
+
+--->  httpx -l urls.txt -o livehosts.txt
+
+STEP 3 : url crawl
+
+---> katana -u livehosts.txt -o endpoints.txt
+
+STEP 4: xss vibes 
+
+---> python3 main.py -f endpoints.txt -o vuln.txt -t 10
+
+#####################################################################################################################################################################################################################################
+
+2 nd method :
+
+STEP 1 :
+
+ ---> waybackurls http://testphp.vulnweb.com | tee param.txt 
+
+STEP 2 :
+
+---> cat param.txt | grep = | tee param1.txt
+
+STEP 3 :
+
+---> cat param1.txt | nuclei -t fuzzing-templates
+
+#####################################################################################################################################################################################################################################

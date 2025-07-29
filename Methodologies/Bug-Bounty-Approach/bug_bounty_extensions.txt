@@ -1,0 +1,32 @@
+                          
+
+🌟 Useful Extensions for Bug Bounty Hunting 🌟
+
+As bug bounty hunters, having the right tools at our disposal can make all the difference in our reconnaissance and testing efforts. Here’s a curated list of must-have Firefox extensions to enhance your workflow:
+
+1. Waybackurl -  Historical URLs fetcher [https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/]
+2. Vulners Web Scanner - Vulnerability database  [https://addons.mozilla.org/en-US/firefox/addon/vulners-web-scanner/
+3. Vt4Browsers - VirusTotal extension [https://addons.mozilla.org/en-US/firefox/addon/vt4browsers/]
+4. Wayback Machine - Web archive tool [https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/]
+5. Shodan - Internet-connected devices scanner [https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/]
+6. TempMail - Disposable email provider [https://addons.mozilla.org/en-US/firefox/addon/temp-mail/]
+7. Retire.js - JavaScript dependency scanner [https://addons.mozilla.org/en-US/firefox/addon/retire-js/
+8. Privacy Badger - Tracker blocker [https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/]
+9. OWASP Penetration Testing Kit - Security testing tools[https://addons.mozilla.org/en-US/firefox/addon/penetration-testing-kit/]
+10. Max HackBar - Pentesting toolbar [https://addons.mozilla.org/en-US/firefox/addon/maxs-hackbar/]
+11. Link Gopher - URL extractor [https://addons.mozilla.org/en-US/firefox/addon/link-gopher/]
+12. Hunter - Email discovery tool [https://addons.mozilla.org/en-US/firefox/addon/hunterio/]
+13. Hack-Tools - Pentesting resources [https://addons.mozilla.org/en-US/firefox/addon/hacktools/]
+14. FoxyProxy - Proxy switcher [https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/]
+15. Firefox Multi-Account Containers - Tab isolation [https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
+16. Dark Reader - Dark mode extension [https://addons.mozilla.org/en-US/firefox/addon/darkreader/]
+17. Cookie-Editor - Cookie management [https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/]
+18. Bulk URL Opener - Mass URL opener [https://addons.mozilla.org/en-US/firefox/addon/bulk-url-opener/]
+19. Wappalyzer - Technology profiler [https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/]
+20. WhatRuns - Tech stack identifier [https://addons.mozilla.org/en-US/firefox/addon/whatruns/]
+
+🚀 Why Use These Extensions? These tools are essential for gathering intelligence, identifying vulnerabilities, and efficiently managing your bug bounty tasks. Whether you're fetching historical URLs, scanning for vulnerabilities, or managing your cookies, these extensions can streamline your workflow and improve your chances of success.
+
+💡 Let’s elevate our bug hunting skills together! Feel free to share your favorite tools and any tips you have for effective bug bounty hunting. Happy hunting! 🔍💻
+
+#BugBounty #Cybersecurity #Pentesting #Recon #Tools #FirefoxExtensions

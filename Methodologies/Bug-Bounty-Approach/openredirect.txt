@@ -1,0 +1,19 @@
+                        OPEN REDIRECT
+
+https://github.com/r0075h3ll/Oralyzer ==> github link 
+
+https://github.com/devanshbatham/ParamSpider ==>github link 
+
+ paramspider -d cash-click.ru
+
+ katana -u https://cash-click.ru/ | gf redirect  > redirect.txt
+
+echo https://cash-click.ru/redirect/?g=http://bux.trafficfarm.ru | openredirex
+
+echo redirect.txt | openredirex
+
+python3 oralyzer.py -l /home/rohit/recon/yes_we_hack/infomaniak-bug-bounty-program/infomaniak.com/redirect.txt
+
+python3 oralyzer.py -u https://cash-click.ru/redirect/?g=test
+
+       

@@ -1,0 +1,34 @@
+                                                          Subdomain Takeover - Github (POC)
+
+Recon tools : 
+
+1. knocky  - > for subdomain enumeration 
+2. Subszy   ->  to check it is vulnerable to subdomain takeover
+
+Website :
+
+1. to check dns lookup
+     |
+     |___ https://www.toolsvoid.com/dig-dns-lookup/   (or ) [dig, nslooup ] 
+
+1. Reference Documentation
+     |
+     |___ https://github.com/EdOverflow/can-i-take-over-xyz
+
+>>>>>>>>>>>>>>>>>>>>>>>>Let's Begin hunt< <<<<<<<<<<<<<<<<<<<<<<<<<<
+
+STEP 1 :  subdomain enumeration
+   |
+   |___  python knockpy.py -w wordlist/wordlist.txt  taget.com --save targets
+
+STEP 2 : after scan completion 
+    |
+    |___  check for 404 and alias and save file in guess.txt
+
+STEP 3 :  scan using subzy to check vulnerble or not
+   |
+   |___  subzy run --targets guess.txt
+
+STEP 4 : After found it is Vulnerable 
+   |
+   |___  Try to takeover the subdomain

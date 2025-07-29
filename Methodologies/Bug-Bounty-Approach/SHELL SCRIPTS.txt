@@ -1,0 +1,4 @@
+         SHELL SCRIPTS
+
+
+sniper -t domain.com -m stealth -o -re

